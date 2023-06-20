@@ -57,10 +57,9 @@ class CustomDataset(Dataset):
         annotator_id = self.data.iloc[index]['worker_id']
         annotation = self.data.iloc[index]['toxic_score']
 
-        # Tokenize the sentence and annotator_id
+        # Tokenize the sentence 
         inputs = self.tokenizer.encode_plus(
             sentence,
-            # annotator_id,
             add_special_tokens=True,
             padding='max_length',
             truncation=True,
@@ -71,7 +70,6 @@ class CustomDataset(Dataset):
         input_ids = inputs['input_ids'].squeeze()
         attention_mask = inputs['attention_mask'].squeeze()
         annotator_id = torch.tensor(annotator_id, dtype=torch.long)
-        # annotator_embedding = torch.tensor(int(annotator_id), dtype=torch.long)
 
         return {
             'input_ids': input_ids,
