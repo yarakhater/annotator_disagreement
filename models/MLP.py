@@ -75,7 +75,7 @@ class ClassifierWithGroups(nn.Module):
         w = self.fc2(h)
         return w, rater_group_assignment
 
-def train(pretrained_embeddings, text_ids, annotator_ids, annotations, nb_classes, mode, nb_groups=0):
+def train(pretrained_embeddings, text_ids, annotator_ids, nb_annotators, annotations, nb_classes, mode, nb_groups=0):
 
     X_text = torch.nn.utils.rnn.pad_sequence([torch.tensor(lst) for lst in text_ids], batch_first=True)
     X_rater_id = torch.tensor(annotator_ids.values)
@@ -84,7 +84,7 @@ def train(pretrained_embeddings, text_ids, annotator_ids, annotations, nb_classe
 
     input_dim = {
             "id_embedding_dim": 100,
-            "id_vocab_size": len(annotator_ids.unique()),
+            "id_vocab_size": nb_annotators,
             "text_embedding_dim": 300,
             "num_words": X_text.shape[1]
         }

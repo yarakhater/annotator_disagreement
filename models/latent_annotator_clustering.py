@@ -189,7 +189,6 @@ def evaluate(data, num_classes, num_annotators, num_clusters, num_iters=20, num_
     best_C = None
     best_elbos = None
     for i in range(num_restarts):
-        print(i)
         if logspace:
             A, B, C, elbos = EM_logspace(data, num_classes, num_annotators, num_clusters, num_iters, smoothing)
         else:
