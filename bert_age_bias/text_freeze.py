@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 import nltk
 from torch import optim
 from nltk.corpus import stopwords
-from models import bert_add
+from models import bert_freeze
 from transformers import BertTokenizer, BertForSequenceClassification, BertPreTrainedModel, BertModel, BertConfig
 import json
 from torch.utils.data import DataLoader
@@ -71,13 +71,25 @@ labels = merged_df['annotation'].unique()
 labels.sort()
 
 
-# In[ ]:
-
-
-
-
-
 # In[5]:
+
+
+device = torch.device("cuda")
+
+
+# In[7]:
+
+
+configuration = BertConfig.from_pretrained("bert-base-cased")
+configuration.num_labels = len(labels)
+configuration.num_annotators = len(total_annotator_ids)
+configuration.annotator_embedding_dim = 300
+configuration.hidden_size = 768 
+model = bert_freeze.BertForSequenceClassificationText(configuration).to(device)
+# model = BertForSequenceClassification.from_pretrained('bert-base-uncased', num_labels=len(labels)).to(device)
+
+
+# In[7]:
 
 
 # Define batch size and number of workers for data loaders
@@ -87,48 +99,30 @@ num_workers = 2
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 
 # Create training and testing datasets
-train_dataset = bert_add.CustomDataset(train_df, tokenizer, labels)
-test_dataset = bert_add.CustomDataset(test_df, tokenizer, labels)
+train_dataset = bert_freeze.CustomDataset(train_df, tokenizer, labels)
+test_dataset = bert_freeze.CustomDataset(test_df, tokenizer, labels)
 
 # Create training and testing data loaders
 train_data_loader = DataLoader(train_dataset, batch_size=batch_size, num_workers=num_workers)
 test_data_loader = DataLoader(test_dataset, batch_size=batch_size, num_workers=num_workers)
 
 
-# In[6]:
-
-
-device = torch.device("cuda")
-
-
 # In[8]:
 
 
-configuration = BertConfig.from_pretrained("bert-base-cased")
-configuration.num_labels = len(labels)
-configuration.num_annotators = len(total_annotator_ids)
-configuration.group_embedding_dim = 768
-configuration.num_groups = 10
-configuration.hidden_size = 768
-model = bert_add.BertForSequenceClassificationWithGroups(configuration).to(device)
-
-
-# In[9]:
-
-
-bert_add.train(model, device, train_data_loader, mode="groups")
+bert_freeze.train(model, device, train_data_loader, mode="text")
 
 
 # In[ ]:
 
 
-torch.save(model.state_dict(), 'groups.pth')
+torch.save(model.state_dict(), 'text.pth')
 
 
-# In[10]:
+# In[ ]:
 
 
-bert_add.test(model, device, test_data_loader, mode="groups")
+bert_freeze.test(model, device, test_data_loader, mode="text")
 
 
 # In[ ]:

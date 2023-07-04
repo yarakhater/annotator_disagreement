@@ -104,10 +104,10 @@ device = torch.device("cuda")
 # In[7]:
 
 
-configuration = BertConfig()
+configuration = BertConfig.from_pretrained("bert-base-cased")
 configuration.num_labels = len(labels)
 configuration.num_annotators = len(total_annotator_ids)
-configuration.annotator_embedding_dim = 100
+configuration.annotator_embedding_dim = 512
 configuration.hidden_size = 768 
 model = bert.BertForSequenceClassificationWithAnnotators(configuration).to(device)
 

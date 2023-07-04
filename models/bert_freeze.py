@@ -4,6 +4,69 @@ from transformers import BertPreTrainedModel, BertModel
 from torch.utils.data import Dataset
 
 
+
+class BertForSequenceClassificationText(BertPreTrainedModel):
+    def __init__(self, config):
+        super().__init__(config)
+        self.num_labels = config.num_labels
+
+        self.bert = BertModel(config).from_pretrained('bert-base-uncased')
+        self.dropout = nn.Dropout(config.hidden_dropout_prob)
+        self.classifier = nn.Linear(config.hidden_size, config.num_labels)
+
+        self.init_weights()
+
+    def forward(
+        self,
+        input_ids=None,
+        attention_mask=None,
+        token_type_ids=None,
+        position_ids=None,
+        head_mask=None,
+        inputs_embeds=None,
+        labels=None,
+        output_attentions=None,
+        output_hidden_states=None,
+    ):
+        #freeze bert params
+        for param in self.bert.parameters():
+            param.requires_grad = False
+
+        outputs = self.bert(
+            input_ids,
+            attention_mask=attention_mask,
+            token_type_ids=token_type_ids,
+            position_ids=position_ids,
+            head_mask=head_mask,
+            inputs_embeds=inputs_embeds,
+            output_attentions=output_attentions,
+            output_hidden_states=output_hidden_states,
+        )
+
+        pooled_output = outputs[1]
+
+        pooled_output = self.dropout(pooled_output)
+        logits = self.classifier(pooled_output)
+
+        outputs = (logits,) + outputs[2:]  # add hidden states and attention if they are here
+
+        if labels is not None:
+            if self.num_labels == 1:
+                #  We are doing regression
+                loss_fct = nn.MSELoss()
+                loss = loss_fct(logits.view(-1), labels.view(-1))
+            else:
+                loss_fct = nn.CrossEntropyLoss()
+                loss = loss_fct(logits.view(-1, self.num_labels), labels.view(-1))
+            outputs = (loss,) + outputs
+
+        return outputs  # (loss), logits, (hidden_states), (attentions)
+    
+    
+
+
+
+
 class BertForSequenceClassificationWithGroups(BertPreTrainedModel):
     def __init__(self, config): 
         super().__init__(config)
@@ -11,7 +74,7 @@ class BertForSequenceClassificationWithGroups(BertPreTrainedModel):
 
         self.bert = BertModel(config).from_pretrained('bert-base-uncased')
         self.dropout = nn.Dropout(config.hidden_dropout_prob)
-        self.classifier = nn.Linear(config.hidden_size, config.num_labels)
+        self.classifier = nn.Linear(config.hidden_size + config.group_embedding_dim, config.num_labels)
         variance = 0.01  
         std_deviation = torch.sqrt(torch.tensor(variance))
 
@@ -36,6 +99,9 @@ class BertForSequenceClassificationWithGroups(BertPreTrainedModel):
     ):
         
         rater_group_assignment = self.group_assignment[annotator_ids].log_softmax(dim=1)
+        #freeze bert params
+        for param in self.bert.parameters():
+            param.requires_grad = False
 
         outputs = self.bert(
             input_ids,
@@ -52,7 +118,7 @@ class BertForSequenceClassificationWithGroups(BertPreTrainedModel):
         pooled_output = pooled_output.unsqueeze(1).repeat(1,self.group_embeddings.size(0),1)
         a = self.group_embeddings.unsqueeze(0).repeat(pooled_output.shape[0], 1, 1)
 
-        pooled_output = pooled_output + a
+        pooled_output = torch.cat((pooled_output, a), dim=2)
 
         pooled_output = self.dropout(pooled_output)
         logits = self.classifier(pooled_output)
@@ -66,9 +132,7 @@ class BertForSequenceClassificationWithAnnotators(BertPreTrainedModel):
 
         self.bert = BertModel(config).from_pretrained('bert-base-uncased')
         self.dropout = nn.Dropout(config.hidden_dropout_prob)
-        self.classifier = nn.Linear(config.hidden_size, config.num_labels)
-        variance = 0.001  
-        std_deviation = torch.sqrt(torch.tensor(variance))
+        self.classifier = nn.Linear(config.hidden_size + config.annotator_embedding_dim, config.num_labels)
 
         self.annotator_embeddings = nn.Embedding(config.num_annotators, config.annotator_embedding_dim)
 
@@ -88,7 +152,10 @@ class BertForSequenceClassificationWithAnnotators(BertPreTrainedModel):
         output_hidden_states=None,
         **kwargs,
     ):
-        
+        #freeze bert params
+        for param in self.bert.parameters():
+            param.requires_grad = False
+
         outputs = self.bert(
             input_ids,
             attention_mask=attention_mask,
@@ -103,7 +170,7 @@ class BertForSequenceClassificationWithAnnotators(BertPreTrainedModel):
         pooled_output = outputs[1]
         annotator_embeddings = self.annotator_embeddings(annotator_ids)
 
-        pooled_output = pooled_output + annotator_embeddings
+        pooled_output = torch.cat((pooled_output, annotator_embeddings), dim=1)
         pooled_output = self.dropout(pooled_output)
         logits = self.classifier(pooled_output)
 
@@ -160,8 +227,9 @@ class CustomDataset(Dataset):
 def train(model, device, train_data_loader, mode):
     # Training loop
     num_epochs = 10
-    optimizer = torch.optim.AdamW(model.parameters())
+    optimizer = torch.optim.AdamW(model.parameters(), lr=0.001, weight_decay = 0.1)
     loss_fn = torch.nn.CrossEntropyLoss().to(device)
+
 
     for epoch in range(num_epochs):
         model.train()
@@ -223,6 +291,7 @@ def test(model, device, test_data_loader, mode):
                 # Get predicted labels
                 _, predicted = torch.max(logits, dim=1)
             else:
+                print("-else")
                 outputs = model(input_ids, attention_mask=attention_mask)
                 logits = outputs[0]
 
