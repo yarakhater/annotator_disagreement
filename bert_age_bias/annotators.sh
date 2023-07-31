@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --partition=P100
+#SBATCH --partition=V100
 #SBATCH --job-name=ab_annotators
 #SBATCH --output=annotators_output.txt
 #SBATCH --error=annotators_error.txt

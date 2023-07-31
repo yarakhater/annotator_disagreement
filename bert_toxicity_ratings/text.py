@@ -58,6 +58,16 @@ annotator2id = {row: index for (index, row) in enumerate(total_annotator_ids)}
 annotations_df["worker_id"] = annotations_df["worker_id"].map(annotator2id)
 annotators_df["worker_id"] = annotators_df["worker_id"].map(annotator2id)
 
+
+annotations_df.rename(columns = {'worker_id':'annotator_id', 'comment':'text', 'toxic_score':'annotation'}, inplace = True)
+
+
+grouped = annotations_df.groupby('sentence_id')['annotation'].nunique().reset_index()
+grouped.columns = ['sentence_id', 'unique_annotations']
+annotations_df = annotations_df.merge(grouped, on='sentence_id')
+annotations_df['disagreement'] = annotations_df['unique_annotations'] > 1
+
+
 splitter = GroupShuffleSplit(test_size=0.2, n_splits=2, random_state = 2)
 split = splitter.split(annotations_df, groups=annotations_df['sentence_id'])
 train_inds, test_inds = next(split)
@@ -70,7 +80,7 @@ test_df = test_df.sample(frac=1)
 # In[5]:
 
 
-labels = train_df['toxic_score'].unique()
+labels = train_df['annotation'].unique()
 
 
 # In[6]:
@@ -80,24 +90,17 @@ labels = train_df['toxic_score'].unique()
 labels.sort()
 
 
-# In[7]:
-
-
-embedding_dim = 100
-
-
-# ## bert
-
-# In[8]:
 
 
 device = torch.device('cuda')
 
 
 # In[9]:
+configuration = BertConfig.from_pretrained("bert-base-uncased")
+configuration.num_labels = len(labels)
+configuration.hidden_size = 768 
 
-
-model = BertForSequenceClassification.from_pretrained('bert-base-uncased', num_labels=len(labels)).to(device)
+model = bert.BertForSequenceClassificationText(configuration).to(device)
 
 
 # In[10]:
@@ -110,8 +113,8 @@ num_workers = 2
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 
 # Create training and testing datasets
-train_dataset = utils.CustomDataset(train_df, tokenizer, labels)
-test_dataset = utils.CustomDataset(test_df, tokenizer, labels)
+train_dataset = bert.CustomDataset(train_df, tokenizer, labels)
+test_dataset = bert.CustomDataset(test_df, tokenizer, labels)
 
 # Create training and testing data loaders
 train_data_loader = DataLoader(train_dataset, batch_size=batch_size, num_workers=num_workers)
@@ -123,24 +126,119 @@ test_data_loader = DataLoader(test_dataset, batch_size=batch_size, num_workers=n
 
 # Training
 
-bert.train(model, device, train_data_loader, mode="text")
+# bert.train_trainer(model, device, train_data_loader, test_data_loader, mode="text", freeze = True)
 
 
 
-# In[ ]:
+# torch.save(model.state_dict(), 'text.pth')
 
 
-torch.save(model.state_dict(), 'text.pth')
 
-
-# In[13]:
 
 
 #eval
-bert.test(model, device, test_data_loader, mode="text")
+# bert.test(model, device, test_data_loader, mode="text")
+
+from transformers import TrainingArguments
+from sklearn.metrics import accuracy_score
+from transformers import Trainer
 
 
-# In[ ]:
+class CustomTrainer_text(Trainer):
+    def compute_loss(self, model, inputs, device=torch.device("cuda"), return_outputs=False):
+        
+        input_ids = inputs.get("input_ids").to(device)
+        attention_mask = inputs.get("attention_mask").to(device)
+        labels = inputs.get("labels").to(device)
+        disagreement = inputs.get("disagreement").to(device)
+        
+        outputs = model(input_ids =input_ids, attention_mask = attention_mask, labels = labels)
+        loss = outputs[0]
+        
+        if return_outputs:
+            return loss, {"logits":outputs[1], "disagreement":disagreement} 
+        return loss
+
+
+# def compute_metrics(pred):
+#     labels = pred.label_ids
+#     preds = pred.predictions.argmax(-1)
+#     acc = accuracy_score(labels, preds)
+#     return {
+#       'accuracy': acc,
+#     }
+def compute_metrics(pred):
+    labels = pred.label_ids
+    preds = pred.predictions[0].argmax(-1)
+    acc = accuracy_score(labels, preds)
+    disagreement = pred.predictions[1]
+    labels_agreement = labels[~disagreement]
+    labels_disagreement = labels[disagreement]
+    predicted_agreement = preds[~disagreement]
+    predicted_disagreement = preds[disagreement] 
+    agreement_acc = accuracy_score(labels_agreement, predicted_agreement)
+    disagreement_acc = accuracy_score(labels_disagreement, predicted_disagreement)
+    return {
+      'agreement_accuracy': agreement_acc,
+      'disagreement_accuracy':disagreement_acc,
+      'accuracy':acc
+    }
+
+ # Define the training arguments
+# training_args = TrainingArguments(
+#     output_dir='./results',           # Directory to save checkpoints and logs
+#     num_train_epochs=10,              # Number of training epochs
+#     per_device_train_batch_size=16,    # Batch size per device during training
+#     learning_rate=1e-3,               # Learning rate
+#     weight_decay=0.1,                 # Weight decay
+#     logging_dir='./logs',             # Directory for storing logs
+#     logging_steps=100,  
+#     save_strategy="no",
+#     evaluation_strategy = "epoch",
+#     logging_strategy="epoch",
+#     remove_unused_columns=False,
+#     warmup_steps=500,                 # Number of warmup steps for learning rate schedule
+#     optim = "adamw_torch",
+# )
+
+
+
+training_args = TrainingArguments(
+    output_dir='./results',
+    num_train_epochs=10,
+    per_device_train_batch_size=16,
+    per_device_eval_batch_size=16,
+    warmup_steps=500,
+    weight_decay=0.01,
+    logging_dir='./logs',
+    logging_steps=250,
+    evaluation_strategy = "epoch",
+    logging_strategy="epoch",
+    remove_unused_columns=False,
+    optim="adamw_torch"
+)
+
+
+
+
+
+trainer = CustomTrainer_text(
+    model=model,
+    args=training_args,
+    train_dataset=train_dataset,
+#     eval_dataset=train_dataset,
+    eval_dataset=test_dataset,
+    compute_metrics=compute_metrics
+)
+
+
+
+trainer.train()
+
+
+
+
+
 
 
 

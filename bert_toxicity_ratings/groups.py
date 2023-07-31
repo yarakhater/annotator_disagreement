@@ -15,7 +15,7 @@ from models import bert
 
 import pandas as pd
 from transformers import BertTokenizer, BertForSequenceClassification, BertPreTrainedModel, BertModel, BertConfig
-from torch.utils.data import DataLoader
+from torch.utils.data import DataLoader, Dataset
 import torch.nn as nn
 import torch
 
@@ -51,6 +51,17 @@ annotator2id = {row: index for (index, row) in enumerate(total_annotator_ids)}
 annotations_df["worker_id"] = annotations_df["worker_id"].map(annotator2id)
 annotators_df["worker_id"] = annotators_df["worker_id"].map(annotator2id)
 
+
+annotations_df.rename(columns = {'worker_id':'annotator_id', 'comment':'text', 'toxic_score':'annotation'}, inplace = True)
+
+
+grouped = annotations_df.groupby('sentence_id')['annotation'].nunique().reset_index()
+grouped.columns = ['sentence_id', 'unique_annotations']
+annotations_df = annotations_df.merge(grouped, on='sentence_id')
+annotations_df['disagreement'] = annotations_df['unique_annotations'] > 1
+
+
+
 splitter = GroupShuffleSplit(test_size=0.2, n_splits=2, random_state = 2)
 split = splitter.split(annotations_df, groups=annotations_df['sentence_id'])
 train_inds, test_inds = next(split)
@@ -63,7 +74,7 @@ test_df = test_df.sample(frac=1)
 # In[4]:
 
 
-labels = train_df['toxic_score'].unique()
+labels = train_df['annotation'].unique()
 
 
 # In[5]:
@@ -80,16 +91,26 @@ labels.sort()
 
 device = torch.device('cuda')
 
+assigned_groups = {}
+
 
 # In[9]:
 
 
-configuration = BertConfig()
+# configuration = BertConfig()
+# configuration.num_labels = len(labels)
+# configuration.num_annotators = len(total_annotator_ids)
+# configuration.group_embedding_dim = 100
+# configuration.hidden_size = 768 
+# configuration.num_groups = 5
+
+configuration = BertConfig.from_pretrained("bert-base-uncased")
 configuration.num_labels = len(labels)
 configuration.num_annotators = len(total_annotator_ids)
-configuration.group_embedding_dim = 100
+configuration.group_embedding_dim = 128
+configuration.num_groups = 8
 configuration.hidden_size = 768 
-configuration.num_groups = 5
+model = bert.BertForSequenceClassificationWithGroups(configuration).to(device)
 
 
 # In[10]:
@@ -101,15 +122,54 @@ num_workers = 2
 
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
 
+class CustomDataset(Dataset):
+    def __init__(self, dataframe, tokenizer):
+        self.data = dataframe
+        self.tokenizer = tokenizer
+
+    def __len__(self):
+        return len(self.data)
+
+    def __getitem__(self, index):
+        sentence = self.data.iloc[index]['text']
+        annotator_id = self.data.iloc[index]['annotator_id']
+        annotation = self.data.iloc[index]['annotation']
+        disagreement = self.data.iloc[index]['disagreement']
+
+        # Tokenize the sentence
+        inputs = self.tokenizer.encode_plus(
+            sentence,
+            add_special_tokens=True,
+            padding='max_length',
+            truncation=True,
+            max_length=512,
+            return_tensors='pt'
+        )
+
+        input_ids = inputs['input_ids'].squeeze()
+        attention_mask = inputs['attention_mask'].squeeze()
+        annotator_id = torch.tensor(annotator_id, dtype=torch.long)
+        annotation = torch.tensor(annotation, dtype=torch.long)
+
+        return {
+            'input_ids': input_ids,
+            'attention_mask': attention_mask,
+            'annotator_ids': annotator_id,
+            'label': annotation,
+            'disagreement': disagreement
+        }
+
+
+
+
 # Create training and testing datasets
-train_dataset = utils.CustomDataset(train_df, tokenizer, labels)
-test_dataset = utils.CustomDataset(test_df, tokenizer, labels)
+train_dataset = CustomDataset(train_df, tokenizer)
+test_dataset = CustomDataset(test_df, tokenizer)
 
 # Create training and testing data loaders
 train_data_loader = DataLoader(train_dataset, batch_size=batch_size, num_workers=num_workers)
 test_data_loader = DataLoader(test_dataset, batch_size=batch_size, num_workers=num_workers)
 
-model = bert.BertForSequenceClassificationWithGroups(configuration).to(device)
 
 
 # In[24]:
@@ -117,21 +177,141 @@ model = bert.BertForSequenceClassificationWithGroups(configuration).to(device)
 
 # Training 
 
-bert.train(model, device, train_data_loader, mode="groups")
+# bert.train_trainer(model, device, train_data_loader, test_data_loader, mode="groups", freeze = True)
 
-# In[ ]:
+# # In[ ]:
 
 
-torch.save(model.state_dict(), 'groups.pth')
+# torch.save(model.state_dict(), 'groups.pth')
 
 
 # In[12]:
 
 
-bert.test(model, device, test_data_loader, mode="groups")
+# bert.test(model, device, test_data_loader, mode="groups")
 
 
 # In[ ]:
+    
+from transformers import TrainingArguments
+from sklearn.metrics import accuracy_score
+
+def compute_metrics(pred):
+    labels = pred.label_ids
+    w = torch.tensor(pred.predictions[0])
+    log_p = torch.tensor(pred.predictions[1])
+    disagreement = pred.predictions[2]
+    annotator_ids = pred.predictions[3]
+#     print("len annotaor_ids in compute_metrics is:", len(annotator_ids))
+    best_group = log_p.argmax(dim=1)
+    
+    for annotator_id, bg in zip(annotator_ids, best_group):
+        bg = int(bg.item())
+        if annotator_id in assigned_groups:
+#             assigned_groups[annotator_id].append(bg)
+            assigned_groups[annotator_id] = list(set(assigned_groups[annotator_id] + [bg]))
+        else:
+            assigned_groups[annotator_id] = [bg]
+        
+#     print("final dict:",len(assigned_groups), assigned_groups)
+    
+    w = w[range(len(w)), best_group]
+    _, preds = torch.max(w, 1)
+    acc = accuracy_score(labels, preds)
+    
+    
+    labels_agreement = labels[~disagreement]
+    labels_disagreement = labels[disagreement]
+    predicted_agreement = preds[~disagreement]
+    predicted_disagreement = preds[disagreement] 
+    agreement_acc = accuracy_score(labels_agreement, predicted_agreement)
+    disagreement_acc = accuracy_score(labels_disagreement, predicted_disagreement)
+    
+    return {
+      'agreement_accuracy': agreement_acc,
+      'disagreement_accuracy':disagreement_acc,
+      'accuracy': acc,
+    }
+
+
+# In[11]:
+# Define the training arguments
+training_args = TrainingArguments(
+#     output_dir='./results',           # Directory to save checkpoints and logs
+#     num_train_epochs=10,              # Number of training epochs
+#     per_device_train_batch_size=16,    # Batch size per device during training
+#     learning_rate=1e-3,               # Learning rate
+#     weight_decay=0.1,                 # Weight decay
+#     logging_dir='./logs',             # Directory for storing logs
+#     logging_steps=100,  
+#     save_strategy="no",
+#     evaluation_strategy = "epoch",
+#     logging_strategy="epoch",
+#     remove_unused_columns=False,
+#     warmup_steps=500,                 # Number of warmup steps for learning rate schedule
+#     optim = "adamw_torch",
+# )
+
+training_args = TrainingArguments(
+    output_dir='./results',
+    num_train_epochs=10,
+    per_device_train_batch_size=16,
+    per_device_eval_batch_size=16,
+    warmup_steps=500,
+    weight_decay=0.01,
+    logging_dir='./logs',
+    logging_steps=250,
+    optim="adamw_torch",
+    evaluation_strategy = "epoch",
+    logging_strategy="epoch",
+    remove_unused_columns=False
+)
+
+
+from transformers import Trainer
+
+class CustomTrainer_groups_text(Trainer):
+    def compute_loss(self, model, inputs, device=torch.device("cuda"), return_outputs=False):
+        
+
+        input_ids = inputs.get("input_ids").to(device)
+        attention_mask = inputs.get("attention_mask").to(device)
+        annotator_ids = inputs.get("annotator_ids").to(device)
+        labels = inputs.get("labels").to(device)
+        disagreement = inputs.get("disagreement").to(device)
+        
+
+        w, log_p = model(annotator_ids = annotator_ids, input_ids =input_ids, attention_mask = attention_mask, labels = labels,           freeze = False)
+        loss = torch.zeros(input_ids.size(0))
+        for i in range(input_ids.size(0)):
+            loss[i] = - (w[i].log_softmax(dim=1) + log_p[i].reshape(-1, 1)).logsumexp(dim=0)[labels[i].long()]
+        loss = torch.mean(loss)
+
+        
+        if return_outputs:
+            return loss, {'w': w, 'log_p': log_p, "disagreement":disagreement, "annotator_ids":annotator_ids}
+#             return loss, w
+        return loss
+
+
+
+
+
+trainer = CustomTrainer_groups_text(
+    model=model,
+    args=training_args,
+    train_dataset=train_dataset,
+    eval_dataset=test_dataset,
+    compute_metrics=compute_metrics
+)
+
+
+
+trainer.train()
+
+# clusters = [val[0] for val in assigned_groups.values()]
+# print("clusters:", len(clusters), clusters)
+
 
 
 

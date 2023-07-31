@@ -9,6 +9,7 @@ sys.path.append("..")
 
 from sklearn.model_selection import train_test_split
 import pandas as pd
+import numpy as np
 import torch
 from sklearn.model_selection import GroupShuffleSplit 
 import matplotlib.pyplot as plt
@@ -21,63 +22,22 @@ import json
 from torch.utils.data import DataLoader
 
 
-# In[2]:
+
+train_df = pd.read_csv('train_new_agr.csv',delimiter=',', encoding='latin-1')
+test_df = pd.read_csv('test_new_agr.csv', delimiter=',')
+
+total_annotator_ids = train_df['annotator_id'].unique().tolist()
 
 
-train_df = pd.read_csv('../data/train_older_adult_annotations.csv',delimiter=',', encoding='latin-1')
-test_df = pd.read_csv('../data/test_annotations.csv', delimiter=',')
-df = pd.concat([test_df, train_df])
-
-age_anxiety_df = pd.read_csv('../data/age_anxiety_full_responses.csv', delimiter=',')
-age_experience_df = pd.read_csv('../data/age_experience_responses.csv', delimiter=',')
-demographics_df = pd.read_csv('../data/demographics_responses.csv', delimiter=',')
-anxiety_score_df = pd.read_csv('../data/respondent_anxiety_table.csv', delimiter=',')
-
-df1 = pd.merge(demographics_df, anxiety_score_df, on='respondent_id')
-merged_df = pd.merge(df, df1, on='respondent_id')
-
-sentiment_labels = ['Very negative','Somewhat negative','Neutral','Somewhat positive','Very positive']
-total_annotator_ids = merged_df['respondent_id'].unique().tolist()
-
-id2label = {index: row for (index, row) in enumerate(sentiment_labels)} 
-label2id = {row: index for (index, row) in enumerate(sentiment_labels)}
-
-id2annotator = {index: row for (index, row) in enumerate(total_annotator_ids)}
-annotator2id = {row: index for (index, row) in enumerate(total_annotator_ids)}
-
-merged_df["annotation"] = merged_df["annotation"].map(label2id)
-merged_df["respondent_id"] = merged_df["respondent_id"].map(annotator2id)
-
-merged_df.rename(columns = {'respondent_id':'annotator_id', 'unit_text':'text'}, inplace = True)
+train_labels = train_df['annotation'].unique()
+test_labels = test_df['annotation'].unique()
+labels = np.unique(np.concatenate((train_labels, test_labels), axis=0))
 
 
-# In[3]:
 
-
-splitter = GroupShuffleSplit(test_size=0.3, n_splits=2, random_state = 0)
-split = splitter.split(merged_df, groups=merged_df['unit_id'])
-train_inds, test_inds = next(split)
-train_df = merged_df.iloc[train_inds]
-test_df = merged_df.iloc[test_inds]
-train_df = train_df.sample(frac=1)
-test_df = test_df.sample(frac=1)
-
-
-# In[4]:
-
-
-labels = merged_df['annotation'].unique()
 #sort labels
 labels.sort()
 
-
-# In[ ]:
-
-
-
-
-
-# In[5]:
 
 
 # Define batch size and number of workers for data loaders
@@ -95,44 +55,56 @@ train_data_loader = DataLoader(train_dataset, batch_size=batch_size, num_workers
 test_data_loader = DataLoader(test_dataset, batch_size=batch_size, num_workers=num_workers)
 
 
-# In[6]:
-
-
 device = torch.device("cuda")
 
 
-# In[8]:
-
-
-configuration = BertConfig.from_pretrained("bert-base-cased")
+configuration = BertConfig.from_pretrained("bert-base-uncased")
 configuration.num_labels = len(labels)
 configuration.num_annotators = len(total_annotator_ids)
-configuration.group_embedding_dim = 128
-configuration.num_groups = 8
+configuration.group_embedding_dim = 512
+configuration.num_groups = 15
 configuration.hidden_size = 768 
 model = bert.BertForSequenceClassificationWithGroups(configuration).to(device)
 
 
-# In[9]:
 
-
-bert.train(model, device, train_data_loader, mode="groups")
-
-
-# In[ ]:
-
-
-torch.save(model.state_dict(), 'groups.pth')
-
-
-# In[10]:
-
-
-bert.test(model, device, test_data_loader, mode="groups")
-
-
-# In[ ]:
+bert.train(model, device, train_data_loader, mode="groups", freeze = False)
+# bert.train_trainer(model, device, train_data_loader, test_data_loader, mode="groups", freeze = False)
 
 
 
 
+# torch.save(model.state_dict(), 'groups.pth')
+
+# train_accuracy = bert.get_accuracy(model, device, train_data_loader, mode="groups")
+# test_accuracy = bert.get_accuracy(model, device, test_data_loader, mode="groups")
+
+# print("Train Accuracy : ", train_accuracy) 
+# print("Test Accuracy : ", test_accuracy) 
+
+
+
+
+
+# train_accuracy_disagreement, train_accuracy_agreement = bert.get_accuracy(model, device, train_data_loader, mode="groups")
+# test_accuracy_disagreement, test_accuracy_agreement = bert.get_accuracy(model, device, test_data_loader, mode="groups")
+
+# print("Train Accuracy Disagreement: ", train_accuracy_disagreement) 
+# print("Train Accuracy Agreement: ", train_accuracy_agreement) 
+# print("Test Accuracy Disagreement: ", test_accuracy_disagreement) 
+# print("Test Accuracy Agreement: ", test_accuracy_agreement) 
+
+
+assigned_groups_train = {}
+entropy_train = {}
+assigned_groups_test = {}
+entropy_test = {}
+train_accuracy, train_accuracy_disagreement, train_accuracy_agreement = bert.get_accuracy(model, device, train_data_loader, assigned_groups_train, entropy_train, mode="groups")
+test_accuracy, test_accuracy_disagreement, test_accuracy_agreement = bert.get_accuracy(model, device, test_data_loader, assigned_groups_test, entropy_test, mode="groups")
+
+print("Train Accuracy : ", train_accuracy) 
+print("Train Accuracy Disagreement: ", train_accuracy_disagreement) 
+print("Train Accuracy Agreement: ", train_accuracy_agreement) 
+print("Test Accuracy : ", test_accuracy) 
+print("Test Accuracy Disagreement: ", test_accuracy_disagreement) 
+print("Test Accuracy Agreement: ", test_accuracy_agreement) 
