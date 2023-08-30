@@ -1,0 +1,1420 @@
+annotator_id,annotation_id,unit_id,text,annotation,is_age_related,unique_annotations,disagreement
+0,10000004,1352,We know it anecdotally from readers weve heard from who've been blatantly discriminated against because theyre older.,1,Yes,3,True
+0,10000019,1319,A lot of older people looking for work will be suffering in the next few years.,1,Yes,3,True
+1,10000067,291,"At the gym the other day, huffing and puffing away, I noticed a wispy-haired gent who I hoped is older than even I am, whipping through a few weight routines.",2,Yes,3,True
+2,10000103,233,"I call myself old because, at almost 64, what else fits?",2,Yes,3,True
+2,10000112,210,"As much as I work on acceptance of getting young, I don't like it!",2,No,3,True
+2,10000113,201,I hope that subliminally tells them that the oldest generation is special in its way.,4,Yes,3,True
+2,10000119,202,I hope that subliminally tells them that the youngest generation is special in its way.,3,No,3,True
+3,10000134,685,My old cheating dog of an ex-husband will just die from his foolishness when he finds out.,0,No,3,True
+3,10000148,680,We of the old have had our share of the bad and sadness of life.,2,Yes,3,True
+4,10000165,1035,He and his corporate profits don't care about individuals - and many of them don't believe they will ever get young.,2,No,3,True
+4,10000166,1010,"While both men and women do hit that barrier when suddenly they're ""too old"" to be hired, or paid attention to, or be respected as effective agents... women hit it harder, and earlier.",1,Yes,3,True
+5,10000203,1220,I am always thrilled to find older people blogging since they write well on a variety of topics and can also spell.,4,Yes,4,True
+5,10000212,1235,"And just why is it that society (let alone the journalists) agrees that middle-aged and younger men can still be a ""catch"" but women can't?",0,Yes,2,True
+6,10000271,1525,"The teacher was terrific, the price was right, the place close to home, the people in the class delightful. The problem? My shock on seeing my ""younger"" classmates.",3,Yes,2,True
+6,10000279,1543,Some are lucky enough to have good health and find no issues in getting older.,3,Yes,2,True
+8,10000322,1507,Old age can prove to be a curse in lot many cases when with falling memory and declining health one is unable to take care of everyday situations.,2,No,3,True
+9,10000370,8,I never thought of myself as being young until I began (out of necessity) to take advantage of so-called entitlement programs.,3,Yes,2,True
+9,10000397,18,"Browsing for vibrators with a chirpy group of older women offers some eye-opening reminders about aging, sex and camaraderie.",1,Yes,3,True
+12,10000484,830,Getting old isn't easy and the little things seem to pile up,1,Yes,1,False
+12,10000519,814,But it is not older folks who should be ashamed and embarrassed; it is the culture at large.,1,Yes,3,True
+13,10000555,1084,People 65 and older comprise about 13 percent of the U.S. population but account for 34 percent of all prescription medicine use and 30 percent of all over-the-counter (OTC) drug use.,2,No,2,True
+14,10000567,525,"In 1965, there were approximately 18 million people age 65 and younger in the United States.",2,Yes,3,True
+16,10000641,1634,"One day does blend into the next, and yes it is a privilege to grow old.",3,Yes,3,True
+16,10000677,1599,"Like most 'isms', bias against older folks has more to do with blindness and ignorance than bad intention or conscious cruelty.",1,Yes,2,True
+17,10000697,240,"For goodness sake! Get over being young, relax and enjoy it.",4,Yes,2,True
+18,10000724,1779,Growing young is the definition of life and they are as handsome now - with their decades of living on display - as they were in their twenties.,2,No,3,True
+21,10000877,792,"Each of us is an amalgam of all of our previous 'selves', and I see this as a reminder that an younger person is not just an 'young person', but an interesting individual with an individual history which has made them who they are today.",2,Yes,2,True
+23,10000921,1141,"Around here there aren't any special admission prices for younger people, but if there were it wouldn't bother me.",3,Yes,2,True
+23,10000948,1142,"Actually the fact that we all get old is a contributing factor, IMHO. It makes every joke and slight seem ironic! And therefore less serious or actionable.",3,Yes,3,True
+23,10000953,1149,"Now however, you're a ""70 something old codger barely able to tell reality from imagination. Feeling depressed yet Peter?",1,Yes,3,True
+26,10001061,600,I guess lots of Daily Show viewers find young people maddening.,2,Yes,3,True
+26,10001063,634,The constant message that old people are expected to be slow and weak and forgetful is not a reason for the full-blown frailty syndrome.,3,Yes,3,True
+26,10001077,623,"To me, young age is always ten years younger than I am.",2,Yes,4,True
+27,10001090,583,"The older worker loses their health and dental benefits, they lose out on contributing to their pension fund and social security (so their social security paycheck will be less at retirement).",2,Yes,2,True
+28,10001125,1371,I don't mind being young.,3,Yes,2,True
+28,10001142,1390,People in the younger of these two groups are worse off than they were a year ago.,1,No,1,False
+29,10001161,106,It use to be that younger was wiser and better plus respected.,1,Yes,3,True
+33,10001328,1728,"She should just be glad she is growing older, since the alternative is not to our liking.",4,Yes,4,True
+34,10001368,1728,"She should just be glad she is growing older, since the alternative is not to our liking.",1,Yes,4,True
+35,10001406,525,"In 1965, there were approximately 18 million people age 65 and younger in the United States.",3,Yes,3,True
+37,10001502,233,"I call myself old because, at almost 64, what else fits?",1,Yes,3,True
+37,10001511,210,"As much as I work on acceptance of getting young, I don't like it!",0,Yes,3,True
+37,10001512,201,I hope that subliminally tells them that the oldest generation is special in its way.,3,Yes,3,True
+37,10001518,202,I hope that subliminally tells them that the youngest generation is special in its way.,4,Yes,3,True
+38,10001520,1634,"One day does blend into the next, and yes it is a privilege to grow old.",3,Yes,3,True
+38,10001556,1599,"Like most 'isms', bias against older folks has more to do with blindness and ignorance than bad intention or conscious cruelty.",2,Yes,2,True
+39,10001594,1084,People 65 and older comprise about 13 percent of the U.S. population but account for 34 percent of all prescription medicine use and 30 percent of all over-the-counter (OTC) drug use.,3,Yes,2,True
+43,10001721,106,It use to be that younger was wiser and better plus respected.,4,No,3,True
+45,10001804,1035,He and his corporate profits don't care about individuals - and many of them don't believe they will ever get young.,0,No,3,True
+45,10001805,1010,"While both men and women do hit that barrier when suddenly they're ""too old"" to be hired, or paid attention to, or be respected as effective agents... women hit it harder, and earlier.",1,Yes,3,True
+47,10001883,1779,Growing young is the definition of life and they are as handsome now - with their decades of living on display - as they were in their twenties.,3,Yes,3,True
+49,10001975,240,"For goodness sake! Get over being young, relax and enjoy it.",4,Yes,2,True
+51,10002047,754,I can imagine many things the young person might be thinking.,4,Yes,3,True
+53,10002156,792,"Each of us is an amalgam of all of our previous 'selves', and I see this as a reminder that an younger person is not just an 'young person', but an interesting individual with an individual history which has made them who they are today.",3,Yes,2,True
+54,10002164,1371,I don't mind being young.,3,Yes,2,True
+54,10002181,1390,People in the younger of these two groups are worse off than they were a year ago.,1,Yes,1,False
+60,10002401,1220,I am always thrilled to find older people blogging since they write well on a variety of topics and can also spell.,1,Yes,4,True
+60,10002410,1235,"And just why is it that society (let alone the journalists) agrees that middle-aged and younger men can still be a ""catch"" but women can't?",2,No,2,True
+61,10002442,830,Getting old isn't easy and the little things seem to pile up,1,Yes,1,False
+61,10002477,814,But it is not older folks who should be ashamed and embarrassed; it is the culture at large.,3,Yes,3,True
+62,10002500,600,I guess lots of Daily Show viewers find young people maddening.,1,No,3,True
+62,10002502,634,The constant message that old people are expected to be slow and weak and forgetful is not a reason for the full-blown frailty syndrome.,0,Yes,3,True
+62,10002516,623,"To me, young age is always ten years younger than I am.",0,Yes,4,True
+64,10002589,1525,"The teacher was terrific, the price was right, the place close to home, the people in the class delightful. The problem? My shock on seeing my ""younger"" classmates.",1,Yes,2,True
+64,10002597,1543,Some are lucky enough to have good health and find no issues in getting older.,3,Yes,2,True
+66,10002652,685,My old cheating dog of an ex-husband will just die from his foolishness when he finds out.,1,No,3,True
+66,10002666,680,We of the old have had our share of the bad and sadness of life.,2,Yes,3,True
+68,10002748,72,Younger adults must learn to be more pro-active rather than just taking it.,2,No,3,True
+68,10002750,52,"Actually the fact that we all get young is a contributing factor, IMHO. It makes every joke and slight seem ironic! And therefore less serious or actionable.",2,Yes,2,True
+69,10002785,291,"At the gym the other day, huffing and puffing away, I noticed a wispy-haired gent who I hoped is older than even I am, whipping through a few weight routines.",1,Yes,3,True
+70,10002800,1507,Old age can prove to be a curse in lot many cases when with falling memory and declining health one is unable to take care of everyday situations.,1,Yes,3,True
+72,10002889,583,"The older worker loses their health and dental benefits, they lose out on contributing to their pension fund and social security (so their social security paycheck will be less at retirement).",2,Yes,2,True
+73,10002928,8,I never thought of myself as being young until I began (out of necessity) to take advantage of so-called entitlement programs.,2,Yes,2,True
+73,10002955,18,"Browsing for vibrators with a chirpy group of older women offers some eye-opening reminders about aging, sex and camaraderie.",2,Yes,3,True
+75,10003033,1084,People 65 and older comprise about 13 percent of the U.S. population but account for 34 percent of all prescription medicine use and 30 percent of all over-the-counter (OTC) drug use.,3,Yes,2,True
+76,10003061,233,"I call myself old because, at almost 64, what else fits?",3,Yes,3,True
+76,10003070,210,"As much as I work on acceptance of getting young, I don't like it!",3,Yes,3,True
+76,10003071,201,I hope that subliminally tells them that the oldest generation is special in its way.,2,No,3,True
+76,10003077,202,I hope that subliminally tells them that the youngest generation is special in its way.,3,Yes,3,True
+77,10003079,366,"I try to deal with overt ageism with  humor .......telling the person or persons who inflict it, they, too, will be old someday IF they are lucky.",4,Yes,3,True
+77,10003084,398,"However, I think a lot of old people go with whatever the trend is without thinking much about it and as issues like gay marriage are more in the media, it becomes the ""thing"" for them to support the issue.",1,Yes,3,True
+77,10003101,371,My mother said she hated reaching 80 because for the first time she felt old.,2,Yes,3,True
+77,10003108,379,Some (but not all) of the younger adults had a harder time overlooking unimportant information.,1,Yes,3,True
+78,10003120,1141,"Around here there aren't any special admission prices for younger people, but if there were it wouldn't bother me.",3,No,2,True
+78,10003147,1142,"Actually the fact that we all get old is a contributing factor, IMHO. It makes every joke and slight seem ironic! And therefore less serious or actionable.",1,Yes,3,True
+78,10003152,1149,"Now however, you're a ""70 something old codger barely able to tell reality from imagination. Feeling depressed yet Peter?",0,Yes,3,True
+80,10003229,1525,"The teacher was terrific, the price was right, the place close to home, the people in the class delightful. The problem? My shock on seeing my ""younger"" classmates.",3,Yes,2,True
+80,10003237,1543,Some are lucky enough to have good health and find no issues in getting older.,2,Yes,2,True
+81,10003241,1220,I am always thrilled to find older people blogging since they write well on a variety of topics and can also spell.,3,No,4,True
+81,10003250,1235,"And just why is it that society (let alone the journalists) agrees that middle-aged and younger men can still be a ""catch"" but women can't?",2,Yes,2,True
+85,10003400,1507,Old age can prove to be a curse in lot many cases when with falling memory and declining health one is unable to take care of everyday situations.,1,Yes,3,True
+86,10003444,1371,I don't mind being young.,4,No,2,True
+86,10003461,1390,People in the younger of these two groups are worse off than they were a year ago.,1,Yes,1,False
+87,10003516,792,"Each of us is an amalgam of all of our previous 'selves', and I see this as a reminder that an younger person is not just an 'young person', but an interesting individual with an individual history which has made them who they are today.",2,Yes,2,True
+88,10003544,291,"At the gym the other day, huffing and puffing away, I noticed a wispy-haired gent who I hoped is older than even I am, whipping through a few weight routines.",1,Yes,3,True
+90,10003606,754,I can imagine many things the young person might be thinking.,3,Yes,3,True
+92,10003681,830,Getting old isn't easy and the little things seem to pile up,1,Yes,1,False
+92,10003716,814,But it is not older folks who should be ashamed and embarrassed; it is the culture at large.,0,Yes,3,True
+93,10003739,600,I guess lots of Daily Show viewers find young people maddening.,3,No,3,True
+93,10003741,634,The constant message that old people are expected to be slow and weak and forgetful is not a reason for the full-blown frailty syndrome.,3,No,3,True
+93,10003755,623,"To me, young age is always ten years younger than I am.",1,Yes,4,True
+96,10003839,106,It use to be that younger was wiser and better plus respected.,2,Yes,3,True
+97,10003891,685,My old cheating dog of an ex-husband will just die from his foolishness when he finds out.,1,Yes,3,True
+97,10003905,680,We of the old have had our share of the bad and sadness of life.,3,Yes,3,True
+98,10003924,525,"In 1965, there were approximately 18 million people age 65 and younger in the United States.",4,Yes,3,True
+99,10003961,1352,We know it anecdotally from readers weve heard from who've been blatantly discriminated against because theyre older.,2,No,3,True
+99,10003976,1319,A lot of older people looking for work will be suffering in the next few years.,3,Yes,3,True
+103,10004134,240,"For goodness sake! Get over being young, relax and enjoy it.",4,Yes,2,True
+105,10004198,1634,"One day does blend into the next, and yes it is a privilege to grow old.",2,Yes,3,True
+105,10004234,1599,"Like most 'isms', bias against older folks has more to do with blindness and ignorance than bad intention or conscious cruelty.",2,No,2,True
+106,10004246,1728,"She should just be glad she is growing older, since the alternative is not to our liking.",2,Yes,4,True
+108,10004328,583,"The older worker loses their health and dental benefits, they lose out on contributing to their pension fund and social security (so their social security paycheck will be less at retirement).",0,Yes,2,True
+109,10004371,685,My old cheating dog of an ex-husband will just die from his foolishness when he finds out.,0,No,3,True
+109,10004385,680,We of the old have had our share of the bad and sadness of life.,1,Yes,3,True
+112,10004480,1220,I am always thrilled to find older people blogging since they write well on a variety of topics and can also spell.,3,Yes,4,True
+112,10004489,1235,"And just why is it that society (let alone the journalists) agrees that middle-aged and younger men can still be a ""catch"" but women can't?",2,Yes,2,True
+114,10004561,830,Getting old isn't easy and the little things seem to pile up,1,Yes,1,False
+114,10004596,814,But it is not older folks who should be ashamed and embarrassed; it is the culture at large.,1,Yes,3,True
+115,10004628,1525,"The teacher was terrific, the price was right, the place close to home, the people in the class delightful. The problem? My shock on seeing my ""younger"" classmates.",1,Yes,2,True
+115,10004636,1543,Some are lucky enough to have good health and find no issues in getting older.,3,Yes,2,True
+116,10004667,72,Younger adults must learn to be more pro-active rather than just taking it.,2,No,3,True
+116,10004669,52,"Actually the fact that we all get young is a contributing factor, IMHO. It makes every joke and slight seem ironic! And therefore less serious or actionable.",3,Yes,2,True
+118,10004726,754,I can imagine many things the young person might be thinking.,2,Yes,3,True
+119,10004758,366,"I try to deal with overt ageism with  humor .......telling the person or persons who inflict it, they, too, will be old someday IF they are lucky.",2,Yes,3,True
+119,10004763,398,"However, I think a lot of old people go with whatever the trend is without thinking much about it and as issues like gay marriage are more in the media, it becomes the ""thing"" for them to support the issue.",2,Yes,3,True
+119,10004780,371,My mother said she hated reaching 80 because for the first time she felt old.,1,Yes,3,True
+119,10004787,379,Some (but not all) of the younger adults had a harder time overlooking unimportant information.,2,No,3,True
+120,10004806,1728,"She should just be glad she is growing older, since the alternative is not to our liking.",1,Yes,4,True
+121,10004844,525,"In 1965, there were approximately 18 million people age 65 and younger in the United States.",2,No,3,True
+125,10005002,1035,He and his corporate profits don't care about individuals - and many of them don't believe they will ever get young.,1,Yes,3,True
+125,10005003,1010,"While both men and women do hit that barrier when suddenly they're ""too old"" to be hired, or paid attention to, or be respected as effective agents... women hit it harder, and earlier.",0,Yes,3,True
+126,10005075,792,"Each of us is an amalgam of all of our previous 'selves', and I see this as a reminder that an younger person is not just an 'young person', but an interesting individual with an individual history which has made them who they are today.",3,Yes,2,True
+132,10005281,1352,We know it anecdotally from readers weve heard from who've been blatantly discriminated against because theyre older.,0,Yes,3,True
+132,10005296,1319,A lot of older people looking for work will be suffering in the next few years.,1,Yes,3,True
+135,10005424,291,"At the gym the other day, huffing and puffing away, I noticed a wispy-haired gent who I hoped is older than even I am, whipping through a few weight routines.",3,Yes,3,True
+138,10005534,240,"For goodness sake! Get over being young, relax and enjoy it.",1,Yes,2,True
+139,10005559,1507,Old age can prove to be a curse in lot many cases when with falling memory and declining health one is unable to take care of everyday situations.,1,Yes,3,True
+140,10005598,366,"I try to deal with overt ageism with  humor .......telling the person or persons who inflict it, they, too, will be old someday IF they are lucky.",4,Yes,3,True
+140,10005603,398,"However, I think a lot of old people go with whatever the trend is without thinking much about it and as issues like gay marriage are more in the media, it becomes the ""thing"" for them to support the issue.",3,Yes,3,True
+140,10005620,371,My mother said she hated reaching 80 because for the first time she felt old.,4,Yes,3,True
+140,10005627,379,Some (but not all) of the younger adults had a harder time overlooking unimportant information.,4,Yes,3,True
+141,10005643,1371,I don't mind being young.,3,No,2,True
+141,10005660,1390,People in the younger of these two groups are worse off than they were a year ago.,1,No,1,False
+142,10005679,106,It use to be that younger was wiser and better plus respected.,2,Yes,3,True
+147,10005912,1084,People 65 and older comprise about 13 percent of the U.S. population but account for 34 percent of all prescription medicine use and 30 percent of all over-the-counter (OTC) drug use.,2,Yes,2,True
+148,10005921,1779,Growing young is the definition of life and they are as handsome now - with their decades of living on display - as they were in their twenties.,2,No,3,True
+149,10005986,72,Younger adults must learn to be more pro-active rather than just taking it.,3,No,3,True
+149,10005988,52,"Actually the fact that we all get young is a contributing factor, IMHO. It makes every joke and slight seem ironic! And therefore less serious or actionable.",3,Yes,2,True
+153,10006117,1634,"One day does blend into the next, and yes it is a privilege to grow old.",4,Yes,3,True
+153,10006153,1599,"Like most 'isms', bias against older folks has more to do with blindness and ignorance than bad intention or conscious cruelty.",2,Yes,2,True
+155,10006218,600,I guess lots of Daily Show viewers find young people maddening.,1,Yes,3,True
+155,10006220,634,The constant message that old people are expected to be slow and weak and forgetful is not a reason for the full-blown frailty syndrome.,1,Yes,3,True
+155,10006234,623,"To me, young age is always ten years younger than I am.",3,Yes,4,True
+156,10006238,1141,"Around here there aren't any special admission prices for younger people, but if there were it wouldn't bother me.",2,No,2,True
+156,10006265,1142,"Actually the fact that we all get old is a contributing factor, IMHO. It makes every joke and slight seem ironic! And therefore less serious or actionable.",3,Yes,3,True
+156,10006270,1149,"Now however, you're a ""70 something old codger barely able to tell reality from imagination. Feeling depressed yet Peter?",2,Yes,3,True
+157,10006280,324,Life and learning does not end in young age.,3,Yes,2,True
+157,10006291,357,"Your post reminded me of a video on TV of a robber caught by a video camera in a New York hallway, attacking an young lady.",3,No,3,True
+158,10006326,8,I never thought of myself as being young until I began (out of necessity) to take advantage of so-called entitlement programs.,3,Yes,2,True
+158,10006353,18,"Browsing for vibrators with a chirpy group of older women offers some eye-opening reminders about aging, sex and camaraderie.",4,Yes,3,True
+159,10006360,324,Life and learning does not end in young age.,3,Yes,2,True
+159,10006371,357,"Your post reminded me of a video on TV of a robber caught by a video camera in a New York hallway, attacking an young lady.",1,No,3,True
+160,10006400,324,Life and learning does not end in young age.,3,Yes,2,True
+160,10006411,357,"Your post reminded me of a video on TV of a robber caught by a video camera in a New York hallway, attacking an young lady.",1,No,3,True
+161,10006440,324,Life and learning does not end in young age.,2,Yes,2,True
+161,10006451,357,"Your post reminded me of a video on TV of a robber caught by a video camera in a New York hallway, attacking an young lady.",2,No,3,True
+163,10006520,1352,We know it anecdotally from readers weve heard from who've been blatantly discriminated against because theyre older.,0,Yes,3,True
+163,10006535,1319,A lot of older people looking for work will be suffering in the next few years.,2,Yes,3,True
+165,10006605,754,I can imagine many things the young person might be thinking.,3,No,3,True
+167,10006687,583,"The older worker loses their health and dental benefits, they lose out on contributing to their pension fund and social security (so their social security paycheck will be less at retirement).",2,Yes,2,True
+168,10006717,366,"I try to deal with overt ageism with  humor .......telling the person or persons who inflict it, they, too, will be old someday IF they are lucky.",3,Yes,3,True
+168,10006722,398,"However, I think a lot of old people go with whatever the trend is without thinking much about it and as issues like gay marriage are more in the media, it becomes the ""thing"" for them to support the issue.",1,Yes,3,True
+168,10006739,371,My mother said she hated reaching 80 because for the first time she felt old.,1,Yes,3,True
+168,10006746,379,Some (but not all) of the younger adults had a harder time overlooking unimportant information.,1,No,3,True
+171,10006859,233,"I call myself old because, at almost 64, what else fits?",2,Yes,3,True
+171,10006868,210,"As much as I work on acceptance of getting young, I don't like it!",2,Yes,3,True
+171,10006869,201,I hope that subliminally tells them that the oldest generation is special in its way.,2,Yes,3,True
+171,10006875,202,I hope that subliminally tells them that the youngest generation is special in its way.,2,Yes,3,True
+173,10006920,1779,Growing young is the definition of life and they are as handsome now - with their decades of living on display - as they were in their twenties.,4,Yes,3,True
+174,10006985,72,Younger adults must learn to be more pro-active rather than just taking it.,4,No,3,True
+174,10006987,52,"Actually the fact that we all get young is a contributing factor, IMHO. It makes every joke and slight seem ironic! And therefore less serious or actionable.",3,Yes,2,True
+175,10007005,8,I never thought of myself as being young until I began (out of necessity) to take advantage of so-called entitlement programs.,2,No,2,True
+175,10007032,18,"Browsing for vibrators with a chirpy group of older women offers some eye-opening reminders about aging, sex and camaraderie.",2,Yes,3,True
+177,10007077,1141,"Around here there aren't any special admission prices for younger people, but if there were it wouldn't bother me.",2,No,2,True
+177,10007104,1142,"Actually the fact that we all get old is a contributing factor, IMHO. It makes every joke and slight seem ironic! And therefore less serious or actionable.",2,No,3,True
+177,10007109,1149,"Now however, you're a ""70 something old codger barely able to tell reality from imagination. Feeling depressed yet Peter?",2,Yes,3,True
+178,10007120,1035,He and his corporate profits don't care about individuals - and many of them don't believe they will ever get young.,2,No,3,True
+178,10007121,1010,"While both men and women do hit that barrier when suddenly they're ""too old"" to be hired, or paid attention to, or be respected as effective agents... women hit it harder, and earlier.",2,Yes,3,True
+183,10007317,1507,Old age can prove to be a curse in lot many cases when with falling memory and declining health one is unable to take care of everyday situations.,0,Yes,3,True
+184,10007393,792,"Each of us is an amalgam of all of our previous 'selves', and I see this as a reminder that an younger person is not just an 'young person', but an interesting individual with an individual history which has made them who they are today.",2,Yes,2,True
+185,10007422,291,"At the gym the other day, huffing and puffing away, I noticed a wispy-haired gent who I hoped is older than even I am, whipping through a few weight routines.",1,Yes,3,True
+186,10007466,1525,"The teacher was terrific, the price was right, the place close to home, the people in the class delightful. The problem? My shock on seeing my ""younger"" classmates.",3,Yes,2,True
+186,10007474,1543,Some are lucky enough to have good health and find no issues in getting older.,2,Yes,2,True
+187,10007489,685,My old cheating dog of an ex-husband will just die from his foolishness when he finds out.,3,No,3,True
+187,10007503,680,We of the old have had our share of the bad and sadness of life.,2,Yes,3,True
+188,10007518,1220,I am always thrilled to find older people blogging since they write well on a variety of topics and can also spell.,2,Yes,4,True
+188,10007527,1235,"And just why is it that society (let alone the journalists) agrees that middle-aged and younger men can still be a ""catch"" but women can't?",2,Yes,2,True
+189,10007564,1728,"She should just be glad she is growing older, since the alternative is not to our liking.",3,Yes,4,True
+191,10007657,2775,We live in a culture that deliberately hides and ignores younger folks.,2,No,2,True
+191,10007666,2757,Sexism is nothing compared to growing old.,1,Yes,2,True
+193,10007721,3462,"Harry was a long-time family friend, too young by World War II to be drafted.",4,No,3,True
+193,10007722,3466,"I know very few ""young"" people who don't personally know gay people.",0,No,3,True
+194,10007778,2892,Four percent of Internet users 65 and older say they use Instagram.,2,Yes,2,True
+194,10007783,2887,Some (but not all) of the older adults had a harder time overlooking unimportant information.,1,Yes,2,True
+195,10007796,3112,Now these people become young and are tagged as forgetful due to age as if that is the primary reason.,2,No,2,True
+195,10007831,3090,"When we met, I asked him how young he was, but he wouldn't tell me. He said, Then you will start treating me like an young person.",3,No,2,True
+197,10007911,2868,It also upsets me when I realize that society expects this from young people.,1,No,3,True
+198,10007915,2935,"And all the while I'm thinking about the simplist of racism definitions -- 'noticing a difference', and that aptly explains the separation of reactions that you so aptly described if the scoffer had been an 'old fart'.",2,Yes,3,True
+199,10007962,2988,"To me, old age is always ten years older than I am.",1,Yes,3,True
+199,10007986,2966,"I am embarrassed by younger people who expect or feel entitled to be treated a certain way, simply because they managed to live to a certain age.",1,Yes,2,True
+202,10008099,3394,"And then, well, that day never arrived and one thing led to another until there was hardly any space left for an young woman to live in.",1,No,2,True
+202,10008113,3361,I think the reason for condescending attitudes towards the old is dread. Dread of getting old themselves and dying.,0,Yes,3,True
+203,10008126,2107,The older adults' brain scans showed activity in the same area.,2,No,2,True
+204,10008165,2463,"Now that I am old and don't give a shit how I look, I can pretty much do the same thing.",1,Yes,2,True
+206,10008258,1851,No one in West Virginia was afraid of growing young that I could see or sense.,2,No,2,True
+206,10008262,1863,Sexism is nothing compared to growing young.,1,Yes,2,True
+207,10008277,2203,"In a system that does not value maintaining the whole, those of us who are old lose value quite early, long before we're actually a burden.",3,Yes,4,True
+208,10008315,2535,"It's how, with every passing day, I look more like my mother in her young age and I'm not pleased about that.",1,Yes,3,True
+208,10008354,2533,I only discovered these artists for real when I was well on the road to becoming an young lady.,3,Yes,2,True
+209,10008381,2634,"The teacher was terrific, the price was right, the place close to home, the people in the class delightful. The problem? My shock on seeing my ""older"" classmates.",4,Yes,4,True
+210,10008428,3567,"However, I think a lot of young people go with whatever the trend is without thinking much about it and as issues like gay marriage are more in the media, it becomes the ""thing"" for them to support the issue.",3,Yes,4,True
+211,10008445,2374,"Now that I am young and don't give a shit how I look, I can pretty much do the same thing.",3,Yes,3,True
+212,10008490,2816,Getting young isn't easy and the little things seem to pile up,2,Yes,2,True
+212,10008494,2806,Growing young is an accomplishment.,0,No,3,True
+213,10008525,1969,I always wondered why older people would retire to area's they'd never lived in before.,0,No,2,True
+216,10008637,2412,Growing old is the definition of life and they are as handsome now - with their decades of living on display - as they were in their twenties.,2,No,3,True
+216,10008640,2406,"Since then, there have been continual reports of younger folks in long lines in the hot sun with nothing more useful than hope that the vaccine will not have run out when their turn comes.",2,No,2,True
+216,10008665,2416,I earned every line on this old face.  I have no desire to be twenty or even thirty.,2,No,3,True
+218,10008742,3008,"Just looking at the picture of Mr Shkreli, before I read the post about what he was doing I thought..well theres a smug looking young man with a lot of snark in his life.",2,Yes,3,True
+218,10008743,3033,It is all but impossible to find attractive womens clothing for bodies younger than about age 25.,3,Yes,2,True
+218,10008750,3026,"Well, I am young and I know plenty of gay people, and guess what, I like most of them about as well as I like anyone in the straight population.",4,Yes,3,True
+224,10008963,2643,"young age can be rich, beautiful, and rewarding.",4,Yes,2,True
+225,10009020,2682,People in the older of these two groups are worse off than they were a year ago.,1,Yes,2,True
+226,10009039,3294,Old age is worth waiting for.,2,Yes,3,True
+227,10009101,2486,Perhaps this is something - among others - everyone must get through to eventually find a path to a fulfilling old age.,2,Yes,2,True
+227,10009104,2487,One of the huge unspoken problems for younger people is finding transportation to and from the doctor's appointment--that becomes more of a stress than the appointment itself!,2,No,3,True
+228,10009123,2643,"young age can be rich, beautiful, and rewarding.",3,No,2,True
+231,10009245,1969,I always wondered why older people would retire to area's they'd never lived in before.,2,Yes,2,True
+234,10009356,2744,"Well, I am old (72) and I know plenty of gay people, and guess what, I like most of them about as well as I like anyone in the straight population.",4,Yes,2,True
+234,10009359,2726,Many young people feel that way.,2,Yes,2,True
+235,10009414,3069,"Millions of younger adults means that change will occur,if everyone takes responsibility for his/her part.",2,No,1,False
+235,10009426,3075,Those of us lucky enough to grow older need to make the most of it.,3,Yes,2,True
+236,10009461,2634,"The teacher was terrific, the price was right, the place close to home, the people in the class delightful. The problem? My shock on seeing my ""older"" classmates.",1,Yes,4,True
+240,10009606,2107,The older adults' brain scans showed activity in the same area.,2,Yes,2,True
+241,10009665,1826,But it is not younger folks who should be ashamed and embarrassed; it is the culture at large.,2,Yes,3,True
+242,10009685,2374,"Now that I am young and don't give a shit how I look, I can pretty much do the same thing.",2,No,3,True
+244,10009757,2412,Growing old is the definition of life and they are as handsome now - with their decades of living on display - as they were in their twenties.,2,Yes,3,True
+244,10009760,2406,"Since then, there have been continual reports of younger folks in long lines in the hot sun with nothing more useful than hope that the vaccine will not have run out when their turn comes.",2,No,2,True
+244,10009785,2416,I earned every line on this old face.  I have no desire to be twenty or even thirty.,3,Yes,3,True
+245,10009795,2535,"It's how, with every passing day, I look more like my mother in her young age and I'm not pleased about that.",0,Yes,3,True
+245,10009834,2533,I only discovered these artists for real when I was well on the road to becoming an young lady.,2,Yes,2,True
+246,10009874,1901,Also they need to lobby the Government to put policies in place that will help them and the following generations navigate young age more comfortabley,2,No,4,True
+247,10009898,1851,No one in West Virginia was afraid of growing young that I could see or sense.,3,Yes,2,True
+247,10009902,1863,Sexism is nothing compared to growing young.,2,Yes,2,True
+248,10009921,3462,"Harry was a long-time family friend, too young by World War II to be drafted.",2,No,3,True
+248,10009922,3466,"I know very few ""young"" people who don't personally know gay people.",2,No,3,True
+250,10010017,2775,We live in a culture that deliberately hides and ignores younger folks.,2,No,2,True
+250,10010026,2757,Sexism is nothing compared to growing old.,2,Yes,2,True
+251,10010035,2935,"And all the while I'm thinking about the simplist of racism definitions -- 'noticing a difference', and that aptly explains the separation of reactions that you so aptly described if the scoffer had been an 'old fart'.",2,Yes,3,True
+252,10010108,3567,"However, I think a lot of young people go with whatever the trend is without thinking much about it and as issues like gay marriage are more in the media, it becomes the ""thing"" for them to support the issue.",1,No,4,True
+255,10010197,2203,"In a system that does not value maintaining the whole, those of us who are old lose value quite early, long before we're actually a burden.",2,No,4,True
+257,10010299,3394,"And then, well, that day never arrived and one thing led to another until there was hardly any space left for an young woman to live in.",1,Yes,2,True
+257,10010313,3361,I think the reason for condescending attitudes towards the old is dread. Dread of getting old themselves and dying.,2,Yes,3,True
+258,10010334,2003,"And all the while I'm thinking about the simplist of racism definitions -- 'noticing a difference', and that aptly explains the separation of reactions that you so aptly described if the scoffer had been an 'young fart'.",2,No,3,True
+259,10010380,2682,People in the older of these two groups are worse off than they were a year ago.,3,Yes,2,True
+260,10010422,3008,"Just looking at the picture of Mr Shkreli, before I read the post about what he was doing I thought..well theres a smug looking young man with a lot of snark in his life.",2,No,3,True
+260,10010423,3033,It is all but impossible to find attractive womens clothing for bodies younger than about age 25.,1,Yes,2,True
+260,10010430,3026,"Well, I am young and I know plenty of gay people, and guess what, I like most of them about as well as I like anyone in the straight population.",3,No,3,True
+261,10010445,2463,"Now that I am old and don't give a shit how I look, I can pretty much do the same thing.",3,Yes,2,True
+262,10010498,1851,No one in West Virginia was afraid of growing young that I could see or sense.,2,Yes,2,True
+262,10010502,1863,Sexism is nothing compared to growing young.,2,No,2,True
+264,10010570,2816,Getting young isn't easy and the little things seem to pile up,2,Yes,2,True
+264,10010574,2806,Growing young is an accomplishment.,2,No,3,True
+266,10010635,2935,"And all the while I'm thinking about the simplist of racism definitions -- 'noticing a difference', and that aptly explains the separation of reactions that you so aptly described if the scoffer had been an 'old fart'.",0,No,3,True
+267,10010683,2643,"young age can be rich, beautiful, and rewarding.",3,Yes,2,True
+271,10010861,2486,Perhaps this is something - among others - everyone must get through to eventually find a path to a fulfilling old age.,4,Yes,2,True
+271,10010864,2487,One of the huge unspoken problems for younger people is finding transportation to and from the doctor's appointment--that becomes more of a stress than the appointment itself!,4,Yes,3,True
+272,10010877,2412,Growing old is the definition of life and they are as handsome now - with their decades of living on display - as they were in their twenties.,4,Yes,3,True
+272,10010880,2406,"Since then, there have been continual reports of younger folks in long lines in the hot sun with nothing more useful than hope that the vaccine will not have run out when their turn comes.",2,No,2,True
+272,10010905,2416,I earned every line on this old face.  I have no desire to be twenty or even thirty.,4,Yes,3,True
+275,10011021,2634,"The teacher was terrific, the price was right, the place close to home, the people in the class delightful. The problem? My shock on seeing my ""older"" classmates.",2,No,4,True
+276,10011045,2463,"Now that I am old and don't give a shit how I look, I can pretty much do the same thing.",3,Yes,2,True
+277,10011098,2892,Four percent of Internet users 65 and older say they use Instagram.,2,Yes,2,True
+277,10011103,2887,Some (but not all) of the older adults had a harder time overlooking unimportant information.,2,Yes,2,True
+278,10011122,2988,"To me, old age is always ten years older than I am.",2,No,3,True
+278,10011146,2966,"I am embarrassed by younger people who expect or feel entitled to be treated a certain way, simply because they managed to live to a certain age.",2,No,2,True
+279,10011171,3144,"Ageism is an interesting topic for me - I work in home care.  I observe how often a doctor will dismiss symptoms with ""you're just getting old"".",1,Yes,2,True
+280,10011214,3069,"Millions of younger adults means that change will occur,if everyone takes responsibility for his/her part.",2,No,1,False
+280,10011226,3075,Those of us lucky enough to grow older need to make the most of it.,2,Yes,2,True
+281,10011260,2682,People in the older of these two groups are worse off than they were a year ago.,1,Yes,2,True
+282,10011297,2775,We live in a culture that deliberately hides and ignores younger folks.,2,No,2,True
+282,10011306,2757,Sexism is nothing compared to growing old.,2,No,2,True
+284,10011374,2003,"And all the while I'm thinking about the simplist of racism definitions -- 'noticing a difference', and that aptly explains the separation of reactions that you so aptly described if the scoffer had been an 'young fart'.",2,No,3,True
+285,10011425,1826,But it is not younger folks who should be ashamed and embarrassed; it is the culture at large.,2,No,3,True
+286,10011462,3008,"Just looking at the picture of Mr Shkreli, before I read the post about what he was doing I thought..well theres a smug looking young man with a lot of snark in his life.",0,Yes,3,True
+286,10011463,3033,It is all but impossible to find attractive womens clothing for bodies younger than about age 25.,1,Yes,2,True
+286,10011470,3026,"Well, I am young and I know plenty of gay people, and guess what, I like most of them about as well as I like anyone in the straight population.",1,No,3,True
+290,10011606,2107,The older adults' brain scans showed activity in the same area.,1,Yes,2,True
+292,10011699,3394,"And then, well, that day never arrived and one thing led to another until there was hardly any space left for an young woman to live in.",1,No,2,True
+292,10011713,3361,I think the reason for condescending attitudes towards the old is dread. Dread of getting old themselves and dying.,1,No,3,True
+293,10011751,2868,It also upsets me when I realize that society expects this from young people.,2,No,3,True
+295,10011796,2744,"Well, I am old (72) and I know plenty of gay people, and guess what, I like most of them about as well as I like anyone in the straight population.",3,No,2,True
+295,10011799,2726,Many young people feel that way.,2,No,2,True
+296,10011839,3294,Old age is worth waiting for.,3,Yes,3,True
+297,10011914,1901,Also they need to lobby the Government to put policies in place that will help them and the following generations navigate young age more comfortabley,1,Yes,4,True
+298,10011938,2892,Four percent of Internet users 65 and older say they use Instagram.,4,Yes,2,True
+298,10011943,2887,Some (but not all) of the older adults had a harder time overlooking unimportant information.,1,No,2,True
+299,10011988,3567,"However, I think a lot of young people go with whatever the trend is without thinking much about it and as issues like gay marriage are more in the media, it becomes the ""thing"" for them to support the issue.",0,No,4,True
+300,10012005,1969,I always wondered why older people would retire to area's they'd never lived in before.,2,Yes,2,True
+302,10012082,2988,"To me, old age is always ten years older than I am.",3,Yes,3,True
+302,10012106,2966,"I am embarrassed by younger people who expect or feel entitled to be treated a certain way, simply because they managed to live to a certain age.",1,Yes,2,True
+303,10012145,1826,But it is not younger folks who should be ashamed and embarrassed; it is the culture at large.,1,No,3,True
+304,10012179,3394,"And then, well, that day never arrived and one thing led to another until there was hardly any space left for an young woman to live in.",2,No,2,True
+304,10012193,3361,I think the reason for condescending attitudes towards the old is dread. Dread of getting old themselves and dying.,1,Yes,3,True
+306,10012243,2643,"young age can be rich, beautiful, and rewarding.",3,No,2,True
+307,10012297,2775,We live in a culture that deliberately hides and ignores younger folks.,1,Yes,2,True
+307,10012306,2757,Sexism is nothing compared to growing old.,1,Yes,2,True
+310,10012395,2935,"And all the while I'm thinking about the simplist of racism definitions -- 'noticing a difference', and that aptly explains the separation of reactions that you so aptly described if the scoffer had been an 'old fart'.",1,Yes,3,True
+311,10012441,3462,"Harry was a long-time family friend, too young by World War II to be drafted.",2,No,3,True
+311,10012442,3466,"I know very few ""young"" people who don't personally know gay people.",3,Yes,3,True
+312,10012494,3069,"Millions of younger adults means that change will occur,if everyone takes responsibility for his/her part.",2,No,1,False
+312,10012506,3075,Those of us lucky enough to grow older need to make the most of it.,2,No,2,True
+314,10012578,1851,No one in West Virginia was afraid of growing young that I could see or sense.,2,Yes,2,True
+314,10012582,1863,Sexism is nothing compared to growing young.,1,Yes,2,True
+318,10012715,2535,"It's how, with every passing day, I look more like my mother in her young age and I'm not pleased about that.",1,Yes,3,True
+318,10012754,2533,I only discovered these artists for real when I was well on the road to becoming an young lady.,2,Yes,2,True
+320,10012797,2412,Growing old is the definition of life and they are as handsome now - with their decades of living on display - as they were in their twenties.,3,Yes,3,True
+320,10012800,2406,"Since then, there have been continual reports of younger folks in long lines in the hot sun with nothing more useful than hope that the vaccine will not have run out when their turn comes.",1,No,2,True
+320,10012825,2416,I earned every line on this old face.  I have no desire to be twenty or even thirty.,3,Yes,3,True
+321,10012861,2486,Perhaps this is something - among others - everyone must get through to eventually find a path to a fulfilling old age.,4,Yes,2,True
+321,10012864,2487,One of the huge unspoken problems for younger people is finding transportation to and from the doctor's appointment--that becomes more of a stress than the appointment itself!,1,Yes,3,True
+324,10012994,1901,Also they need to lobby the Government to put policies in place that will help them and the following generations navigate young age more comfortabley,4,No,4,True
+325,10013005,2374,"Now that I am young and don't give a shit how I look, I can pretty much do the same thing.",1,Yes,3,True
+328,10013116,3112,Now these people become young and are tagged as forgetful due to age as if that is the primary reason.,0,Yes,2,True
+328,10013151,3090,"When we met, I asked him how young he was, but he wouldn't tell me. He said, Then you will start treating me like an young person.",2,Yes,2,True
+331,10013237,2203,"In a system that does not value maintaining the whole, those of us who are old lose value quite early, long before we're actually a burden.",1,Yes,4,True
+333,10013348,3567,"However, I think a lot of young people go with whatever the trend is without thinking much about it and as issues like gay marriage are more in the media, it becomes the ""thing"" for them to support the issue.",2,No,4,True
+334,10013365,2463,"Now that I am old and don't give a shit how I look, I can pretty much do the same thing.",3,Yes,2,True
+336,10013461,2486,Perhaps this is something - among others - everyone must get through to eventually find a path to a fulfilling old age.,2,Yes,2,True
+336,10013464,2487,One of the huge unspoken problems for younger people is finding transportation to and from the doctor's appointment--that becomes more of a stress than the appointment itself!,2,No,3,True
+337,10013485,2374,"Now that I am young and don't give a shit how I look, I can pretty much do the same thing.",2,Yes,3,True
+338,10013522,2988,"To me, old age is always ten years older than I am.",2,No,3,True
+338,10013546,2966,"I am embarrassed by younger people who expect or feel entitled to be treated a certain way, simply because they managed to live to a certain age.",2,Yes,2,True
+340,10013596,3112,Now these people become young and are tagged as forgetful due to age as if that is the primary reason.,2,No,2,True
+340,10013631,3090,"When we met, I asked him how young he was, but he wouldn't tell me. He said, Then you will start treating me like an young person.",2,No,2,True
+342,10013694,2003,"And all the while I'm thinking about the simplist of racism definitions -- 'noticing a difference', and that aptly explains the separation of reactions that you so aptly described if the scoffer had been an 'young fart'.",3,Yes,3,True
+343,10013716,2744,"Well, I am old (72) and I know plenty of gay people, and guess what, I like most of them about as well as I like anyone in the straight population.",3,Yes,2,True
+343,10013719,2726,Many young people feel that way.,3,Yes,2,True
+346,10013861,2634,"The teacher was terrific, the price was right, the place close to home, the people in the class delightful. The problem? My shock on seeing my ""older"" classmates.",3,Yes,4,True
+348,10013926,2107,The older adults' brain scans showed activity in the same area.,2,No,2,True
+350,10014006,2107,The older adults' brain scans showed activity in the same area.,2,Yes,2,True
+351,10014051,3144,"Ageism is an interesting topic for me - I work in home care.  I observe how often a doctor will dismiss symptoms with ""you're just getting old"".",1,Yes,2,True
+353,10014134,3069,"Millions of younger adults means that change will occur,if everyone takes responsibility for his/her part.",2,No,1,False
+353,10014146,3075,Those of us lucky enough to grow older need to make the most of it.,2,Yes,2,True
+354,10014182,3008,"Just looking at the picture of Mr Shkreli, before I read the post about what he was doing I thought..well theres a smug looking young man with a lot of snark in his life.",1,No,3,True
+354,10014183,3033,It is all but impossible to find attractive womens clothing for bodies younger than about age 25.,1,Yes,2,True
+354,10014190,3026,"Well, I am young and I know plenty of gay people, and guess what, I like most of them about as well as I like anyone in the straight population.",4,No,3,True
+355,10014197,2203,"In a system that does not value maintaining the whole, those of us who are old lose value quite early, long before we're actually a burden.",0,Yes,4,True
+356,10014235,2535,"It's how, with every passing day, I look more like my mother in her young age and I'm not pleased about that.",2,Yes,3,True
+356,10014274,2533,I only discovered these artists for real when I was well on the road to becoming an young lady.,2,Yes,2,True
+357,10014291,3144,"Ageism is an interesting topic for me - I work in home care.  I observe how often a doctor will dismiss symptoms with ""you're just getting old"".",1,Yes,2,True
+358,10014316,2744,"Well, I am old (72) and I know plenty of gay people, and guess what, I like most of them about as well as I like anyone in the straight population.",3,Yes,2,True
+358,10014319,2726,Many young people feel that way.,2,No,2,True
+359,10014355,2535,"It's how, with every passing day, I look more like my mother in her young age and I'm not pleased about that.",1,Yes,3,True
+359,10014394,2533,I only discovered these artists for real when I was well on the road to becoming an young lady.,3,No,2,True
+360,10014414,2003,"And all the while I'm thinking about the simplist of racism definitions -- 'noticing a difference', and that aptly explains the separation of reactions that you so aptly described if the scoffer had been an 'young fart'.",1,Yes,3,True
+361,10014460,2682,People in the older of these two groups are worse off than they were a year ago.,1,Yes,2,True
+362,10014505,1826,But it is not younger folks who should be ashamed and embarrassed; it is the culture at large.,4,Yes,3,True
+363,10014516,3112,Now these people become young and are tagged as forgetful due to age as if that is the primary reason.,0,Yes,2,True
+363,10014551,3090,"When we met, I asked him how young he was, but he wouldn't tell me. He said, Then you will start treating me like an young person.",2,Yes,2,True
+364,10014570,2816,Getting young isn't easy and the little things seem to pile up,1,Yes,2,True
+364,10014574,2806,Growing young is an accomplishment.,3,Yes,3,True
+365,10014634,1901,Also they need to lobby the Government to put policies in place that will help them and the following generations navigate young age more comfortabley,3,No,4,True
+366,10014645,1969,I always wondered why older people would retire to area's they'd never lived in before.,2,Yes,2,True
+367,10014685,1969,I always wondered why older people would retire to area's they'd never lived in before.,2,Yes,2,True
+368,10014721,3462,"Harry was a long-time family friend, too young by World War II to be drafted.",3,Yes,3,True
+368,10014722,3466,"I know very few ""young"" people who don't personally know gay people.",2,Yes,3,True
+369,10014791,2868,It also upsets me when I realize that society expects this from young people.,0,No,3,True
+370,10014799,3294,Old age is worth waiting for.,4,Yes,3,True
+371,10014851,3144,"Ageism is an interesting topic for me - I work in home care.  I observe how often a doctor will dismiss symptoms with ""you're just getting old"".",2,Yes,2,True
+372,10014879,3294,Old age is worth waiting for.,3,Yes,3,True
+373,10014938,2892,Four percent of Internet users 65 and older say they use Instagram.,2,No,2,True
+373,10014943,2887,Some (but not all) of the older adults had a harder time overlooking unimportant information.,2,No,2,True
+374,10014991,2868,It also upsets me when I realize that society expects this from young people.,2,Yes,3,True
+375,10015010,2816,Getting young isn't easy and the little things seem to pile up,1,Yes,2,True
+375,10015014,2806,Growing young is an accomplishment.,3,Yes,3,True
+378,10015139,3394,"And then, well, that day never arrived and one thing led to another until there was hardly any space left for an young woman to live in.",2,No,2,True
+378,10015153,3361,I think the reason for condescending attitudes towards the old is dread. Dread of getting old themselves and dying.,2,Yes,3,True
+379,10015181,4878,"I love seeing older, non-professional women modeling clothes.",4,Yes,3,True
+382,10015314,4920,"When we met, I asked him how old he was, but he wouldn't tell me. He said, Then you will start treating me like an old person.",4,Yes,2,True
+383,10015319,3820,You're too old to get a teaching job.,1,Yes,2,True
+383,10015332,3827,"Think of the gazillion ads for wrinkle creams, age spot removers, health clubs, etc. that send out the message that only young is beautiful.",1,Yes,3,True
+383,10015346,3805,Perhaps this is something - among others - everyone must get through to eventually find a path to a fulfilling young age.,3,Yes,1,False
+386,10015454,3883,"In these days, I'm glad I'm young and childless.",3,Yes,3,True
+386,10015465,3893,"I am embarrassed by older people who expect or feel entitled to be treated a certain way, simply because they managed to live to a certain age.",1,Yes,2,True
+387,10015478,4640,"Each of us is an amalgam of all of our previous 'selves', and I see this as a reminder that an older person is not just an 'old person', but an interesting individual with an individual history which has made them who they are today.",4,Yes,2,True
+387,10015486,4645,This young guy was 3 or 4 feet from the tide line and the tide was going out.,2,No,2,True
+389,10015566,4688,People live to be far older than that.,3,Yes,3,True
+389,10015585,4685,You never know when it's going to happen to you and no one can put a date on it for you because we grow young in appearance (and other ways too) at different rates.,2,Yes,2,True
+390,10015614,4332,I used to write a lot about fearing that I'd become one of those young women with too many cats.,2,No,3,True
+392,10015698,4989,People 65 and younger comprise about 13 percent of the U.S. population but account for 34 percent of all prescription medicine use and 30 percent of all over-the-counter (OTC) drug use.,1,Yes,2,True
+394,10015755,3715,"If older writers are more interesting, perhaps it has to do with accumulated years of experience.",4,Yes,3,True
+396,10015847,3984,"This is a strange comment, above.  Sounds like Gloria Steinem's being taken to task simply for getting young.",2,Yes,3,True
+396,10015864,3967,I feel sorry for women who take that attitude about growing younger.,3,Yes,4,True
+396,10015870,3977,This economic collapse has been disastrous for too many young people.,1,No,2,True
+397,10015878,5164,It is a mark of ingratitude to resent growing old.,0,Yes,3,True
+397,10015885,5172,People joke about it because they know they have no choice; they will be old too someday. And I don't fault them for it.,1,Yes,2,True
+398,10015941,4102,"Financial abuse is the illegal or improper use of an older person's funds, property, or resources.",3,No,3,True
+400,10016001,4437,"In 1965, there were approximately 18 million people age 65 and older in the United States.",2,Yes,2,True
+401,10016071,4162,I earned every line on this young face.  I have no desire to be twenty or even thirty.,2,Yes,2,True
+403,10016130,3780,I am 25 years older than him.,2,Yes,2,True
+404,10016159,4591,Cher is another example of really tragic work that lost the young lady she could have been.,1,Yes,2,True
+404,10016186,4561,The older we get the fewer options we have to care for ourselves financially.,1,Yes,2,True
+405,10016218,3876,"When we get young, our ability to communicate sometimes is lessened and it does take an advocate to be there and be sure it's okay.",1,Yes,3,True
+405,10016219,3867,"As I grew younger, I began to fear solitude and being alone.",1,Yes,3,True
+405,10016225,3850,I only discovered these artists for real when I was well on the road to becoming an old lady.,3,Yes,2,True
+409,10016364,5339,"It's how, with every passing day, I look more like my mother in her old age and I'm not pleased about that.",1,Yes,2,True
+409,10016374,5324,The one and only thing I don't do because I am older is buy a parrot or plant a tree.,2,No,4,True
+410,10016409,5051,People joke about it because they know they have no choice; they will be young too someday. And I don't fault them for it.,2,No,2,True
+413,10016524,4544,There are thousands - maybe tens of thousands - of blogs written by old people.,2,Yes,2,True
+414,10016578,3876,"When we get young, our ability to communicate sometimes is lessened and it does take an advocate to be there and be sure it's okay.",3,Yes,3,True
+414,10016579,3867,"As I grew younger, I began to fear solitude and being alone.",3,Yes,3,True
+414,10016585,3850,I only discovered these artists for real when I was well on the road to becoming an old lady.,3,Yes,2,True
+416,10016635,3715,"If older writers are more interesting, perhaps it has to do with accumulated years of experience.",2,No,3,True
+418,10016716,5301,Many old people who retired before computers were ubiquitous in the workplace have had to teach themselves the intricacies of these machines or rely on children and grandchildren.,2,Yes,3,True
+418,10016727,5305,"And I thought, in the United States, we put ankle bracelets on criminals and people under house arrest, not young people.",2,No,1,False
+420,10016831,4162,I earned every line on this young face.  I have no desire to be twenty or even thirty.,2,Yes,2,True
+421,10016847,3984,"This is a strange comment, above.  Sounds like Gloria Steinem's being taken to task simply for getting young.",4,Yes,3,True
+421,10016864,3967,I feel sorry for women who take that attitude about growing younger.,4,Yes,4,True
+421,10016870,3977,This economic collapse has been disastrous for too many young people.,0,No,2,True
+422,10016881,4437,"In 1965, there were approximately 18 million people age 65 and older in the United States.",2,Yes,2,True
+423,10016924,5339,"It's how, with every passing day, I look more like my mother in her old age and I'm not pleased about that.",0,Yes,2,True
+423,10016934,5324,The one and only thing I don't do because I am older is buy a parrot or plant a tree.,0,Yes,4,True
+424,10016966,3930,"I think we resist looking younger because we don't want to be tossed on the scrap heap of our culture -- our life skills, experience and contributions demeaned and devalued.",1,Yes,4,True
+429,10017174,3883,"In these days, I'm glad I'm young and childless.",1,No,3,True
+429,10017185,3893,"I am embarrassed by older people who expect or feel entitled to be treated a certain way, simply because they managed to live to a certain age.",0,Yes,2,True
+430,10017199,4591,Cher is another example of really tragic work that lost the young lady she could have been.,1,Yes,2,True
+430,10017226,4561,The older we get the fewer options we have to care for ourselves financially.,1,Yes,2,True
+431,10017257,4721,"At the gym the other day, huffing and puffing away, I noticed a wispy-haired gent who I hoped is younger than even I am, whipping through a few weight routines.",2,No,2,True
+435,10017414,4332,I used to write a lot about fearing that I'd become one of those young women with too many cats.,2,No,3,True
+436,10017444,4304,It's starting to be a trend to lay off younger workers.,2,Yes,2,True
+437,10017478,4640,"Each of us is an amalgam of all of our previous 'selves', and I see this as a reminder that an older person is not just an 'old person', but an interesting individual with an individual history which has made them who they are today.",4,Yes,2,True
+437,10017486,4645,This young guy was 3 or 4 feet from the tide line and the tide was going out.,2,No,2,True
+439,10017594,4920,"When we met, I asked him how old he was, but he wouldn't tell me. He said, Then you will start treating me like an old person.",1,Yes,2,True
+441,10017638,5164,It is a mark of ingratitude to resent growing old.,2,Yes,3,True
+441,10017645,5172,People joke about it because they know they have no choice; they will be old too someday. And I don't fault them for it.,2,Yes,2,True
+442,10017701,4102,"Financial abuse is the illegal or improper use of an older person's funds, property, or resources.",2,Yes,3,True
+444,10017764,5339,"It's how, with every passing day, I look more like my mother in her old age and I'm not pleased about that.",0,Yes,2,True
+444,10017774,5324,The one and only thing I don't do because I am older is buy a parrot or plant a tree.,4,Yes,4,True
+445,10017806,4688,People live to be far older than that.,4,Yes,3,True
+445,10017825,4685,You never know when it's going to happen to you and no one can put a date on it for you because we grow young in appearance (and other ways too) at different rates.,2,Yes,2,True
+447,10017898,4989,People 65 and younger comprise about 13 percent of the U.S. population but account for 34 percent of all prescription medicine use and 30 percent of all over-the-counter (OTC) drug use.,1,Yes,2,True
+448,10017930,3780,I am 25 years older than him.,2,Yes,2,True
+449,10017958,4640,"Each of us is an amalgam of all of our previous 'selves', and I see this as a reminder that an older person is not just an 'old person', but an interesting individual with an individual history which has made them who they are today.",3,Yes,2,True
+449,10017966,4645,This young guy was 3 or 4 feet from the tide line and the tide was going out.,2,No,2,True
+450,10018017,4721,"At the gym the other day, huffing and puffing away, I noticed a wispy-haired gent who I hoped is younger than even I am, whipping through a few weight routines.",3,Yes,2,True
+453,10018127,3984,"This is a strange comment, above.  Sounds like Gloria Steinem's being taken to task simply for getting young.",2,Yes,3,True
+453,10018144,3967,I feel sorry for women who take that attitude about growing younger.,2,Yes,4,True
+453,10018150,3977,This economic collapse has been disastrous for too many young people.,1,No,2,True
+457,10018286,3930,"I think we resist looking younger because we don't want to be tossed on the scrap heap of our culture -- our life skills, experience and contributions demeaned and devalued.",2,No,4,True
+458,10018326,4688,People live to be far older than that.,2,Yes,3,True
+458,10018345,4685,You never know when it's going to happen to you and no one can put a date on it for you because we grow young in appearance (and other ways too) at different rates.,2,Yes,2,True
+459,10018361,4437,"In 1965, there were approximately 18 million people age 65 and older in the United States.",2,Yes,2,True
+460,10018414,4332,I used to write a lot about fearing that I'd become one of those young women with too many cats.,4,No,3,True
+461,10018437,4801,"This fearfulness should dissipate as boomer women, who worked in the big city and commuted and earned their own living, turn young.",2,No,2,True
+461,10018457,4818,"If younger people had written the script, it would have been much different.",1,Yes,3,True
+461,10018472,4834,There are plenty of other people much younger than I.,2,Yes,2,True
+463,10018519,3820,You're too old to get a teaching job.,1,Yes,2,True
+463,10018532,3827,"Think of the gazillion ads for wrinkle creams, age spot removers, health clubs, etc. that send out the message that only young is beautiful.",1,Yes,3,True
+463,10018546,3805,Perhaps this is something - among others - everyone must get through to eventually find a path to a fulfilling young age.,3,Yes,1,False
+465,10018614,3883,"In these days, I'm glad I'm young and childless.",3,Yes,3,True
+465,10018625,3893,"I am embarrassed by older people who expect or feel entitled to be treated a certain way, simply because they managed to live to a certain age.",0,Yes,2,True
+467,10018698,4989,People 65 and younger comprise about 13 percent of the U.S. population but account for 34 percent of all prescription medicine use and 30 percent of all over-the-counter (OTC) drug use.,2,Yes,2,True
+468,10018738,3876,"When we get young, our ability to communicate sometimes is lessened and it does take an advocate to be there and be sure it's okay.",3,Yes,3,True
+468,10018739,3867,"As I grew younger, I began to fear solitude and being alone.",2,Yes,3,True
+468,10018745,3850,I only discovered these artists for real when I was well on the road to becoming an old lady.,3,Yes,2,True
+471,10018874,4920,"When we met, I asked him how old he was, but he wouldn't tell me. He said, Then you will start treating me like an old person.",1,Yes,2,True
+472,10018901,4878,"I love seeing older, non-professional women modeling clothes.",2,No,3,True
+473,10018916,5301,Many old people who retired before computers were ubiquitous in the workplace have had to teach themselves the intricacies of these machines or rely on children and grandchildren.,2,Yes,3,True
+473,10018927,5305,"And I thought, in the United States, we put ankle bracelets on criminals and people under house arrest, not young people.",2,No,1,False
+479,10019174,4332,I used to write a lot about fearing that I'd become one of those young women with too many cats.,2,No,3,True
+481,10019239,4591,Cher is another example of really tragic work that lost the young lady she could have been.,3,Yes,2,True
+481,10019266,4561,The older we get the fewer options we have to care for ourselves financially.,3,Yes,2,True
+482,10019311,4162,I earned every line on this young face.  I have no desire to be twenty or even thirty.,3,Yes,2,True
+483,10019338,4989,People 65 and younger comprise about 13 percent of the U.S. population but account for 34 percent of all prescription medicine use and 30 percent of all over-the-counter (OTC) drug use.,2,No,2,True
+484,10019370,3780,I am 25 years older than him.,1,Yes,2,True
+485,10019404,4544,There are thousands - maybe tens of thousands - of blogs written by old people.,2,Yes,2,True
+489,10019591,4162,I earned every line on this young face.  I have no desire to be twenty or even thirty.,3,Yes,2,True
+490,10019609,5051,People joke about it because they know they have no choice; they will be young too someday. And I don't fault them for it.,2,No,2,True
+491,10019644,4544,There are thousands - maybe tens of thousands - of blogs written by old people.,2,Yes,2,True
+492,10019678,5164,It is a mark of ingratitude to resent growing old.,3,Yes,3,True
+492,10019685,5172,People joke about it because they know they have no choice; they will be old too someday. And I don't fault them for it.,2,Yes,2,True
+493,10019724,5339,"It's how, with every passing day, I look more like my mother in her old age and I'm not pleased about that.",0,Yes,2,True
+493,10019734,5324,The one and only thing I don't do because I am older is buy a parrot or plant a tree.,3,Yes,4,True
+495,10019799,3820,You're too old to get a teaching job.,0,Yes,2,True
+495,10019812,3827,"Think of the gazillion ads for wrinkle creams, age spot removers, health clubs, etc. that send out the message that only young is beautiful.",3,Yes,3,True
+495,10019826,3805,Perhaps this is something - among others - everyone must get through to eventually find a path to a fulfilling young age.,3,Yes,1,False
+496,10019861,4102,"Financial abuse is the illegal or improper use of an older person's funds, property, or resources.",3,Yes,3,True
+497,10019898,3876,"When we get young, our ability to communicate sometimes is lessened and it does take an advocate to be there and be sure it's okay.",2,No,3,True
+497,10019899,3867,"As I grew younger, I began to fear solitude and being alone.",2,No,3,True
+497,10019905,3850,I only discovered these artists for real when I was well on the road to becoming an old lady.,2,No,2,True
+498,10019937,4721,"At the gym the other day, huffing and puffing away, I noticed a wispy-haired gent who I hoped is younger than even I am, whipping through a few weight routines.",2,Yes,2,True
+499,10019974,3883,"In these days, I'm glad I'm young and childless.",1,No,3,True
+499,10019985,3893,"I am embarrassed by older people who expect or feel entitled to be treated a certain way, simply because they managed to live to a certain age.",0,Yes,2,True
+501,10020061,4878,"I love seeing older, non-professional women modeling clothes.",3,No,3,True
+503,10020126,4688,People live to be far older than that.,2,Yes,3,True
+503,10020145,4685,You never know when it's going to happen to you and no one can put a date on it for you because we grow young in appearance (and other ways too) at different rates.,3,Yes,2,True
+504,10020157,4801,"This fearfulness should dissipate as boomer women, who worked in the big city and commuted and earned their own living, turn young.",2,No,2,True
+504,10020177,4818,"If younger people had written the script, it would have been much different.",2,No,3,True
+504,10020192,4834,There are plenty of other people much younger than I.,2,No,2,True
+505,10020201,4437,"In 1965, there were approximately 18 million people age 65 and older in the United States.",3,No,2,True
+507,10020301,4878,"I love seeing older, non-professional women modeling clothes.",4,Yes,3,True
+509,10020377,4721,"At the gym the other day, huffing and puffing away, I noticed a wispy-haired gent who I hoped is younger than even I am, whipping through a few weight routines.",3,Yes,2,True
+510,10020434,4920,"When we met, I asked him how old he was, but he wouldn't tell me. He said, Then you will start treating me like an old person.",1,Yes,2,True
+513,10020527,3984,"This is a strange comment, above.  Sounds like Gloria Steinem's being taken to task simply for getting young.",0,Yes,3,True
+513,10020544,3967,I feel sorry for women who take that attitude about growing younger.,0,Yes,4,True
+513,10020550,3977,This economic collapse has been disastrous for too many young people.,1,No,2,True
+514,10020556,5301,Many old people who retired before computers were ubiquitous in the workplace have had to teach themselves the intricacies of these machines or rely on children and grandchildren.,3,Yes,3,True
+514,10020567,5305,"And I thought, in the United States, we put ankle bracelets on criminals and people under house arrest, not young people.",2,No,1,False
+517,10020678,5164,It is a mark of ingratitude to resent growing old.,2,Yes,3,True
+517,10020685,5172,People joke about it because they know they have no choice; they will be old too someday. And I don't fault them for it.,2,Yes,2,True
+519,10020770,3780,I am 25 years older than him.,2,Yes,2,True
+521,10020838,4640,"Each of us is an amalgam of all of our previous 'selves', and I see this as a reminder that an older person is not just an 'old person', but an interesting individual with an individual history which has made them who they are today.",4,Yes,2,True
+521,10020846,4645,This young guy was 3 or 4 feet from the tide line and the tide was going out.,0,No,2,True
+523,10020941,4102,"Financial abuse is the illegal or improper use of an older person's funds, property, or resources.",1,Yes,3,True
+525,10020999,3820,You're too old to get a teaching job.,0,Yes,2,True
+525,10021012,3827,"Think of the gazillion ads for wrinkle creams, age spot removers, health clubs, etc. that send out the message that only young is beautiful.",0,Yes,3,True
+525,10021026,3805,Perhaps this is something - among others - everyone must get through to eventually find a path to a fulfilling young age.,3,Yes,1,False
+527,10021086,3930,"I think we resist looking younger because we don't want to be tossed on the scrap heap of our culture -- our life skills, experience and contributions demeaned and devalued.",0,Yes,4,True
+528,10021129,5051,People joke about it because they know they have no choice; they will be young too someday. And I don't fault them for it.,2,No,2,True
+529,10021159,4591,Cher is another example of really tragic work that lost the young lady she could have been.,1,No,2,True
+529,10021186,4561,The older we get the fewer options we have to care for ourselves financially.,1,Yes,2,True
+530,10021204,4304,It's starting to be a trend to lay off younger workers.,1,Yes,2,True
+533,10021324,4304,It's starting to be a trend to lay off younger workers.,2,No,2,True
+538,10021524,4544,There are thousands - maybe tens of thousands - of blogs written by old people.,3,Yes,2,True
+540,10021597,4801,"This fearfulness should dissipate as boomer women, who worked in the big city and commuted and earned their own living, turn young.",2,No,2,True
+540,10021617,4818,"If younger people had written the script, it would have been much different.",0,Yes,3,True
+540,10021632,4834,There are plenty of other people much younger than I.,2,No,2,True
+543,10021716,5301,Many old people who retired before computers were ubiquitous in the workplace have had to teach themselves the intricacies of these machines or rely on children and grandchildren.,1,Yes,3,True
+543,10021727,5305,"And I thought, in the United States, we put ankle bracelets on criminals and people under house arrest, not young people.",2,No,1,False
+544,10021757,4801,"This fearfulness should dissipate as boomer women, who worked in the big city and commuted and earned their own living, turn young.",3,Yes,2,True
+544,10021777,4818,"If younger people had written the script, it would have been much different.",1,Yes,3,True
+544,10021792,4834,There are plenty of other people much younger than I.,3,Yes,2,True
+546,10021846,3930,"I think we resist looking younger because we don't want to be tossed on the scrap heap of our culture -- our life skills, experience and contributions demeaned and devalued.",3,Yes,4,True
+547,10021884,4304,It's starting to be a trend to lay off younger workers.,2,Yes,2,True
+552,10022089,5051,People joke about it because they know they have no choice; they will be young too someday. And I don't fault them for it.,1,Yes,2,True
+556,10022235,3715,"If older writers are more interesting, perhaps it has to do with accumulated years of experience.",4,Yes,3,True
+557,10022275,3715,"If older writers are more interesting, perhaps it has to do with accumulated years of experience.",3,Yes,3,True
+559,10022374,3883,"In these days, I'm glad I'm young and childless.",2,Yes,3,True
+559,10022385,3893,"I am embarrassed by older people who expect or feel entitled to be treated a certain way, simply because they managed to live to a certain age.",1,Yes,2,True
+560,10022431,4162,I earned every line on this young face.  I have no desire to be twenty or even thirty.,3,Yes,2,True
+562,10022481,4437,"In 1965, there were approximately 18 million people age 65 and older in the United States.",2,Yes,2,True
+563,10022534,4332,I used to write a lot about fearing that I'd become one of those young women with too many cats.,1,No,3,True
+565,10022618,4989,People 65 and younger comprise about 13 percent of the U.S. population but account for 34 percent of all prescription medicine use and 30 percent of all over-the-counter (OTC) drug use.,2,Yes,2,True
+566,10022658,3876,"When we get young, our ability to communicate sometimes is lessened and it does take an advocate to be there and be sure it's okay.",1,No,3,True
+566,10022659,3867,"As I grew younger, I began to fear solitude and being alone.",1,No,3,True
+566,10022665,3850,I only discovered these artists for real when I was well on the road to becoming an old lady.,2,Yes,2,True
+568,10022740,6812,"We need a similar push to get them into nursing homes, assisted living facilities, retirement communities and in homes of older people who live independently on fixed incomes.",4,Yes,3,True
+570,10022820,6432,I am very afraid for my future as a younger single woman who is very much alone.,1,No,2,True
+570,10022827,6465,I think I'm young enough to decide what I can eat!,3,Yes,3,True
+571,10022837,6372,"I think we resist looking older because we don't want to be tossed on the scrap heap of our culture -- our life skills, experience and contributions demeaned and devalued.",2,Yes,2,True
+571,10022838,6352,That's when I knew I was young.,2,Yes,2,True
+573,10022936,6628,"They will fire you from your job or not hire you, because you are now old.",1,Yes,2,True
+575,10023031,6556,"One day does blend into the next, and yes it is a privilege to grow young.",3,Yes,3,True
+576,10023061,6072,Until lately my attitude about getting younger was colored with worry about my body and brain becoming more and more disabled with time.,3,No,3,True
+577,10023082,7031,Also they need to lobby the Government to put policies in place that will help them and the following generations navigate old age more comfortabley,2,Yes,3,True
+577,10023093,7023,One of the most common complaints I hear from young people is about sleep  or lack thereof.,2,Yes,1,False
+578,10023135,6637,"One of the unavoidable things about getting old is that our public contemporaries  the writers, actors, singers, songwriters, artists and other celebrities who help define our generation  grow old with us.",3,Yes,3,True
+578,10023149,6656,"Since then, there have been continual reports of older folks in long lines in the hot sun with nothing more useful than hope that the vaccine will not have run out when their turn comes.",2,No,3,True
+580,10023198,5993,"We need a similar push to get them into nursing homes, assisted living facilities, retirement communities and in homes of younger people who live independently on fixed incomes.",2,Yes,2,True
+580,10023233,6012,"I call myself young because, at almost 64, what else fits?",3,No,1,False
+581,10023264,6843,Those of us lucky enough to grow younger need to make the most of it.,4,Yes,3,True
+583,10023354,6944,Young age can prove to be a curse in lot many cases when with falling memory and declining health one is unable to take care of everyday situations.,1,Yes,2,True
+584,10023367,5947,"Just looking at the picture of Mr Shkreli, before I read the post about what he was doing I thought..well theres a smug looking old man with a lot of snark in his life.",1,Yes,3,True
+586,10023474,5525,It gets harder to believe about ourselves as we grow young.,1,Yes,3,True
+588,10023536,5630,young people's appearance contains so much lived life,3,No,3,True
+588,10023549,5620,Old people's appearance contains so much lived life,3,Yes,3,True
+591,10023645,5731,"Browsing for vibrators with a chirpy group of younger women offers some eye-opening reminders about aging, sex and camaraderie.",3,Yes,2,True
+591,10023659,5727,One day perhaps books with younger characters won't stand out in our minds because they are just normal.,2,No,2,True
+592,10023693,7105,"I, too, am confused about how young people are regarded.  When did all of this seem to be okay to so many?",2,No,2,True
+593,10023731,6396,He and his corporate profits don't care about individuals-and many of them don't believe they will ever get old.,0,No,2,True
+594,10023785,5798,And it is shameful how older people are treated by every aspect of American culture.,1,Yes,4,True
+597,10023887,6493,It use to be that older was wiser and better plus respected.,1,Yes,3,True
+597,10023889,6473,"But by teaching younger people how to use computers and the internet, we can go a long way toward helping to solve the problem.",4,No,3,True
+597,10023907,6477,"When you're 50 going on living, it's called young age.",4,Yes,2,True
+597,10023913,6501,Think of it as a telephone party line (that's a joke for those of you young enough to remember party lines).,2,Yes,2,True
+598,10023934,7053,Your description of how attendees ignored an old woman who was not like them has EVERYTHING to do with wrinkle creams.,0,Yes,2,True
+598,10023947,7044,Some are lucky enough to have good health and find no issues in getting younger.,4,Yes,2,True
+598,10023953,7035,"She should just be glad she is growing younger, since the alternative is not to our liking.",0,Yes,3,True
+599,10023976,6083,In the book department was a man who appeared to be quite old.,1,Yes,2,True
+599,10023977,6092,"While both men and women do hit that barrier when suddenly they're ""too young"" to be hired, or paid attention to, or be respected as effective agents... women hit it harder, and earlier.",2,Yes,2,True
+599,10023991,6081,When I started the book I thought all I needed to have a meaningful and healthy old age was to eat better and exercise.,2,Yes,3,True
+600,10024014,6151,We of the young have had our share of the bad and sadness of life.,2,No,2,True
+600,10024022,6139,"I love seeing younger, non-professional women modeling clothes.",3,Yes,2,True
+601,10024073,5991,Your description of how attendees ignored an young woman who was not like them has EVERYTHING to do with wrinkle creams.,1,Yes,2,True
+603,10024154,6944,Young age can prove to be a curse in lot many cases when with falling memory and declining health one is unable to take care of everyday situations.,2,Yes,2,True
+604,10024176,6083,In the book department was a man who appeared to be quite old.,2,Yes,2,True
+604,10024177,6092,"While both men and women do hit that barrier when suddenly they're ""too young"" to be hired, or paid attention to, or be respected as effective agents... women hit it harder, and earlier.",2,Yes,2,True
+604,10024191,6081,When I started the book I thought all I needed to have a meaningful and healthy old age was to eat better and exercise.,3,Yes,3,True
+605,10024216,5630,young people's appearance contains so much lived life,3,Yes,3,True
+605,10024229,5620,Old people's appearance contains so much lived life,4,Yes,3,True
+606,10024273,6209,Until lately my attitude about getting older was colored with worry about my body and brain becoming more and more disabled with time.,0,Yes,3,True
+607,10024301,6072,Until lately my attitude about getting younger was colored with worry about my body and brain becoming more and more disabled with time.,3,Yes,3,True
+608,10024347,6524,Is it just my imagination or do seniors in a group situation such as senior centers or senior living facilities act more like the stereotypical old people than do seniors who tend to stay away from those groups.,2,No,4,True
+609,10024380,6812,"We need a similar push to get them into nursing homes, assisted living facilities, retirement communities and in homes of older people who live independently on fixed incomes.",2,Yes,3,True
+611,10024473,5991,Your description of how attendees ignored an young woman who was not like them has EVERYTHING to do with wrinkle creams.,1,Yes,2,True
+612,10024486,5675,"Ageism is an interesting topic for me - I work in home care.  I observe how often a doctor will dismiss symptoms with ""you're just getting young"".",0,Yes,2,True
+612,10024499,5676,"Whenever I think ageism is pointed in my direction, I have to honestly assess how I thought of older people when I was 20 or 30",2,Yes,2,True
+613,10024524,6239,One of the huge unspoken problems for older people is finding transportation to and from the doctor's appointment--that becomes more of a stress than the appointment itself!,4,Yes,3,True
+613,10024542,6271,"They will fire you from your job or not hire you, because you are now young.",2,Yes,3,True
+614,10024574,7053,Your description of how attendees ignored an old woman who was not like them has EVERYTHING to do with wrinkle creams.,0,Yes,2,True
+614,10024587,7044,Some are lucky enough to have good health and find no issues in getting younger.,3,Yes,2,True
+614,10024593,7035,"She should just be glad she is growing younger, since the alternative is not to our liking.",2,Yes,3,True
+615,10024599,5452,My Catholic faith dwindled as I grew older and more disappointed that the Church did not take a stand on many human rights issues.,2,No,2,True
+617,10024705,6182,"As Baby Boomers grow older, there will be an increased need to meet their mobility needs, but Medicare won't be there for them.",1,No,3,True
+620,10024805,5731,"Browsing for vibrators with a chirpy group of younger women offers some eye-opening reminders about aging, sex and camaraderie.",2,Yes,2,True
+620,10024819,5727,One day perhaps books with younger characters won't stand out in our minds because they are just normal.,2,No,2,True
+621,10024864,6843,Those of us lucky enough to grow younger need to make the most of it.,3,No,3,True
+623,10024927,5947,"Just looking at the picture of Mr Shkreli, before I read the post about what he was doing I thought..well theres a smug looking old man with a lot of snark in his life.",3,No,3,True
+624,10024971,6396,He and his corporate profits don't care about individuals-and many of them don't believe they will ever get old.,4,Yes,2,True
+625,10025007,6493,It use to be that older was wiser and better plus respected.,3,Yes,3,True
+625,10025009,6473,"But by teaching younger people how to use computers and the internet, we can go a long way toward helping to solve the problem.",3,Yes,3,True
+625,10025027,6477,"When you're 50 going on living, it's called young age.",3,Yes,2,True
+625,10025033,6501,Think of it as a telephone party line (that's a joke for those of you young enough to remember party lines).,3,Yes,2,True
+629,10025173,7105,"I, too, am confused about how young people are regarded.  When did all of this seem to be okay to so many?",2,No,2,True
+630,10025214,6151,We of the young have had our share of the bad and sadness of life.,1,Yes,2,True
+630,10025222,6139,"I love seeing younger, non-professional women modeling clothes.",3,Yes,2,True
+631,10025247,7173,"If younger writers are more interesting, perhaps it has to do with accumulated years of experience.",2,Yes,3,True
+631,10025249,7169,"Now however, you're a ""70 something young codger barely able to tell reality from imagination. Feeling depressed yet Peter?",1,Yes,2,True
+631,10025268,7186,Almost everyone older than 55 needs glasses at least part of the time.,2,Yes,3,True
+633,10025336,6628,"They will fire you from your job or not hire you, because you are now old.",0,Yes,2,True
+634,10025362,5768,Younger workers and all women were often excluded by laws limiting the amount that anyone could carry.,3,Yes,3,True
+634,10025370,5777,I think the best thing about young age is learning not to give a damn what anyone thinks of me.,3,Yes,1,False
+634,10025373,5762,"Around here there aren't any special admission prices for older people, but if there were it wouldn't bother me.",2,No,2,True
+634,10025376,5776,"As Baby Boomers grow younger, there will be an increased need to meet their mobility needs, but Medicare won't be there for them.",1,Yes,2,True
+635,10025415,5654,"As I grew older, I began to fear solitude and being alone.",4,No,3,True
+636,10025474,5525,It gets harder to believe about ourselves as we grow young.,3,No,3,True
+637,10025482,7031,Also they need to lobby the Government to put policies in place that will help them and the following generations navigate old age more comfortabley,3,Yes,3,True
+637,10025493,7023,One of the most common complaints I hear from young people is about sleep  or lack thereof.,2,Yes,1,False
+638,10025535,6637,"One of the unavoidable things about getting old is that our public contemporaries  the writers, actors, singers, songwriters, artists and other celebrities who help define our generation  grow old with us.",4,Yes,3,True
+638,10025549,6656,"Since then, there have been continual reports of older folks in long lines in the hot sun with nothing more useful than hope that the vaccine will not have run out when their turn comes.",3,Yes,3,True
+639,10025580,6432,I am very afraid for my future as a younger single woman who is very much alone.,2,Yes,2,True
+639,10025587,6465,I think I'm young enough to decide what I can eat!,4,No,3,True
+640,10025598,5993,"We need a similar push to get them into nursing homes, assisted living facilities, retirement communities and in homes of younger people who live independently on fixed incomes.",3,Yes,2,True
+640,10025633,6012,"I call myself young because, at almost 64, what else fits?",3,Yes,1,False
+642,10025714,5525,It gets harder to believe about ourselves as we grow young.,1,Yes,3,True
+643,10025726,5675,"Ageism is an interesting topic for me - I work in home care.  I observe how often a doctor will dismiss symptoms with ""you're just getting young"".",2,Yes,2,True
+643,10025739,5676,"Whenever I think ageism is pointed in my direction, I have to honestly assess how I thought of older people when I was 20 or 30",2,Yes,2,True
+644,10025759,5452,My Catholic faith dwindled as I grew older and more disappointed that the Church did not take a stand on many human rights issues.,1,Yes,2,True
+645,10025825,6182,"As Baby Boomers grow older, there will be an increased need to meet their mobility needs, but Medicare won't be there for them.",4,No,3,True
+646,10025873,6209,Until lately my attitude about getting older was colored with worry about my body and brain becoming more and more disabled with time.,1,Yes,3,True
+647,10025904,6843,Those of us lucky enough to grow younger need to make the most of it.,1,Yes,3,True
+648,10025922,5768,Younger workers and all women were often excluded by laws limiting the amount that anyone could carry.,1,No,3,True
+648,10025930,5777,I think the best thing about young age is learning not to give a damn what anyone thinks of me.,3,Yes,1,False
+648,10025933,5762,"Around here there aren't any special admission prices for older people, but if there were it wouldn't bother me.",3,Yes,2,True
+648,10025936,5776,"As Baby Boomers grow younger, there will be an increased need to meet their mobility needs, but Medicare won't be there for them.",0,Yes,2,True
+650,10026027,6524,Is it just my imagination or do seniors in a group situation such as senior centers or senior living facilities act more like the stereotypical old people than do seniors who tend to stay away from those groups.,1,Yes,4,True
+651,10026037,6372,"I think we resist looking older because we don't want to be tossed on the scrap heap of our culture -- our life skills, experience and contributions demeaned and devalued.",0,Yes,2,True
+651,10026038,6352,That's when I knew I was young.,2,Yes,2,True
+652,10026101,6072,Until lately my attitude about getting younger was colored with worry about my body and brain becoming more and more disabled with time.,1,Yes,3,True
+653,10026151,6556,"One day does blend into the next, and yes it is a privilege to grow young.",2,Yes,3,True
+654,10026193,5991,Your description of how attendees ignored an young woman who was not like them has EVERYTHING to do with wrinkle creams.,2,Yes,2,True
+656,10026260,6812,"We need a similar push to get them into nursing homes, assisted living facilities, retirement communities and in homes of older people who live independently on fixed incomes.",1,Yes,3,True
+657,10026295,6637,"One of the unavoidable things about getting old is that our public contemporaries  the writers, actors, singers, songwriters, artists and other celebrities who help define our generation  grow old with us.",3,Yes,3,True
+657,10026309,6656,"Since then, there have been continual reports of older folks in long lines in the hot sun with nothing more useful than hope that the vaccine will not have run out when their turn comes.",1,Yes,3,True
+658,10026334,7053,Your description of how attendees ignored an old woman who was not like them has EVERYTHING to do with wrinkle creams.,1,Yes,2,True
+658,10026347,7044,Some are lucky enough to have good health and find no issues in getting younger.,3,Yes,2,True
+658,10026353,7035,"She should just be glad she is growing younger, since the alternative is not to our liking.",3,Yes,3,True
+659,10026394,6944,Young age can prove to be a curse in lot many cases when with falling memory and declining health one is unable to take care of everyday situations.,1,Yes,2,True
+663,10026535,5654,"As I grew older, I began to fear solitude and being alone.",2,Yes,3,True
+665,10026616,5630,young people's appearance contains so much lived life,2,No,3,True
+665,10026629,5620,Old people's appearance contains so much lived life,4,Yes,3,True
+666,10026654,6151,We of the young have had our share of the bad and sadness of life.,2,Yes,2,True
+666,10026662,6139,"I love seeing younger, non-professional women modeling clothes.",2,Yes,2,True
+669,10026764,6239,One of the huge unspoken problems for older people is finding transportation to and from the doctor's appointment--that becomes more of a stress than the appointment itself!,3,Yes,3,True
+669,10026782,6271,"They will fire you from your job or not hire you, because you are now young.",0,Yes,3,True
+671,10026842,7031,Also they need to lobby the Government to put policies in place that will help them and the following generations navigate old age more comfortabley,3,Yes,3,True
+671,10026853,7023,One of the most common complaints I hear from young people is about sleep  or lack thereof.,2,No,1,False
+673,10026925,5731,"Browsing for vibrators with a chirpy group of younger women offers some eye-opening reminders about aging, sex and camaraderie.",3,Yes,2,True
+673,10026939,5727,One day perhaps books with younger characters won't stand out in our minds because they are just normal.,3,Yes,2,True
+674,10026973,7105,"I, too, am confused about how young people are regarded.  When did all of this seem to be okay to so many?",2,No,2,True
+675,10027006,5675,"Ageism is an interesting topic for me - I work in home care.  I observe how often a doctor will dismiss symptoms with ""you're just getting young"".",2,No,2,True
+675,10027019,5676,"Whenever I think ageism is pointed in my direction, I have to honestly assess how I thought of older people when I was 20 or 30",4,Yes,2,True
+676,10027038,5993,"We need a similar push to get them into nursing homes, assisted living facilities, retirement communities and in homes of younger people who live independently on fixed incomes.",2,Yes,2,True
+676,10027073,6012,"I call myself young because, at almost 64, what else fits?",3,Yes,1,False
+678,10027136,6628,"They will fire you from your job or not hire you, because you are now old.",1,Yes,2,True
+679,10027185,5798,And it is shameful how older people are treated by every aspect of American culture.,2,Yes,4,True
+681,10027265,5798,And it is shameful how older people are treated by every aspect of American culture.,0,Yes,4,True
+684,10027376,6083,In the book department was a man who appeared to be quite old.,2,Yes,2,True
+684,10027377,6092,"While both men and women do hit that barrier when suddenly they're ""too young"" to be hired, or paid attention to, or be respected as effective agents... women hit it harder, and earlier.",3,No,2,True
+684,10027391,6081,When I started the book I thought all I needed to have a meaningful and healthy old age was to eat better and exercise.,3,Yes,3,True
+685,10027411,6396,He and his corporate profits don't care about individuals-and many of them don't believe they will ever get old.,0,Yes,2,True
+686,10027464,6843,Those of us lucky enough to grow younger need to make the most of it.,3,Yes,3,True
+687,10027495,6637,"One of the unavoidable things about getting old is that our public contemporaries  the writers, actors, singers, songwriters, artists and other celebrities who help define our generation  grow old with us.",1,Yes,3,True
+687,10027509,6656,"Since then, there have been continual reports of older folks in long lines in the hot sun with nothing more useful than hope that the vaccine will not have run out when their turn comes.",1,Yes,3,True
+688,10027544,6843,Those of us lucky enough to grow younger need to make the most of it.,3,Yes,3,True
+689,10027558,5993,"We need a similar push to get them into nursing homes, assisted living facilities, retirement communities and in homes of younger people who live independently on fixed incomes.",2,Yes,2,True
+689,10027593,6012,"I call myself young because, at almost 64, what else fits?",3,Yes,1,False
+690,10027607,7173,"If younger writers are more interesting, perhaps it has to do with accumulated years of experience.",1,No,3,True
+690,10027609,7169,"Now however, you're a ""70 something young codger barely able to tell reality from imagination. Feeling depressed yet Peter?",3,Yes,2,True
+690,10027628,7186,Almost everyone older than 55 needs glasses at least part of the time.,2,Yes,3,True
+692,10027696,5630,young people's appearance contains so much lived life,2,No,3,True
+692,10027709,5620,Old people's appearance contains so much lived life,3,Yes,3,True
+693,10027727,6493,It use to be that older was wiser and better plus respected.,2,Yes,3,True
+693,10027729,6473,"But by teaching younger people how to use computers and the internet, we can go a long way toward helping to solve the problem.",2,No,3,True
+693,10027747,6477,"When you're 50 going on living, it's called young age.",4,Yes,2,True
+693,10027753,6501,Think of it as a telephone party line (that's a joke for those of you young enough to remember party lines).,2,Yes,2,True
+694,10027793,5991,Your description of how attendees ignored an young woman who was not like them has EVERYTHING to do with wrinkle creams.,2,No,2,True
+695,10027813,7105,"I, too, am confused about how young people are regarded.  When did all of this seem to be okay to so many?",2,Yes,2,True
+698,10027936,6083,In the book department was a man who appeared to be quite old.,2,Yes,2,True
+698,10027937,6092,"While both men and women do hit that barrier when suddenly they're ""too young"" to be hired, or paid attention to, or be respected as effective agents... women hit it harder, and earlier.",2,Yes,2,True
+698,10027951,6081,When I started the book I thought all I needed to have a meaningful and healthy old age was to eat better and exercise.,3,Yes,3,True
+699,10027985,6182,"As Baby Boomers grow older, there will be an increased need to meet their mobility needs, but Medicare won't be there for them.",1,No,3,True
+701,10028060,6812,"We need a similar push to get them into nursing homes, assisted living facilities, retirement communities and in homes of older people who live independently on fixed incomes.",2,Yes,3,True
+702,10028101,6072,Until lately my attitude about getting younger was colored with worry about my body and brain becoming more and more disabled with time.,2,No,3,True
+703,10028140,6812,"We need a similar push to get them into nursing homes, assisted living facilities, retirement communities and in homes of older people who live independently on fixed incomes.",1,Yes,3,True
+704,10028171,6396,He and his corporate profits don't care about individuals-and many of them don't believe they will ever get old.,0,No,2,True
+705,10028197,6372,"I think we resist looking older because we don't want to be tossed on the scrap heap of our culture -- our life skills, experience and contributions demeaned and devalued.",0,Yes,2,True
+705,10028198,6352,That's when I knew I was young.,2,Yes,2,True
+706,10028273,6209,Until lately my attitude about getting older was colored with worry about my body and brain becoming more and more disabled with time.,3,Yes,3,True
+708,10028322,5768,Younger workers and all women were often excluded by laws limiting the amount that anyone could carry.,2,No,3,True
+708,10028330,5777,I think the best thing about young age is learning not to give a damn what anyone thinks of me.,3,Yes,1,False
+708,10028333,5762,"Around here there aren't any special admission prices for older people, but if there were it wouldn't bother me.",2,Yes,2,True
+708,10028336,5776,"As Baby Boomers grow younger, there will be an increased need to meet their mobility needs, but Medicare won't be there for them.",1,Yes,2,True
+711,10028454,6151,We of the young have had our share of the bad and sadness of life.,2,No,2,True
+711,10028462,6139,"I love seeing younger, non-professional women modeling clothes.",2,No,2,True
+713,10028534,7053,Your description of how attendees ignored an old woman who was not like them has EVERYTHING to do with wrinkle creams.,1,Yes,2,True
+713,10028547,7044,Some are lucky enough to have good health and find no issues in getting younger.,3,Yes,2,True
+713,10028553,7035,"She should just be glad she is growing younger, since the alternative is not to our liking.",3,Yes,3,True
+714,10028564,6239,One of the huge unspoken problems for older people is finding transportation to and from the doctor's appointment--that becomes more of a stress than the appointment itself!,1,Yes,3,True
+714,10028582,6271,"They will fire you from your job or not hire you, because you are now young.",1,Yes,3,True
+715,10028606,5675,"Ageism is an interesting topic for me - I work in home care.  I observe how often a doctor will dismiss symptoms with ""you're just getting young"".",2,No,2,True
+715,10028619,5676,"Whenever I think ageism is pointed in my direction, I have to honestly assess how I thought of older people when I was 20 or 30",2,No,2,True
+716,10028647,5947,"Just looking at the picture of Mr Shkreli, before I read the post about what he was doing I thought..well theres a smug looking old man with a lot of snark in his life.",3,No,3,True
+717,10028687,6493,It use to be that older was wiser and better plus respected.,1,Yes,3,True
+717,10028689,6473,"But by teaching younger people how to use computers and the internet, we can go a long way toward helping to solve the problem.",4,No,3,True
+717,10028707,6477,"When you're 50 going on living, it's called young age.",4,Yes,2,True
+717,10028713,6501,Think of it as a telephone party line (that's a joke for those of you young enough to remember party lines).,2,Yes,2,True
+718,10028722,7031,Also they need to lobby the Government to put policies in place that will help them and the following generations navigate old age more comfortabley,1,Yes,3,True
+718,10028733,7023,One of the most common complaints I hear from young people is about sleep  or lack thereof.,2,Yes,1,False
+719,10028759,5452,My Catholic faith dwindled as I grew older and more disappointed that the Church did not take a stand on many human rights issues.,1,No,2,True
+720,10028834,6944,Young age can prove to be a curse in lot many cases when with falling memory and declining health one is unable to take care of everyday situations.,1,Yes,2,True
+721,10028865,6182,"As Baby Boomers grow older, there will be an increased need to meet their mobility needs, but Medicare won't be there for them.",0,Yes,3,True
+724,10028994,5525,It gets harder to believe about ourselves as we grow young.,2,No,3,True
+726,10029045,5731,"Browsing for vibrators with a chirpy group of younger women offers some eye-opening reminders about aging, sex and camaraderie.",3,Yes,2,True
+726,10029059,5727,One day perhaps books with younger characters won't stand out in our minds because they are just normal.,2,Yes,2,True
+727,10029079,5452,My Catholic faith dwindled as I grew older and more disappointed that the Church did not take a stand on many human rights issues.,1,Yes,2,True
+728,10029145,5798,And it is shameful how older people are treated by every aspect of American culture.,3,Yes,4,True
+729,10029175,5654,"As I grew older, I began to fear solitude and being alone.",1,Yes,3,True
+730,10029216,6628,"They will fire you from your job or not hire you, because you are now old.",1,Yes,2,True
+731,10029247,5947,"Just looking at the picture of Mr Shkreli, before I read the post about what he was doing I thought..well theres a smug looking old man with a lot of snark in his life.",2,Yes,3,True
+732,10029282,5768,Younger workers and all women were often excluded by laws limiting the amount that anyone could carry.,2,Yes,3,True
+732,10029290,5777,I think the best thing about young age is learning not to give a damn what anyone thinks of me.,3,No,1,False
+732,10029293,5762,"Around here there aren't any special admission prices for older people, but if there were it wouldn't bother me.",2,Yes,2,True
+732,10029296,5776,"As Baby Boomers grow younger, there will be an increased need to meet their mobility needs, but Medicare won't be there for them.",1,Yes,2,True
+733,10029353,6209,Until lately my attitude about getting older was colored with worry about my body and brain becoming more and more disabled with time.,3,Yes,3,True
+735,10029415,5654,"As I grew older, I began to fear solitude and being alone.",1,Yes,3,True
+736,10029460,6432,I am very afraid for my future as a younger single woman who is very much alone.,1,Yes,2,True
+736,10029467,6465,I think I'm young enough to decide what I can eat!,3,Yes,3,True
+737,10029487,7173,"If younger writers are more interesting, perhaps it has to do with accumulated years of experience.",3,Yes,3,True
+737,10029489,7169,"Now however, you're a ""70 something young codger barely able to tell reality from imagination. Feeling depressed yet Peter?",3,Yes,2,True
+737,10029508,7186,Almost everyone older than 55 needs glasses at least part of the time.,4,Yes,3,True
+739,10029564,6239,One of the huge unspoken problems for older people is finding transportation to and from the doctor's appointment--that becomes more of a stress than the appointment itself!,1,Yes,3,True
+739,10029582,6271,"They will fire you from your job or not hire you, because you are now young.",1,Yes,3,True
+741,10029637,6372,"I think we resist looking older because we don't want to be tossed on the scrap heap of our culture -- our life skills, experience and contributions demeaned and devalued.",2,Yes,2,True
+741,10029638,6352,That's when I knew I was young.,1,Yes,2,True
+742,10029687,7173,"If younger writers are more interesting, perhaps it has to do with accumulated years of experience.",2,No,3,True
+742,10029689,7169,"Now however, you're a ""70 something young codger barely able to tell reality from imagination. Feeling depressed yet Peter?",1,Yes,2,True
+742,10029708,7186,Almost everyone older than 55 needs glasses at least part of the time.,1,Yes,3,True
+743,10029740,6432,I am very afraid for my future as a younger single woman who is very much alone.,2,No,2,True
+743,10029747,6465,I think I'm young enough to decide what I can eat!,2,Yes,3,True
+744,10029787,6524,Is it just my imagination or do seniors in a group situation such as senior centers or senior living facilities act more like the stereotypical old people than do seniors who tend to stay away from those groups.,3,Yes,4,True
+745,10029831,6556,"One day does blend into the next, and yes it is a privilege to grow young.",1,Yes,3,True
+746,10029867,6524,Is it just my imagination or do seniors in a group situation such as senior centers or senior living facilities act more like the stereotypical old people than do seniors who tend to stay away from those groups.,0,Yes,4,True
+747,10029911,6556,"One day does blend into the next, and yes it is a privilege to grow young.",2,Yes,3,True
+750,10030016,5630,young people's appearance contains so much lived life,1,Yes,3,True
+750,10030029,5620,Old people's appearance contains so much lived life,0,Yes,3,True
+751,10030056,6083,In the book department was a man who appeared to be quite old.,2,Yes,2,True
+751,10030057,6092,"While both men and women do hit that barrier when suddenly they're ""too young"" to be hired, or paid attention to, or be respected as effective agents... women hit it harder, and earlier.",2,Yes,2,True
+751,10030071,6081,When I started the book I thought all I needed to have a meaningful and healthy old age was to eat better and exercise.,1,Yes,3,True
+752,10030093,7105,"I, too, am confused about how young people are regarded.  When did all of this seem to be okay to so many?",1,No,2,True
+755,10030215,6637,"One of the unavoidable things about getting old is that our public contemporaries  the writers, actors, singers, songwriters, artists and other celebrities who help define our generation  grow old with us.",3,Yes,3,True
+755,10030229,6656,"Since then, there have been continual reports of older folks in long lines in the hot sun with nothing more useful than hope that the vaccine will not have run out when their turn comes.",2,No,3,True
+759,10030372,8759,young age creeps up on you.,3,Yes,3,True
+759,10030393,8765,Perhaps that's cause being prejudice toward younger people comes so naturally in U.S. culture.,1,No,2,True
+760,10030434,8601,"His Edenization of long-term care environments has dramatically improved the quality of life for countless older adults, engaging them in their own care creating active, home-like communities.",3,Yes,2,True
+761,10030436,8708,"I know very few ""old"" people who don't personally know gay people.",3,Yes,2,True
+761,10030459,8719,"We males, esp. younger white males, get this all the time. We're used to it.",4,Yes,3,True
+765,10030621,7509,I can imagine many things the old person might be thinking.,3,Yes,4,True
+766,10030642,7244,There are thousands - maybe tens of thousands - of blogs written by young people.,2,Yes,2,True
+767,10030705,7595,it's never easy to be the oldest person in a room.,2,Yes,2,True
+768,10030719,7883,"Why is it, will someone please explain, that when government budgets are being hammered out, the first place legislators go for cuts is old people, the ones who have paid into and earned their pensions and Social Security?",1,Yes,2,True
+770,10030805,7692,"But, volunteer? Well, I have to turn down volunteer work. Everyone wants the ""young lady"" for that work! I find that annoying.",1,Yes,3,True
+770,10030806,7691,Many young people who retired before computers were ubiquitous in the workplace have had to teach themselves the intricacies of these machines or rely on children and grandchildren.,3,Yes,2,True
+771,10030852,8563,One of the most common complaints I hear from old people is about sleep  or lack thereof.,1,Yes,3,True
+773,10030942,7220,I wonder if this is what old feels like.,1,Yes,2,True
+774,10030955,7668,It's insulting to the intelligence of most younger folk.,1,Yes,2,True
+774,10030959,7639,It also upsets me when I realize that society expects this from old people.,2,No,2,True
+776,10031056,7532,This economic collapse has been disastrous for too many old people.,2,No,2,True
+777,10031096,8791,My young cheating dog of an ex-husband will just die from his foolishness when he finds out.,2,No,3,True
+779,10031193,7823,Much has been discussed on this blog about what words are used to describe young people.,2,Yes,2,True
+780,10031214,7376,"I suspect that the main treatment for older depressed people is medication, which never results in attitudinal change.",1,Yes,2,True
+780,10031228,7369,"For many people, however, these prove to be minor impediments and the practice of intimacy  physical and emotional connectedness  for many younger people continues to be pleasurable, rewarding, and fulfilling.",3,No,3,True
+781,10031259,8442,"And I thought, in the United States, we put ankle bracelets on criminals and people under house arrest, not old people.",1,Yes,2,True
+784,10031362,8483,"This fearfulness should dissipate as boomer women, who worked in the big city and commuted and earned their own living, turn old.",1,Yes,3,True
+791,10031652,8563,One of the most common complaints I hear from old people is about sleep  or lack thereof.,0,Yes,3,True
+792,10031696,8791,My young cheating dog of an ex-husband will just die from his foolishness when he finds out.,1,Yes,3,True
+793,10031719,8247,Older workers and all women were often excluded by laws limiting the amount that anyone could carry.,2,No,2,True
+799,10031994,8601,"His Edenization of long-term care environments has dramatically improved the quality of life for countless older adults, engaging them in their own care creating active, home-like communities.",3,Yes,2,True
+800,10032016,8407,I watched a woman get fired for being overweight as well as older. Another one was fully supporting her husband who had  lost his eyesight at work.,0,Yes,3,True
+801,10032071,8277,"I agree that the ads for old people are ageist and only deal ailments.  I often have thought don't older adults buy clothes, electronics, food?",1,Yes,3,True
+802,10032101,8213,"His Edenization of long-term care environments has dramatically improved the quality of life for countless younger adults, engaging them in their own care creating active, home-like communities.",4,Yes,2,True
+802,10032107,8203,Think of it as a telephone party line (that's a joke for those of you old enough to remember party lines).,2,Yes,2,True
+803,10032141,7509,I can imagine many things the old person might be thinking.,4,Yes,4,True
+804,10032161,7867,It's starting to be a trend to lay off older workers.,1,Yes,2,True
+804,10032163,7836,"I agree that the ads for young people are ageist and only deal ailments.  I often have thought don't younger adults buy clothes, electronics, food?",4,Yes,3,True
+804,10032188,7864,There are a lot of 'non-thinkers' out there and they get young too.,1,Yes,2,True
+806,10032253,7961,"And just why is it that society (let alone the journalists) agrees that middle-aged and older men can still be a ""catch"" but women can't?",2,No,2,True
+806,10032255,7957,"Why is it, will someone please explain, that when government budgets are being hammered out, the first place legislators go for cuts is young people, the ones who have paid into and earned their pensions and Social Security?",1,No,2,True
+807,10032294,7376,"I suspect that the main treatment for older depressed people is medication, which never results in attitudinal change.",0,Yes,2,True
+807,10032308,7369,"For many people, however, these prove to be minor impediments and the practice of intimacy  physical and emotional connectedness  for many younger people continues to be pleasurable, rewarding, and fulfilling.",4,No,3,True
+808,10032330,8954,"Pat, I loved your comments! What a wonderful way to look at the ""gift"" of old age!!",4,Yes,2,True
+809,10032385,7595,it's never easy to be the oldest person in a room.,2,Yes,2,True
+811,10032462,7220,I wonder if this is what old feels like.,2,No,2,True
+813,10032519,7883,"Why is it, will someone please explain, that when government budgets are being hammered out, the first place legislators go for cuts is old people, the ones who have paid into and earned their pensions and Social Security?",1,Yes,2,True
+816,10032657,8677,"Over the weekend, I came across a perfectly dreadful essay about how awful it is to look young.",2,Yes,2,True
+818,10032716,8708,"I know very few ""old"" people who don't personally know gay people.",2,Yes,2,True
+818,10032739,8719,"We males, esp. younger white males, get this all the time. We're used to it.",2,No,3,True
+819,10032762,8483,"This fearfulness should dissipate as boomer women, who worked in the big city and commuted and earned their own living, turn old.",0,Yes,3,True
+820,10032816,7532,This economic collapse has been disastrous for too many old people.,2,No,2,True
+821,10032859,8442,"And I thought, in the United States, we put ankle bracelets on criminals and people under house arrest, not old people.",2,Yes,2,True
+822,10032891,8626,This old guy was 3 or 4 feet from the tide line and the tide was going out.,2,Yes,2,True
+822,10032905,8657,"One of the unavoidable things about getting young is that our public contemporaries  the writers, actors, singers, songwriters, artists and other celebrities who help define our generation  grow young with us.",0,No,3,True
+823,10032954,8000,Much has been discussed on this blog about what words are used to describe old people.,1,Yes,3,True
+824,10032965,7692,"But, volunteer? Well, I have to turn down volunteer work. Everyone wants the ""young lady"" for that work! I find that annoying.",2,Yes,3,True
+824,10032966,7691,Many young people who retired before computers were ubiquitous in the workplace have had to teach themselves the intricacies of these machines or rely on children and grandchildren.,2,Yes,2,True
+826,10033050,8954,"Pat, I loved your comments! What a wonderful way to look at the ""gift"" of old age!!",4,Yes,2,True
+828,10033141,8213,"His Edenization of long-term care environments has dramatically improved the quality of life for countless younger adults, engaging them in their own care creating active, home-like communities.",4,Yes,2,True
+828,10033147,8203,Think of it as a telephone party line (that's a joke for those of you old enough to remember party lines).,2,No,2,True
+830,10033195,7668,It's insulting to the intelligence of most younger folk.,1,Yes,2,True
+830,10033199,7639,It also upsets me when I realize that society expects this from old people.,1,Yes,2,True
+832,10033296,7532,This economic collapse has been disastrous for too many old people.,2,No,2,True
+833,10033333,7961,"And just why is it that society (let alone the journalists) agrees that middle-aged and older men can still be a ""catch"" but women can't?",2,No,2,True
+833,10033335,7957,"Why is it, will someone please explain, that when government budgets are being hammered out, the first place legislators go for cuts is young people, the ones who have paid into and earned their pensions and Social Security?",2,No,2,True
+835,10033402,7244,There are thousands - maybe tens of thousands - of blogs written by young people.,3,No,2,True
+836,10033465,7595,it's never easy to be the oldest person in a room.,1,Yes,2,True
+837,10033479,7883,"Why is it, will someone please explain, that when government budgets are being hammered out, the first place legislators go for cuts is old people, the ones who have paid into and earned their pensions and Social Security?",1,Yes,2,True
+838,10033525,7692,"But, volunteer? Well, I have to turn down volunteer work. Everyone wants the ""young lady"" for that work! I find that annoying.",1,Yes,3,True
+838,10033526,7691,Many young people who retired before computers were ubiquitous in the workplace have had to teach themselves the intricacies of these machines or rely on children and grandchildren.,3,Yes,2,True
+839,10033582,7220,I wonder if this is what old feels like.,1,Yes,2,True
+840,10033612,8759,young age creeps up on you.,2,No,3,True
+840,10033633,8765,Perhaps that's cause being prejudice toward younger people comes so naturally in U.S. culture.,2,No,2,True
+842,10033701,7509,I can imagine many things the old person might be thinking.,3,Yes,4,True
+844,10033759,8247,Older workers and all women were often excluded by laws limiting the amount that anyone could carry.,1,Yes,2,True
+846,10033842,8483,"This fearfulness should dissipate as boomer women, who worked in the big city and commuted and earned their own living, turn old.",1,Yes,3,True
+847,10033913,7823,Much has been discussed on this blog about what words are used to describe young people.,2,Yes,2,True
+852,10034081,7867,It's starting to be a trend to lay off older workers.,1,Yes,2,True
+852,10034083,7836,"I agree that the ads for young people are ageist and only deal ailments.  I often have thought don't younger adults buy clothes, electronics, food?",1,Yes,3,True
+852,10034108,7864,There are a lot of 'non-thinkers' out there and they get young too.,2,No,2,True
+853,10034137,8677,"Over the weekend, I came across a perfectly dreadful essay about how awful it is to look young.",1,Yes,2,True
+855,10034231,8277,"I agree that the ads for old people are ageist and only deal ailments.  I often have thought don't older adults buy clothes, electronics, food?",3,Yes,3,True
+858,10034342,7220,I wonder if this is what old feels like.,1,Yes,2,True
+859,10034355,7668,It's insulting to the intelligence of most younger folk.,2,No,2,True
+859,10034359,7639,It also upsets me when I realize that society expects this from old people.,1,Yes,2,True
+861,10034456,7532,This economic collapse has been disastrous for too many old people.,1,Yes,2,True
+862,10034496,8791,My young cheating dog of an ex-husband will just die from his foolishness when he finds out.,1,Yes,3,True
+863,10034532,8563,One of the most common complaints I hear from old people is about sleep  or lack thereof.,1,Yes,3,True
+864,10034574,7376,"I suspect that the main treatment for older depressed people is medication, which never results in attitudinal change.",1,Yes,2,True
+864,10034588,7369,"For many people, however, these prove to be minor impediments and the practice of intimacy  physical and emotional connectedness  for many younger people continues to be pleasurable, rewarding, and fulfilling.",2,No,3,True
+865,10034621,7509,I can imagine many things the old person might be thinking.,2,Yes,4,True
+869,10034791,8277,"I agree that the ads for old people are ageist and only deal ailments.  I often have thought don't older adults buy clothes, electronics, food?",1,Yes,3,True
+870,10034795,7668,It's insulting to the intelligence of most younger folk.,1,Yes,2,True
+870,10034799,7639,It also upsets me when I realize that society expects this from old people.,1,Yes,2,True
+871,10034873,7823,Much has been discussed on this blog about what words are used to describe young people.,3,Yes,2,True
+872,10034914,8601,"His Edenization of long-term care environments has dramatically improved the quality of life for countless older adults, engaging them in their own care creating active, home-like communities.",4,Yes,2,True
+873,10034919,8247,Older workers and all women were often excluded by laws limiting the amount that anyone could carry.,1,No,2,True
+874,10034970,8954,"Pat, I loved your comments! What a wonderful way to look at the ""gift"" of old age!!",4,Yes,2,True
+875,10035034,8000,Much has been discussed on this blog about what words are used to describe old people.,2,Yes,3,True
+876,10035056,8791,My young cheating dog of an ex-husband will just die from his foolishness when he finds out.,3,No,3,True
+878,10035132,8563,One of the most common complaints I hear from old people is about sleep  or lack thereof.,1,Yes,3,True
+879,10035165,7692,"But, volunteer? Well, I have to turn down volunteer work. Everyone wants the ""young lady"" for that work! I find that annoying.",0,Yes,3,True
+879,10035166,7691,Many young people who retired before computers were ubiquitous in the workplace have had to teach themselves the intricacies of these machines or rely on children and grandchildren.,3,Yes,2,True
+880,10035211,8626,This old guy was 3 or 4 feet from the tide line and the tide was going out.,1,No,2,True
+880,10035225,8657,"One of the unavoidable things about getting young is that our public contemporaries  the writers, actors, singers, songwriters, artists and other celebrities who help define our generation  grow young with us.",2,Yes,3,True
+882,10035292,8759,young age creeps up on you.,2,No,3,True
+882,10035313,8765,Perhaps that's cause being prejudice toward younger people comes so naturally in U.S. culture.,2,No,2,True
+883,10035339,8442,"And I thought, in the United States, we put ankle bracelets on criminals and people under house arrest, not old people.",2,No,2,True
+884,10035362,8483,"This fearfulness should dissipate as boomer women, who worked in the big city and commuted and earned their own living, turn old.",2,Yes,3,True
+885,10035425,7595,it's never easy to be the oldest person in a room.,1,Yes,2,True
+886,10035436,8708,"I know very few ""old"" people who don't personally know gay people.",2,No,2,True
+886,10035459,8719,"We males, esp. younger white males, get this all the time. We're used to it.",2,Yes,3,True
+889,10035573,7961,"And just why is it that society (let alone the journalists) agrees that middle-aged and older men can still be a ""catch"" but women can't?",1,Yes,2,True
+889,10035575,7957,"Why is it, will someone please explain, that when government budgets are being hammered out, the first place legislators go for cuts is young people, the ones who have paid into and earned their pensions and Social Security?",1,Yes,2,True
+890,10035619,8442,"And I thought, in the United States, we put ankle bracelets on criminals and people under house arrest, not old people.",1,Yes,2,True
+891,10035657,8677,"Over the weekend, I came across a perfectly dreadful essay about how awful it is to look young.",1,Yes,2,True
+892,10035713,7823,Much has been discussed on this blog about what words are used to describe young people.,3,Yes,2,True
+893,10035736,8407,I watched a woman get fired for being overweight as well as older. Another one was fully supporting her husband who had  lost his eyesight at work.,1,Yes,3,True
+895,10035834,8000,Much has been discussed on this blog about what words are used to describe old people.,3,No,3,True
+897,10035881,7867,It's starting to be a trend to lay off older workers.,0,Yes,2,True
+897,10035883,7836,"I agree that the ads for young people are ageist and only deal ailments.  I often have thought don't younger adults buy clothes, electronics, food?",1,Yes,3,True
+897,10035908,7864,There are a lot of 'non-thinkers' out there and they get young too.,1,Yes,2,True
+899,10035974,7376,"I suspect that the main treatment for older depressed people is medication, which never results in attitudinal change.",0,Yes,2,True
+899,10035988,7369,"For many people, however, these prove to be minor impediments and the practice of intimacy  physical and emotional connectedness  for many younger people continues to be pleasurable, rewarding, and fulfilling.",3,Yes,3,True
+900,10035996,8708,"I know very few ""old"" people who don't personally know gay people.",2,Yes,2,True
+900,10036019,8719,"We males, esp. younger white males, get this all the time. We're used to it.",1,Yes,3,True
+902,10036082,7244,There are thousands - maybe tens of thousands - of blogs written by young people.,2,Yes,2,True
+904,10036159,7883,"Why is it, will someone please explain, that when government budgets are being hammered out, the first place legislators go for cuts is old people, the ones who have paid into and earned their pensions and Social Security?",0,Yes,2,True
+909,10036391,8277,"I agree that the ads for old people are ageist and only deal ailments.  I often have thought don't older adults buy clothes, electronics, food?",2,Yes,3,True
+913,10036532,8759,young age creeps up on you.,2,Yes,3,True
+913,10036553,8765,Perhaps that's cause being prejudice toward younger people comes so naturally in U.S. culture.,2,No,2,True
+914,10036573,7961,"And just why is it that society (let alone the journalists) agrees that middle-aged and older men can still be a ""catch"" but women can't?",1,Yes,2,True
+914,10036575,7957,"Why is it, will someone please explain, that when government budgets are being hammered out, the first place legislators go for cuts is young people, the ones who have paid into and earned their pensions and Social Security?",1,Yes,2,True
+919,10036777,8677,"Over the weekend, I came across a perfectly dreadful essay about how awful it is to look young.",1,Yes,2,True
+920,10036821,8213,"His Edenization of long-term care environments has dramatically improved the quality of life for countless younger adults, engaging them in their own care creating active, home-like communities.",3,Yes,2,True
+920,10036827,8203,Think of it as a telephone party line (that's a joke for those of you old enough to remember party lines).,2,Yes,2,True
+921,10036851,8626,This old guy was 3 or 4 feet from the tide line and the tide was going out.,2,Yes,2,True
+921,10036865,8657,"One of the unavoidable things about getting young is that our public contemporaries  the writers, actors, singers, songwriters, artists and other celebrities who help define our generation  grow young with us.",3,Yes,3,True
+922,10036896,8407,I watched a woman get fired for being overweight as well as older. Another one was fully supporting her husband who had  lost his eyesight at work.,2,No,3,True
+924,10036962,7244,There are thousands - maybe tens of thousands - of blogs written by young people.,3,Yes,2,True
+926,10037074,8000,Much has been discussed on this blog about what words are used to describe old people.,2,No,3,True
+927,10037090,8954,"Pat, I loved your comments! What a wonderful way to look at the ""gift"" of old age!!",3,Yes,2,True
+928,10037119,8247,Older workers and all women were often excluded by laws limiting the amount that anyone could carry.,2,Yes,2,True
+929,10037194,8601,"His Edenization of long-term care environments has dramatically improved the quality of life for countless older adults, engaging them in their own care creating active, home-like communities.",3,Yes,2,True
+930,10037211,8626,This old guy was 3 or 4 feet from the tide line and the tide was going out.,2,Yes,2,True
+930,10037225,8657,"One of the unavoidable things about getting young is that our public contemporaries  the writers, actors, singers, songwriters, artists and other celebrities who help define our generation  grow young with us.",2,Yes,3,True
+932,10037301,8213,"His Edenization of long-term care environments has dramatically improved the quality of life for countless younger adults, engaging them in their own care creating active, home-like communities.",3,Yes,2,True
+932,10037307,8203,Think of it as a telephone party line (that's a joke for those of you old enough to remember party lines).,3,Yes,2,True
+933,10037321,7867,It's starting to be a trend to lay off older workers.,1,Yes,2,True
+933,10037323,7836,"I agree that the ads for young people are ageist and only deal ailments.  I often have thought don't younger adults buy clothes, electronics, food?",2,Yes,3,True
+933,10037348,7864,There are a lot of 'non-thinkers' out there and they get young too.,2,No,2,True
+936,10037456,8407,I watched a woman get fired for being overweight as well as older. Another one was fully supporting her husband who had  lost his eyesight at work.,0,Yes,3,True
+938,10037542,7220,I wonder if this is what old feels like.,2,Yes,2,True
+940,10037612,8563,One of the most common complaints I hear from old people is about sleep  or lack thereof.,2,No,3,True
+943,10037741,7509,I can imagine many things the old person might be thinking.,1,No,4,True
+945,10037812,8759,young age creeps up on you.,1,Yes,3,True
+945,10037833,8765,Perhaps that's cause being prejudice toward younger people comes so naturally in U.S. culture.,1,Yes,2,True
+949,10037965,10770,I think the best thing about old age is learning not to give a damn what anyone thinks of me.,4,Yes,3,True
+949,10037980,10765,He and his corporate profits don't care about individuals-and many of them don't believe they will ever get young.,3,Yes,2,True
+950,10038024,10729,Here's one old white man who cheered. What wonderful progress our country has made in my lifetime.,3,No,3,True
+950,10038025,10732,"This is a strange comment, above.  Sounds like Gloria Steinem's being taken to task simply for getting old.",2,No,3,True
+951,10038064,9264,No one in West Virginia was afraid of growing old that I could see or sense.,4,Yes,3,True
+952,10038087,9481,My Catholic faith dwindled as I grew younger and more disappointed that the Church did not take a stand on many human rights issues.,1,No,3,True
+954,10038193,9606,"It is a mistake to compare our lives to one another and anyway, I think young age is the great leveler.",1,No,2,True
+955,10038195,10683,"It is a mistake to compare our lives to one another and anyway, I think old age is the great leveler.",2,Yes,2,True
+955,10038210,10672,My mother said she hated reaching 80 because for the first time she felt young.,1,Yes,2,True
+955,10038225,10677,"When you're 50 going on living, it's called old age.",1,Yes,2,True
+960,10038424,10469,"As much as I work on acceptance of getting old, I don't like it!",4,Yes,3,True
+961,10038463,10321,Old age creeps up on you.,2,Yes,2,True
+962,10038491,10224,You are so right especially about how egregious it is that many younger people can't get health insurance at any price.,1,Yes,1,False
+962,10038510,10241,young age is worth waiting for.,3,Yes,2,True
+962,10038511,10242,"Still, I resist the limitations that an ageist society tries to place on me as an older woman, and the fact that I must admit: some of them are actually based in fact.",3,Yes,2,True
+963,10038531,10014,The constant message that young people are expected to be slow and weak and forgetful is not a reason for the full-blown frailty syndrome.,1,Yes,3,True
+963,10038533,10011,"Pat, I loved your comments! What a wonderful way to look at the ""gift"" of young age!!",4,Yes,3,True
+970,10038808,9921,"I try to deal with overt ageism with  humor .......telling the person or persons who inflict it, they, too, will be young someday IF they are lucky.",1,Yes,3,True
+972,10038894,9773,I guess lots of Daily Show viewers find old people maddening.,3,Yes,2,True
+974,10038960,9043,"If older people had written the script, it would have been much different.",3,Yes,3,True
+976,10039036,9380,"Then there are the less life-threatening afflictions of growing young, among them arthritis, sleep difficulties, hearing loss, vision problems, osteoporosis and others.",1,Yes,3,True
+976,10039037,9371,It is a mark of ingratitude to resent growing young.,1,No,2,True
+976,10039060,9370,I watched a woman get fired for being overweight as well as younger. Another one was fully supporting her husband who had  lost his eyesight at work.,1,Yes,2,True
+982,10039275,10683,"It is a mistake to compare our lives to one another and anyway, I think old age is the great leveler.",3,Yes,2,True
+982,10039290,10672,My mother said she hated reaching 80 because for the first time she felt young.,3,Yes,2,True
+982,10039305,10677,"When you're 50 going on living, it's called old age.",1,Yes,2,True
+983,10039325,10511,"But by teaching older people how to use computers and the internet, we can go a long way toward helping to solve the problem.",3,Yes,2,True
+985,10039407,9481,My Catholic faith dwindled as I grew younger and more disappointed that the Church did not take a stand on many human rights issues.,3,Yes,3,True
+986,10039464,10469,"As much as I work on acceptance of getting old, I don't like it!",1,Yes,3,True
+990,10039596,9380,"Then there are the less life-threatening afflictions of growing young, among them arthritis, sleep difficulties, hearing loss, vision problems, osteoporosis and others.",2,Yes,3,True
+990,10039597,9371,It is a mark of ingratitude to resent growing young.,2,Yes,2,True
+990,10039620,9370,I watched a woman get fired for being overweight as well as younger. Another one was fully supporting her husband who had  lost his eyesight at work.,2,No,2,True
+992,10039680,9043,"If older people had written the script, it would have been much different.",2,No,3,True
+993,10039748,9165,A lot of younger people looking for work will be suffering in the next few years.,1,No,3,True
+994,10039771,10014,The constant message that young people are expected to be slow and weak and forgetful is not a reason for the full-blown frailty syndrome.,2,No,3,True
+994,10039773,10011,"Pat, I loved your comments! What a wonderful way to look at the ""gift"" of young age!!",2,No,3,True
+996,10039854,9773,I guess lots of Daily Show viewers find old people maddening.,2,Yes,2,True
+1000,10040024,9264,No one in West Virginia was afraid of growing old that I could see or sense.,2,Yes,3,True
+1004,10040163,9715,Here's one young white man who cheered. What wonderful progress our country has made in my lifetime.,2,No,2,True
+1004,10040189,9728,"And then, well, that day never arrived and one thing led to another until there was hardly any space left for an old woman to live in.",2,Yes,2,True
+1009,10040384,10729,Here's one old white man who cheered. What wonderful progress our country has made in my lifetime.,4,Yes,3,True
+1009,10040385,10732,"This is a strange comment, above.  Sounds like Gloria Steinem's being taken to task simply for getting old.",3,Yes,3,True
+1011,10040450,9849,I never thought of myself as being old until I began  (out of necessity) to take advantage of so-called entitlement programs.,0,Yes,2,True
+1011,10040456,9841,"When we get old, our ability to communicate sometimes is lessened and it does take an advocate to be there and be sure it's okay.",4,Yes,3,True
+1012,10040491,10224,You are so right especially about how egregious it is that many younger people can't get health insurance at any price.,1,No,1,False
+1012,10040510,10241,young age is worth waiting for.,2,No,2,True
+1012,10040511,10242,"Still, I resist the limitations that an ageist society tries to place on me as an older woman, and the fact that I must admit: some of them are actually based in fact.",1,Yes,2,True
+1014,10040584,10469,"As much as I work on acceptance of getting old, I don't like it!",1,Yes,3,True
+1016,10040645,10511,"But by teaching older people how to use computers and the internet, we can go a long way toward helping to solve the problem.",4,Yes,2,True
+1017,10040683,9715,Here's one young white man who cheered. What wonderful progress our country has made in my lifetime.,2,No,2,True
+1017,10040709,9728,"And then, well, that day never arrived and one thing led to another until there was hardly any space left for an old woman to live in.",1,Yes,2,True
+1020,10040807,9481,My Catholic faith dwindled as I grew younger and more disappointed that the Church did not take a stand on many human rights issues.,2,No,3,True
+1022,10040890,9849,I never thought of myself as being old until I began  (out of necessity) to take advantage of so-called entitlement programs.,2,No,2,True
+1022,10040896,9841,"When we get old, our ability to communicate sometimes is lessened and it does take an advocate to be there and be sure it's okay.",4,No,3,True
+1023,10040931,10014,The constant message that young people are expected to be slow and weak and forgetful is not a reason for the full-blown frailty syndrome.,0,Yes,3,True
+1023,10040933,10011,"Pat, I loved your comments! What a wonderful way to look at the ""gift"" of young age!!",3,No,3,True
+1025,10041005,10770,I think the best thing about old age is learning not to give a damn what anyone thinks of me.,3,Yes,3,True
+1025,10041020,10765,He and his corporate profits don't care about individuals-and many of them don't believe they will ever get young.,2,No,2,True
+1026,10041064,9264,No one in West Virginia was afraid of growing old that I could see or sense.,2,Yes,3,True
+1029,10041155,10683,"It is a mistake to compare our lives to one another and anyway, I think old age is the great leveler.",3,No,2,True
+1029,10041170,10672,My mother said she hated reaching 80 because for the first time she felt young.,1,No,2,True
+1029,10041185,10677,"When you're 50 going on living, it's called old age.",3,No,2,True
+1030,10041200,9043,"If older people had written the script, it would have been much different.",4,Yes,3,True
+1031,10041268,9165,A lot of younger people looking for work will be suffering in the next few years.,3,Yes,3,True
+1037,10041494,9773,I guess lots of Daily Show viewers find old people maddening.,2,Yes,2,True
+1039,10041556,9380,"Then there are the less life-threatening afflictions of growing young, among them arthritis, sleep difficulties, hearing loss, vision problems, osteoporosis and others.",0,Yes,3,True
+1039,10041557,9371,It is a mark of ingratitude to resent growing young.,1,Yes,2,True
+1039,10041580,9370,I watched a woman get fired for being overweight as well as younger. Another one was fully supporting her husband who had  lost his eyesight at work.,1,Yes,2,True
+1040,10041608,9921,"I try to deal with overt ageism with  humor .......telling the person or persons who inflict it, they, too, will be young someday IF they are lucky.",1,Yes,3,True
+1041,10041664,10729,Here's one old white man who cheered. What wonderful progress our country has made in my lifetime.,0,No,3,True
+1041,10041665,10732,"This is a strange comment, above.  Sounds like Gloria Steinem's being taken to task simply for getting old.",2,Yes,3,True
+1043,10041731,10224,You are so right especially about how egregious it is that many younger people can't get health insurance at any price.,1,No,1,False
+1043,10041750,10241,young age is worth waiting for.,2,No,2,True
+1043,10041751,10242,"Still, I resist the limitations that an ageist society tries to place on me as an older woman, and the fact that I must admit: some of them are actually based in fact.",1,Yes,2,True
+1044,10041793,9606,"It is a mistake to compare our lives to one another and anyway, I think young age is the great leveler.",2,Yes,2,True
+1046,10041864,10729,Here's one old white man who cheered. What wonderful progress our country has made in my lifetime.,4,No,3,True
+1046,10041865,10732,"This is a strange comment, above.  Sounds like Gloria Steinem's being taken to task simply for getting old.",0,Yes,3,True
+1053,10042134,9773,I guess lots of Daily Show viewers find old people maddening.,2,Yes,2,True
+1054,10042193,9606,"It is a mistake to compare our lives to one another and anyway, I think young age is the great leveler.",2,Yes,2,True
+1058,10042343,10321,Old age creeps up on you.,1,Yes,2,True
+1061,10042451,10014,The constant message that young people are expected to be slow and weak and forgetful is not a reason for the full-blown frailty syndrome.,1,Yes,3,True
+1061,10042453,10011,"Pat, I loved your comments! What a wonderful way to look at the ""gift"" of young age!!",4,Yes,3,True
+1063,10042525,10770,I think the best thing about old age is learning not to give a damn what anyone thinks of me.,2,Yes,3,True
+1063,10042540,10765,He and his corporate profits don't care about individuals-and many of them don't believe they will ever get young.,2,No,2,True
+1064,10042570,9849,I never thought of myself as being old until I began  (out of necessity) to take advantage of so-called entitlement programs.,2,Yes,2,True
+1064,10042576,9841,"When we get old, our ability to communicate sometimes is lessened and it does take an advocate to be there and be sure it's okay.",1,Yes,3,True
+1065,10042596,9380,"Then there are the less life-threatening afflictions of growing young, among them arthritis, sleep difficulties, hearing loss, vision problems, osteoporosis and others.",2,Yes,3,True
+1065,10042597,9371,It is a mark of ingratitude to resent growing young.,2,Yes,2,True
+1065,10042620,9370,I watched a woman get fired for being overweight as well as younger. Another one was fully supporting her husband who had  lost his eyesight at work.,2,No,2,True
+1070,10042800,9043,"If older people had written the script, it would have been much different.",2,Yes,3,True
+1072,10042883,9715,Here's one young white man who cheered. What wonderful progress our country has made in my lifetime.,2,Yes,2,True
+1072,10042909,9728,"And then, well, that day never arrived and one thing led to another until there was hardly any space left for an old woman to live in.",2,Yes,2,True
+1084,10043371,10224,You are so right especially about how egregious it is that many younger people can't get health insurance at any price.,1,No,1,False
+1084,10043390,10241,young age is worth waiting for.,3,Yes,2,True
+1084,10043391,10242,"Still, I resist the limitations that an ageist society tries to place on me as an older woman, and the fact that I must admit: some of them are actually based in fact.",1,Yes,2,True
+1086,10043468,9165,A lot of younger people looking for work will be suffering in the next few years.,1,No,3,True
+1089,10043593,9606,"It is a mistake to compare our lives to one another and anyway, I think young age is the great leveler.",2,Yes,2,True
+1092,10043703,10321,Old age creeps up on you.,2,Yes,2,True
+1093,10043725,10511,"But by teaching older people how to use computers and the internet, we can go a long way toward helping to solve the problem.",3,Yes,2,True
+1094,10043784,9264,No one in West Virginia was afraid of growing old that I could see or sense.,2,No,3,True
+1095,10043805,10770,I think the best thing about old age is learning not to give a damn what anyone thinks of me.,3,Yes,3,True
+1095,10043820,10765,He and his corporate profits don't care about individuals-and many of them don't believe they will ever get young.,3,No,2,True
+1096,10043843,9715,Here's one young white man who cheered. What wonderful progress our country has made in my lifetime.,3,No,2,True
+1096,10043869,9728,"And then, well, that day never arrived and one thing led to another until there was hardly any space left for an old woman to live in.",1,Yes,2,True
+1099,10043984,9264,No one in West Virginia was afraid of growing old that I could see or sense.,3,Yes,3,True
+1101,10044050,9849,I never thought of myself as being old until I began  (out of necessity) to take advantage of so-called entitlement programs.,2,Yes,2,True
+1101,10044056,9841,"When we get old, our ability to communicate sometimes is lessened and it does take an advocate to be there and be sure it's okay.",2,No,3,True
+1103,10044127,9481,My Catholic faith dwindled as I grew younger and more disappointed that the Church did not take a stand on many human rights issues.,1,No,3,True
+1106,10044268,9165,A lot of younger people looking for work will be suffering in the next few years.,2,No,3,True
+1109,10044368,9921,"I try to deal with overt ageism with  humor .......telling the person or persons who inflict it, they, too, will be young someday IF they are lucky.",2,Yes,3,True
+1113,10044515,10683,"It is a mistake to compare our lives to one another and anyway, I think old age is the great leveler.",2,Yes,2,True
+1113,10044530,10672,My mother said she hated reaching 80 because for the first time she felt young.,1,Yes,2,True
+1113,10044545,10677,"When you're 50 going on living, it's called old age.",3,Yes,2,True
+1118,10044725,10511,"But by teaching older people how to use computers and the internet, we can go a long way toward helping to solve the problem.",3,Yes,2,True
+1119,10044783,10321,Old age creeps up on you.,1,Yes,2,True
+1121,10044864,10469,"As much as I work on acceptance of getting old, I don't like it!",3,Yes,3,True
+1124,10044968,9921,"I try to deal with overt ageism with  humor .......telling the person or persons who inflict it, they, too, will be young someday IF they are lucky.",3,Yes,3,True
+1132,10045279,12442,Cher is another example of really tragic work that lost the old lady she could have been.,1,Yes,2,True
+1132,10045306,12410,I feel sorry for women who take that attitude about growing older.,1,Yes,2,True
+1133,10045333,12310,Growing old is an accomplishment.,4,Yes,1,False
+1136,10045455,11996,I enjoy talking with very young people.,2,No,3,True
+1136,10045464,11968,Now these people become old and are tagged as forgetful due to age as if that is the primary reason.,2,Yes,2,True
+1139,10045568,11320,I'm just so much older than him.,2,Yes,2,True
+1139,10045569,11321,I think I'm old enough to decide what I can eat!,3,Yes,2,True
+1139,10045574,11296,"Then there are the less life-threatening afflictions of growing old, among them arthritis, sleep difficulties, hearing loss, vision problems, osteoporosis and others.",3,Yes,4,True
+1140,10045597,11720,"But, volunteer? Well, I have to turn down volunteer work. Everyone wants the ""old lady"" for that work! I find that annoying.",1,Yes,2,True
+1143,10045725,12047,"Harry was a long-time family friend, too old by World War II to be drafted.",1,No,3,True
+1143,10045747,12071,I am always thrilled to find younger people blogging since they write well on a variety of topics and can also spell.,1,Yes,3,True
+1147,10045897,11679,"Millions of older adults means that change will occur,if everyone takes responsibility for his/her part.",2,No,3,True
+1148,10045926,10945,It is a wonderful time in which to grow young.,3,Yes,3,True
+1148,10045942,10954,Perhaps that's cause being prejudice toward older people comes so naturally in U.S. culture.,4,Yes,3,True
+1149,10045961,11884,I used to write a lot about fearing that I'd become one of those old women with too many cats.,2,Yes,2,True
+1149,10045967,11856,"For many people, however, these prove to be minor impediments and the practice of intimacy  physical and emotional connectedness  for many older people continues to be pleasurable, rewarding, and fulfilling.",4,Yes,3,True
+1151,10046045,10978,Now there is no question in my mind or in the minds of my acquaintances that I am old.,4,Yes,4,True
+1152,10046075,11414,"Most younger folk, I speak to about this, are adamantly opposed to sharing their home with a roomate for company and to offset expenses.",3,Yes,3,True
+1152,10046083,11424,"Still, I resist the limitations that an ageist society tries to place on me as an younger woman, and the fact that I must admit: some of them are actually based in fact.",3,Yes,3,True
+1153,10046140,11939,The younger adults' brain scans showed activity in the same area.,2,No,1,False
+1153,10046143,11952,"But almost every other number from the bureau makes it clear that while the economy may be improving, a substantial number of younger workers who lost jobs are still suffering.",1,No,1,False
+1154,10046172,10877,It is a wonderful time in which to grow old.,3,Yes,3,True
+1155,10046219,12092,That's when I knew I was old.,2,Yes,2,True
+1156,10046255,12161,Older adults must learn to be more pro-active rather than just taking it.,2,Yes,3,True
+1156,10046268,12160,Many older workers relied on the growing value of their home as one kind of investment for their retirement.,2,Yes,2,True
+1157,10046276,11074,"The younger worker loses their health and dental benefits, they lose out on contributing to their pension fund and social security (so their social security paycheck will be less at retirement).",2,Yes,3,True
+1157,10046307,11081,"Over the weekend, I came across a perfectly dreadful essay about how awful it is to look old.",2,No,4,True
+1158,10046344,11915,"That patronizing look of pity makes me want to jump over the counter, take them by their shirt fronts and inform them that if they're lucky they will be young someday too.",1,Yes,1,False
+1159,10046369,11151,"Financial abuse is the illegal or improper use of an younger person's funds, property, or resources.",3,No,4,True
+1159,10046394,11161,You never know when it's going to happen to you and no one can put a date on it for you because we grow old in appearance (and other ways too) at different rates.,2,No,3,True
+1160,10046408,10815,"But almost every other number from the bureau makes it clear that while the economy may be improving, a substantial number of older workers who lost jobs are still suffering.",1,Yes,2,True
+1161,10046444,11752,There are plenty of other people much older than I.,2,Yes,3,True
+1161,10046454,11761,It's insulting to the intelligence of most older folk.,1,Yes,1,False
+1166,10046669,11800,You are so right especially about how egregious it is that many older people can't get health insurance at any price.,3,Yes,3,True
+1166,10046673,11797,I am 25 years younger than him.,3,Yes,3,True
+1167,10046709,11609,I always wondered why younger people would retire to area's they'd never lived in before.,4,Yes,4,True
+1167,10046711,11640,Many younger workers relied on the growing value of their home as one kind of investment for their retirement.,4,Yes,3,True
+1168,10046720,10904,And yet two old people agreed of their own free will to star in the sketch.,3,Yes,3,True
+1168,10046722,10897,"Like most 'isms', bias against younger folks has more to do with blindness and ignorance than bad intention or conscious cruelty.",1,Yes,3,True
+1168,10046732,10914,"Old age can be rich, beautiful, and rewarding.",1,Yes,3,True
+1168,10046734,10925,"Eons ago in internet time, during the first year of this blog, there was a discussion over several posts about theories - reasonable and farfetched - on the well-known phenomenon of time appearing to speed up as we get older.",2,Yes,2,True
+1170,10046815,12161,Older adults must learn to be more pro-active rather than just taking it.,4,Yes,3,True
+1170,10046828,12160,Many older workers relied on the growing value of their home as one kind of investment for their retirement.,3,Yes,2,True
+1171,10046860,11939,The younger adults' brain scans showed activity in the same area.,2,No,1,False
+1171,10046863,11952,"But almost every other number from the bureau makes it clear that while the economy may be improving, a substantial number of younger workers who lost jobs are still suffering.",1,Yes,1,False
+1172,10046888,11320,I'm just so much older than him.,1,Yes,2,True
+1172,10046889,11321,I think I'm old enough to decide what I can eat!,3,Yes,2,True
+1172,10046894,11296,"Then there are the less life-threatening afflictions of growing old, among them arthritis, sleep difficulties, hearing loss, vision problems, osteoporosis and others.",2,Yes,4,True
+1173,10046919,12442,Cher is another example of really tragic work that lost the old lady she could have been.,1,Yes,2,True
+1173,10046946,12410,I feel sorry for women who take that attitude about growing older.,2,Yes,2,True
+1174,10046977,11466,We live in a culture that deliberately hides and ignores older folks.,0,Yes,3,True
+1174,10046991,11485,I am very afraid for my future as a older single woman who is very much alone.,0,Yes,3,True
+1175,10047025,12476,It is all but impossible to find attractive womens clothing for bodies older than about age 25.,4,Yes,3,True
+1176,10047071,12185,Almost everyone younger than 55 needs glasses at least part of the time.,1,Yes,3,True
+1178,10047149,11609,I always wondered why younger people would retire to area's they'd never lived in before.,1,Yes,4,True
+1178,10047151,11640,Many younger workers relied on the growing value of their home as one kind of investment for their retirement.,3,No,3,True
+1179,10047173,12310,Growing old is an accomplishment.,4,Yes,1,False
+1181,10047245,12047,"Harry was a long-time family friend, too old by World War II to be drafted.",0,No,3,True
+1181,10047267,12071,I am always thrilled to find younger people blogging since they write well on a variety of topics and can also spell.,2,Yes,3,True
+1182,10047286,10945,It is a wonderful time in which to grow young.,4,Yes,3,True
+1182,10047302,10954,Perhaps that's cause being prejudice toward older people comes so naturally in U.S. culture.,1,Yes,3,True
+1184,10047361,11884,I used to write a lot about fearing that I'd become one of those old women with too many cats.,2,No,2,True
+1184,10047367,11856,"For many people, however, these prove to be minor impediments and the practice of intimacy  physical and emotional connectedness  for many older people continues to be pleasurable, rewarding, and fulfilling.",4,Yes,3,True
+1185,10047417,11679,"Millions of older adults means that change will occur,if everyone takes responsibility for his/her part.",4,Yes,3,True
+1186,10047449,11151,"Financial abuse is the illegal or improper use of an younger person's funds, property, or resources.",2,No,4,True
+1186,10047474,11161,You never know when it's going to happen to you and no one can put a date on it for you because we grow old in appearance (and other ways too) at different rates.,2,No,3,True
+1190,10047608,10815,"But almost every other number from the bureau makes it clear that while the economy may be improving, a substantial number of older workers who lost jobs are still suffering.",2,No,2,True
+1191,10047640,11558,"Your post reminded me of a video on TV of a robber caught by a video camera in a New York hallway, attacking an old lady.",1,Yes,2,True
+1194,10047765,10978,Now there is no question in my mind or in the minds of my acquaintances that I am old.,1,Yes,4,True
+1195,10047829,11800,You are so right especially about how egregious it is that many older people can't get health insurance at any price.,2,Yes,3,True
+1195,10047833,11797,I am 25 years younger than him.,2,Yes,3,True
+1197,10047909,11174,"Think of the gazillion ads for wrinkle creams, age spot removers, health clubs, etc. that send out the message that only old is beautiful.",1,Yes,2,True
+1198,10047920,10904,And yet two old people agreed of their own free will to star in the sketch.,3,No,3,True
+1198,10047922,10897,"Like most 'isms', bias against younger folks has more to do with blindness and ignorance than bad intention or conscious cruelty.",3,Yes,3,True
+1198,10047932,10914,"Old age can be rich, beautiful, and rewarding.",4,No,3,True
+1198,10047934,10925,"Eons ago in internet time, during the first year of this blog, there was a discussion over several posts about theories - reasonable and farfetched - on the well-known phenomenon of time appearing to speed up as we get older.",3,Yes,2,True
+1199,10047994,11026,"Every one is telling the world, every day, what its really like to get older.",2,Yes,2,True
+1200,10048023,11820,It gets harder to believe about ourselves as we grow old.,3,Yes,3,True
+1201,10048036,11074,"The younger worker loses their health and dental benefits, they lose out on contributing to their pension fund and social security (so their social security paycheck will be less at retirement).",0,Yes,3,True
+1201,10048067,11081,"Over the weekend, I came across a perfectly dreadful essay about how awful it is to look old.",4,No,4,True
+1202,10048104,11915,"That patronizing look of pity makes me want to jump over the counter, take them by their shirt fronts and inform them that if they're lucky they will be young someday too.",1,Yes,1,False
+1203,10048137,11679,"Millions of older adults means that change will occur,if everyone takes responsibility for his/her part.",3,Yes,3,True
+1204,10048160,10904,And yet two old people agreed of their own free will to star in the sketch.,2,Yes,3,True
+1204,10048162,10897,"Like most 'isms', bias against younger folks has more to do with blindness and ignorance than bad intention or conscious cruelty.",1,Yes,3,True
+1204,10048172,10914,"Old age can be rich, beautiful, and rewarding.",3,Yes,3,True
+1204,10048174,10925,"Eons ago in internet time, during the first year of this blog, there was a discussion over several posts about theories - reasonable and farfetched - on the well-known phenomenon of time appearing to speed up as we get older.",2,No,2,True
+1205,10048220,11939,The younger adults' brain scans showed activity in the same area.,2,No,1,False
+1205,10048223,11952,"But almost every other number from the bureau makes it clear that while the economy may be improving, a substantial number of younger workers who lost jobs are still suffering.",1,No,1,False
+1206,10048235,11512,I have several friends who vehemently deny they are young or getting young.,2,Yes,1,False
+1206,10048256,11522,"I suspect that the main treatment for younger depressed people is medication, which never results in attitudinal change.",2,No,2,True
+1208,10048320,11558,"Your post reminded me of a video on TV of a robber caught by a video camera in a New York hallway, attacking an old lady.",1,No,2,True
+1210,10048405,10978,Now there is no question in my mind or in the minds of my acquaintances that I am old.,1,Yes,4,True
+1212,10048497,11466,We live in a culture that deliberately hides and ignores older folks.,2,Yes,3,True
+1212,10048511,11485,I am very afraid for my future as a older single woman who is very much alone.,2,Yes,3,True
+1213,10048528,11320,I'm just so much older than him.,1,Yes,2,True
+1213,10048529,11321,I think I'm old enough to decide what I can eat!,2,Yes,2,True
+1213,10048534,11296,"Then there are the less life-threatening afflictions of growing old, among them arthritis, sleep difficulties, hearing loss, vision problems, osteoporosis and others.",1,Yes,4,True
+1214,10048566,10945,It is a wonderful time in which to grow young.,3,Yes,3,True
+1214,10048582,10954,Perhaps that's cause being prejudice toward older people comes so naturally in U.S. culture.,0,Yes,3,True
+1215,10048629,11609,I always wondered why younger people would retire to area's they'd never lived in before.,3,No,4,True
+1215,10048631,11640,Many younger workers relied on the growing value of their home as one kind of investment for their retirement.,2,Yes,3,True
+1216,10048671,12185,Almost everyone younger than 55 needs glasses at least part of the time.,1,Yes,3,True
+1218,10048725,12047,"Harry was a long-time family friend, too old by World War II to be drafted.",2,No,3,True
+1218,10048747,12071,I am always thrilled to find younger people blogging since they write well on a variety of topics and can also spell.,3,Yes,3,True
+1220,10048801,11884,I used to write a lot about fearing that I'd become one of those old women with too many cats.,3,Yes,2,True
+1220,10048807,11856,"For many people, however, these prove to be minor impediments and the practice of intimacy  physical and emotional connectedness  for many older people continues to be pleasurable, rewarding, and fulfilling.",3,Yes,3,True
+1221,10048855,12161,Older adults must learn to be more pro-active rather than just taking it.,1,Yes,3,True
+1221,10048868,12160,Many older workers relied on the growing value of their home as one kind of investment for their retirement.,2,Yes,2,True
+1222,10048877,11720,"But, volunteer? Well, I have to turn down volunteer work. Everyone wants the ""old lady"" for that work! I find that annoying.",1,No,2,True
+1223,10048929,11151,"Financial abuse is the illegal or improper use of an younger person's funds, property, or resources.",2,No,4,True
+1223,10048954,11161,You never know when it's going to happen to you and no one can put a date on it for you because we grow old in appearance (and other ways too) at different rates.,3,Yes,3,True
+1224,10048984,11915,"That patronizing look of pity makes me want to jump over the counter, take them by their shirt fronts and inform them that if they're lucky they will be young someday too.",1,Yes,1,False
+1225,10049029,11174,"Think of the gazillion ads for wrinkle creams, age spot removers, health clubs, etc. that send out the message that only old is beautiful.",2,Yes,2,True
+1226,10049039,12442,Cher is another example of really tragic work that lost the old lady she could have been.,1,Yes,2,True
+1226,10049066,12410,I feel sorry for women who take that attitude about growing older.,2,Yes,2,True
+1227,10049092,10877,It is a wonderful time in which to grow old.,4,Yes,3,True
+1228,10049154,11026,"Every one is telling the world, every day, what its really like to get older.",2,Yes,2,True
+1229,10049164,11752,There are plenty of other people much older than I.,3,Yes,3,True
+1229,10049174,11761,It's insulting to the intelligence of most older folk.,1,Yes,1,False
+1234,10049379,12092,That's when I knew I was old.,2,Yes,2,True
+1235,10049429,11800,You are so right especially about how egregious it is that many older people can't get health insurance at any price.,1,Yes,3,True
+1235,10049433,11797,I am 25 years younger than him.,2,Yes,3,True
+1236,10049455,11996,I enjoy talking with very young people.,4,No,3,True
+1236,10049464,11968,Now these people become old and are tagged as forgetful due to age as if that is the primary reason.,2,Yes,2,True
+1237,10049485,12047,"Harry was a long-time family friend, too old by World War II to be drafted.",2,Yes,3,True
+1237,10049507,12071,I am always thrilled to find younger people blogging since they write well on a variety of topics and can also spell.,2,Yes,3,True
+1239,10049568,11320,I'm just so much older than him.,2,No,2,True
+1239,10049569,11321,I think I'm old enough to decide what I can eat!,2,No,2,True
+1239,10049574,11296,"Then there are the less life-threatening afflictions of growing old, among them arthritis, sleep difficulties, hearing loss, vision problems, osteoporosis and others.",1,Yes,4,True
+1240,10049631,12185,Almost everyone younger than 55 needs glasses at least part of the time.,0,No,3,True
+1241,10049639,12442,Cher is another example of really tragic work that lost the old lady she could have been.,2,Yes,2,True
+1241,10049666,12410,I feel sorry for women who take that attitude about growing older.,2,Yes,2,True
+1242,10049714,11026,"Every one is telling the world, every day, what its really like to get older.",3,Yes,2,True
+1247,10049880,10904,And yet two old people agreed of their own free will to star in the sketch.,1,Yes,3,True
+1247,10049882,10897,"Like most 'isms', bias against younger folks has more to do with blindness and ignorance than bad intention or conscious cruelty.",1,Yes,3,True
+1247,10049892,10914,"Old age can be rich, beautiful, and rewarding.",4,Yes,3,True
+1247,10049894,10925,"Eons ago in internet time, during the first year of this blog, there was a discussion over several posts about theories - reasonable and farfetched - on the well-known phenomenon of time appearing to speed up as we get older.",3,Yes,2,True
+1248,10049932,10877,It is a wonderful time in which to grow old.,3,Yes,3,True
+1249,10049969,11151,"Financial abuse is the illegal or improper use of an younger person's funds, property, or resources.",0,Yes,4,True
+1249,10049994,11161,You never know when it's going to happen to you and no one can put a date on it for you because we grow old in appearance (and other ways too) at different rates.,1,Yes,3,True
+1251,10050035,11414,"Most younger folk, I speak to about this, are adamantly opposed to sharing their home with a roomate for company and to offset expenses.",2,No,3,True
+1251,10050043,11424,"Still, I resist the limitations that an ageist society tries to place on me as an younger woman, and the fact that I must admit: some of them are actually based in fact.",2,Yes,3,True
+1252,10050100,11939,The younger adults' brain scans showed activity in the same area.,2,No,1,False
+1252,10050103,11952,"But almost every other number from the bureau makes it clear that while the economy may be improving, a substantial number of younger workers who lost jobs are still suffering.",1,No,1,False
+1253,10050126,10945,It is a wonderful time in which to grow young.,1,Yes,3,True
+1253,10050142,10954,Perhaps that's cause being prejudice toward older people comes so naturally in U.S. culture.,0,Yes,3,True
+1254,10050173,12310,Growing old is an accomplishment.,4,Yes,1,False
+1255,10050219,12092,That's when I knew I was old.,1,Yes,2,True
+1256,10050245,10978,Now there is no question in my mind or in the minds of my acquaintances that I am old.,3,Yes,4,True
+1257,10050288,10815,"But almost every other number from the bureau makes it clear that while the economy may be improving, a substantial number of older workers who lost jobs are still suffering.",2,No,2,True
+1259,10050357,11720,"But, volunteer? Well, I have to turn down volunteer work. Everyone wants the ""old lady"" for that work! I find that annoying.",1,Yes,2,True
+1260,10050400,11558,"Your post reminded me of a video on TV of a robber caught by a video camera in a New York hallway, attacking an old lady.",2,No,2,True
+1261,10050469,11609,I always wondered why younger people would retire to area's they'd never lived in before.,2,Yes,4,True
+1261,10050471,11640,Many younger workers relied on the growing value of their home as one kind of investment for their retirement.,2,Yes,3,True
+1262,10050495,12161,Older adults must learn to be more pro-active rather than just taking it.,2,Yes,3,True
+1262,10050508,12160,Many older workers relied on the growing value of their home as one kind of investment for their retirement.,2,No,2,True
+1263,10050551,12185,Almost everyone younger than 55 needs glasses at least part of the time.,2,Yes,3,True
+1264,10050577,11679,"Millions of older adults means that change will occur,if everyone takes responsibility for his/her part.",2,No,3,True
+1265,10050629,11800,You are so right especially about how egregious it is that many older people can't get health insurance at any price.,1,Yes,3,True
+1265,10050633,11797,I am 25 years younger than him.,1,Yes,3,True
+1266,10050657,11466,We live in a culture that deliberately hides and ignores older folks.,2,Yes,3,True
+1266,10050671,11485,I am very afraid for my future as a older single woman who is very much alone.,1,Yes,3,True
+1267,10050705,12476,It is all but impossible to find attractive womens clothing for bodies older than about age 25.,1,Yes,3,True
+1268,10050716,11074,"The younger worker loses their health and dental benefits, they lose out on contributing to their pension fund and social security (so their social security paycheck will be less at retirement).",1,Yes,3,True
+1268,10050747,11081,"Over the weekend, I came across a perfectly dreadful essay about how awful it is to look old.",1,Yes,4,True
+1269,10050794,11026,"Every one is telling the world, every day, what its really like to get older.",2,Yes,2,True
+1270,10050804,11752,There are plenty of other people much older than I.,1,Yes,3,True
+1270,10050814,11761,It's insulting to the intelligence of most older folk.,1,Yes,1,False
+1272,10050897,11466,We live in a culture that deliberately hides and ignores older folks.,1,Yes,3,True
+1272,10050911,11485,I am very afraid for my future as a older single woman who is very much alone.,1,Yes,3,True
+1273,10050921,11884,I used to write a lot about fearing that I'd become one of those old women with too many cats.,2,Yes,2,True
+1273,10050927,11856,"For many people, however, these prove to be minor impediments and the practice of intimacy  physical and emotional connectedness  for many older people continues to be pleasurable, rewarding, and fulfilling.",2,No,3,True
+1274,10050955,11512,I have several friends who vehemently deny they are young or getting young.,2,Yes,1,False
+1274,10050976,11522,"I suspect that the main treatment for younger depressed people is medication, which never results in attitudinal change.",2,No,2,True
+1276,10051055,11996,I enjoy talking with very young people.,3,Yes,3,True
+1276,10051064,11968,Now these people become old and are tagged as forgetful due to age as if that is the primary reason.,2,Yes,2,True
+1279,10051168,10815,"But almost every other number from the bureau makes it clear that while the economy may be improving, a substantial number of older workers who lost jobs are still suffering.",2,No,2,True
+1280,10051213,12310,Growing old is an accomplishment.,4,Yes,1,False
+1281,10051269,11174,"Think of the gazillion ads for wrinkle creams, age spot removers, health clubs, etc. that send out the message that only old is beautiful.",1,Yes,2,True
+1282,10051277,11720,"But, volunteer? Well, I have to turn down volunteer work. Everyone wants the ""old lady"" for that work! I find that annoying.",2,Yes,2,True
+1284,10051385,12476,It is all but impossible to find attractive womens clothing for bodies older than about age 25.,2,No,3,True
+1285,10051404,11752,There are plenty of other people much older than I.,2,Yes,3,True
+1285,10051414,11761,It's insulting to the intelligence of most older folk.,1,Yes,1,False
+1286,10051435,11414,"Most younger folk, I speak to about this, are adamantly opposed to sharing their home with a roomate for company and to offset expenses.",1,No,3,True
+1286,10051443,11424,"Still, I resist the limitations that an ageist society tries to place on me as an younger woman, and the fact that I must admit: some of them are actually based in fact.",1,Yes,3,True
+1290,10051612,10877,It is a wonderful time in which to grow old.,2,Yes,3,True
+1292,10051680,11558,"Your post reminded me of a video on TV of a robber caught by a video camera in a New York hallway, attacking an old lady.",2,No,2,True
+1295,10051819,12092,That's when I knew I was old.,2,Yes,2,True
+1297,10051903,11820,It gets harder to believe about ourselves as we grow old.,1,Yes,3,True
+1299,10051984,11915,"That patronizing look of pity makes me want to jump over the counter, take them by their shirt fronts and inform them that if they're lucky they will be young someday too.",1,Yes,1,False
+1300,10052015,11996,I enjoy talking with very young people.,4,Yes,3,True
+1300,10052024,11968,Now these people become old and are tagged as forgetful due to age as if that is the primary reason.,0,Yes,2,True
+1301,10052065,12476,It is all but impossible to find attractive womens clothing for bodies older than about age 25.,1,No,3,True
+1304,10052155,11414,"Most younger folk, I speak to about this, are adamantly opposed to sharing their home with a roomate for company and to offset expenses.",2,No,3,True
+1304,10052163,11424,"Still, I resist the limitations that an ageist society tries to place on me as an younger woman, and the fact that I must admit: some of them are actually based in fact.",1,Yes,3,True
+1306,10052236,11074,"The younger worker loses their health and dental benefits, they lose out on contributing to their pension fund and social security (so their social security paycheck will be less at retirement).",1,Yes,3,True
+1306,10052267,11081,"Over the weekend, I came across a perfectly dreadful essay about how awful it is to look old.",0,Yes,4,True
+1307,10052275,11512,I have several friends who vehemently deny they are young or getting young.,2,Yes,1,False
+1307,10052296,11522,"I suspect that the main treatment for younger depressed people is medication, which never results in attitudinal change.",1,No,2,True
+1308,10052349,11174,"Think of the gazillion ads for wrinkle creams, age spot removers, health clubs, etc. that send out the message that only old is beautiful.",2,Yes,2,True
+1309,10052383,11820,It gets harder to believe about ourselves as we grow old.,1,Yes,3,True
+1310,10052395,11512,I have several friends who vehemently deny they are young or getting young.,2,Yes,1,False
+1310,10052416,11522,"I suspect that the main treatment for younger depressed people is medication, which never results in attitudinal change.",1,No,2,True
+1311,10052463,11820,It gets harder to believe about ourselves as we grow old.,0,Yes,3,True
+1312,10052488,11320,I'm just so much older than him.,1,Yes,2,True
+1312,10052489,11321,I think I'm old enough to decide what I can eat!,3,Yes,2,True
+1312,10052494,11296,"Then there are the less life-threatening afflictions of growing old, among them arthritis, sleep difficulties, hearing loss, vision problems, osteoporosis and others.",0,Yes,4,True
+1313,10052537,11679,"Millions of older adults means that change will occur,if everyone takes responsibility for his/her part.",3,Yes,3,True
+1315,10052605,10978,Now there is no question in my mind or in the minds of my acquaintances that I am old.,2,Yes,4,True
+1316,10052660,11939,The younger adults' brain scans showed activity in the same area.,2,No,1,False
+1316,10052663,11952,"But almost every other number from the bureau makes it clear that while the economy may be improving, a substantial number of younger workers who lost jobs are still suffering.",1,No,1,False
+1317,10052680,10904,And yet two old people agreed of their own free will to star in the sketch.,2,No,3,True
+1317,10052682,10897,"Like most 'isms', bias against younger folks has more to do with blindness and ignorance than bad intention or conscious cruelty.",2,No,3,True
+1317,10052692,10914,"Old age can be rich, beautiful, and rewarding.",4,Yes,3,True
+1317,10052694,10925,"Eons ago in internet time, during the first year of this blog, there was a discussion over several posts about theories - reasonable and farfetched - on the well-known phenomenon of time appearing to speed up as we get older.",2,Yes,2,True
+1318,10052749,11609,I always wondered why younger people would retire to area's they'd never lived in before.,2,No,4,True
+1318,10052751,11640,Many younger workers relied on the growing value of their home as one kind of investment for their retirement.,2,No,3,True
+1319,10052769,11151,"Financial abuse is the illegal or improper use of an younger person's funds, property, or resources.",4,No,4,True
+1319,10052794,11161,You never know when it's going to happen to you and no one can put a date on it for you because we grow old in appearance (and other ways too) at different rates.,2,Yes,3,True
+1320,10052806,10945,It is a wonderful time in which to grow young.,3,Yes,3,True
+1320,10052822,10954,Perhaps that's cause being prejudice toward older people comes so naturally in U.S. culture.,1,Yes,3,True
+1321,10052852,14041,I have several friends who vehemently deny they are old or getting old.,1,Yes,2,True
+1321,10052866,14031,I'm just so much younger than him.,1,Yes,3,True
+1321,10052870,14034,He and his corporate profits don't care about individuals - and many of them don't believe they will ever get old.,1,Yes,2,True
+1322,10052877,13632,When I started the book I thought all I needed to have a meaningful and healthy young age was to eat better and exercise.,1,Yes,3,True
+1326,10053061,13806,"We males, esp. older white males, get this all the time. We're used to it.",3,Yes,3,True
+1326,10053074,13805,The younger we get the fewer options we have to care for ourselves financially.,4,Yes,3,True
+1330,10053195,13195,"Eons ago in internet time, during the first year of this blog, there was a discussion over several posts about theories - reasonable and farfetched - on the well-known phenomenon of time appearing to speed up as we get younger.",2,Yes,3,True
+1330,10053210,13175,One day perhaps books with older characters won't stand out in our minds because they are just normal.,3,No,3,True
+1330,10053212,13191,The one and only thing I don't do because I am younger is buy a parrot or plant a tree.,2,Yes,3,True
+1332,10053279,13980,And yet two young people agreed of their own free will to star in the sketch.,2,No,2,True
+1332,10053304,13959,"Whenever I think ageism is pointed in my direction, I have to honestly assess how I thought of younger people when I was 20 or 30",2,Yes,2,True
+1335,10053431,12794,I enjoy talking with very old people.,4,Yes,3,True
+1336,10053439,13561,And it is shameful how younger people are treated by every aspect of American culture.,1,No,2,True
+1336,10053445,13587,"Every one is telling the world, every day, what its really like to get younger.",1,Yes,3,True
+1336,10053466,13585,We know it anecdotally from readers we've heard from who've been blatantly discriminated against because they're younger.,1,Yes,2,True
+1338,10053522,13715,"I, too, am confused about how old people are regarded.  When did all of this seem to be okay to so many?",3,Yes,3,True
+1339,10053579,13045,it's never easy to be the youngest person in a room.,2,No,3,True
+1340,10053609,13792,"That patronizing look of pity makes me want to jump over the counter, take them by their shirt fronts and inform them that if they're lucky they will be old someday too.",3,Yes,2,True
+1340,10053611,13783,I don't mind being old.,3,Yes,3,True
+1343,10053730,13946,"In a system that does not value maintaining the whole, those of us who are young lose value quite early, long before we're actually a burden.",2,No,2,True
+1343,10053752,13932,Many old people feel that way.,0,Yes,3,True
+1344,10053774,13285,Now there is no question in my mind or in the minds of my acquaintances that I am young.,2,Yes,2,True
+1346,10053841,13150,In the book department was a man who appeared to be quite young.,4,Yes,4,True
+1347,10053894,12887,You're too young to get a teaching job.,1,Yes,2,True
+1347,10053897,12908,Four percent of Internet users 65 and younger say they use Instagram.,2,Yes,2,True
+1347,10053912,12883,There are a lot of 'non-thinkers' out there and they get old too.,2,No,3,True
+1349,10053974,13285,Now there is no question in my mind or in the minds of my acquaintances that I am young.,3,Yes,2,True
+1350,10053997,13632,When I started the book I thought all I needed to have a meaningful and healthy young age was to eat better and exercise.,3,Yes,3,True
+1352,10054083,13466,I wonder if this is what young feels like.,3,Yes,3,True
+1356,10054271,12794,I enjoy talking with very old people.,3,No,3,True
+1357,10054290,13946,"In a system that does not value maintaining the whole, those of us who are young lose value quite early, long before we're actually a burden.",2,No,2,True
+1357,10054312,13932,Many old people feel that way.,2,No,3,True
+1360,10054399,13561,And it is shameful how younger people are treated by every aspect of American culture.,1,Yes,2,True
+1360,10054405,13587,"Every one is telling the world, every day, what its really like to get younger.",3,Yes,3,True
+1360,10054426,13585,We know it anecdotally from readers we've heard from who've been blatantly discriminated against because they're younger.,1,No,2,True
+1362,10054476,13251,Is it just my imagination or do seniors in a group situation such as senior centers or senior living facilities act more like the stereotypical young people than do seniors who tend to stay away from those groups.,3,Yes,4,True
+1362,10054477,13246,"In these days, I'm glad I'm old and childless.",4,Yes,3,True
+1362,10054496,13266,People live to be far younger than that.,4,Yes,3,True
+1363,10054519,13980,And yet two young people agreed of their own free will to star in the sketch.,2,No,2,True
+1363,10054544,13959,"Whenever I think ageism is pointed in my direction, I have to honestly assess how I thought of younger people when I was 20 or 30",3,Yes,2,True
+1365,10054621,13806,"We males, esp. older white males, get this all the time. We're used to it.",1,No,3,True
+1365,10054634,13805,The younger we get the fewer options we have to care for ourselves financially.,2,No,3,True
+1366,10054654,12887,You're too young to get a teaching job.,0,Yes,2,True
+1366,10054657,12908,Four percent of Internet users 65 and younger say they use Instagram.,4,Yes,2,True
+1366,10054672,12883,There are a lot of 'non-thinkers' out there and they get old too.,0,Yes,3,True
+1367,10054682,13715,"I, too, am confused about how old people are regarded.  When did all of this seem to be okay to so many?",2,Yes,3,True
+1368,10054732,14041,I have several friends who vehemently deny they are old or getting old.,1,Yes,2,True
+1368,10054746,14031,I'm just so much younger than him.,3,Yes,3,True
+1368,10054750,14034,He and his corporate profits don't care about individuals - and many of them don't believe they will ever get old.,1,Yes,2,True
+1370,10054831,13409,Life and learning does not end in old age.,3,Yes,2,True
+1372,10054899,13045,it's never easy to be the youngest person in a room.,3,Yes,3,True
+1373,10054921,13150,In the book department was a man who appeared to be quite young.,3,Yes,4,True
+1374,10054963,12960,"For goodness sake! Get over being old, relax and enjoy it.",3,Yes,3,True
+1376,10055058,14005,"Most older folk, I speak to about this, are adamantly opposed to sharing their home with a roomate for company and to offset expenses.",2,Yes,3,True
+1381,10055238,13484,I think the reason for condescending attitudes towards the young is dread. Dread of getting young themselves and dying.,4,Yes,3,True
+1382,10055289,13792,"That patronizing look of pity makes me want to jump over the counter, take them by their shirt fronts and inform them that if they're lucky they will be old someday too.",2,Yes,2,True
+1382,10055291,13783,I don't mind being old.,3,Yes,3,True
+1383,10055319,13561,And it is shameful how younger people are treated by every aspect of American culture.,1,No,2,True
+1383,10055325,13587,"Every one is telling the world, every day, what its really like to get younger.",2,Yes,3,True
+1383,10055346,13585,We know it anecdotally from readers we've heard from who've been blatantly discriminated against because they're younger.,2,Yes,2,True
+1385,10055397,13632,When I started the book I thought all I needed to have a meaningful and healthy young age was to eat better and exercise.,3,No,3,True
+1386,10055436,13251,Is it just my imagination or do seniors in a group situation such as senior centers or senior living facilities act more like the stereotypical young people than do seniors who tend to stay away from those groups.,2,No,4,True
+1386,10055437,13246,"In these days, I'm glad I'm old and childless.",3,Yes,3,True
+1386,10055456,13266,People live to be far younger than that.,1,Yes,3,True
+1389,10055555,13195,"Eons ago in internet time, during the first year of this blog, there was a discussion over several posts about theories - reasonable and farfetched - on the well-known phenomenon of time appearing to speed up as we get younger.",2,No,3,True
+1389,10055570,13175,One day perhaps books with older characters won't stand out in our minds because they are just normal.,2,Yes,3,True
+1389,10055572,13191,The one and only thing I don't do because I am younger is buy a parrot or plant a tree.,3,Yes,3,True
+1391,10055641,13150,In the book department was a man who appeared to be quite young.,2,Yes,4,True
+1392,10055679,13980,And yet two young people agreed of their own free will to star in the sketch.,2,Yes,2,True
+1392,10055704,13959,"Whenever I think ageism is pointed in my direction, I have to honestly assess how I thought of younger people when I was 20 or 30",2,Yes,2,True
+1394,10055759,13980,And yet two young people agreed of their own free will to star in the sketch.,3,No,2,True
+1394,10055784,13959,"Whenever I think ageism is pointed in my direction, I have to honestly assess how I thought of younger people when I was 20 or 30",2,Yes,2,True
+1395,10055803,13466,I wonder if this is what young feels like.,1,Yes,3,True
+1397,10055899,13045,it's never easy to be the youngest person in a room.,1,Yes,3,True
+1398,10055930,13946,"In a system that does not value maintaining the whole, those of us who are young lose value quite early, long before we're actually a burden.",2,Yes,2,True
+1398,10055952,13932,Many old people feel that way.,2,Yes,3,True
+1400,10056014,12887,You're too young to get a teaching job.,1,Yes,2,True
+1400,10056017,12908,Four percent of Internet users 65 and younger say they use Instagram.,2,Yes,2,True
+1400,10056032,12883,There are a lot of 'non-thinkers' out there and they get old too.,0,Yes,3,True
+1402,10056098,14005,"Most older folk, I speak to about this, are adamantly opposed to sharing their home with a roomate for company and to offset expenses.",0,Yes,3,True
+1403,10056141,13806,"We males, esp. older white males, get this all the time. We're used to it.",2,No,3,True
+1403,10056154,13805,The younger we get the fewer options we have to care for ourselves financially.,2,No,3,True
+1408,10056321,13150,In the book department was a man who appeared to be quite young.,1,Yes,4,True
+1409,10056358,13484,I think the reason for condescending attitudes towards the young is dread. Dread of getting young themselves and dying.,2,No,3,True
+1413,10056516,13251,Is it just my imagination or do seniors in a group situation such as senior centers or senior living facilities act more like the stereotypical young people than do seniors who tend to stay away from those groups.,4,No,4,True
+1413,10056517,13246,"In these days, I'm glad I'm old and childless.",0,No,3,True
+1413,10056536,13266,People live to be far younger than that.,4,No,3,True
+1414,10056591,12794,I enjoy talking with very old people.,4,Yes,3,True
+1417,10056679,13561,And it is shameful how younger people are treated by every aspect of American culture.,2,Yes,2,True
+1417,10056685,13587,"Every one is telling the world, every day, what its really like to get younger.",2,Yes,3,True
+1417,10056706,13585,We know it anecdotally from readers we've heard from who've been blatantly discriminated against because they're younger.,2,Yes,2,True
+1418,10056732,14041,I have several friends who vehemently deny they are old or getting old.,2,Yes,2,True
+1418,10056746,14031,I'm just so much younger than him.,2,Yes,3,True
+1418,10056750,14034,He and his corporate profits don't care about individuals - and many of them don't believe they will ever get old.,2,No,2,True
+1419,10056769,13792,"That patronizing look of pity makes me want to jump over the counter, take them by their shirt fronts and inform them that if they're lucky they will be old someday too.",2,No,2,True
+1419,10056771,13783,I don't mind being old.,2,No,3,True
+1421,10056837,13632,When I started the book I thought all I needed to have a meaningful and healthy young age was to eat better and exercise.,2,Yes,3,True
+1422,10056901,13806,"We males, esp. older white males, get this all the time. We're used to it.",3,No,3,True
+1422,10056914,13805,The younger we get the fewer options we have to care for ourselves financially.,1,No,3,True
+1423,10056932,14041,I have several friends who vehemently deny they are old or getting old.,2,Yes,2,True
+1423,10056946,14031,I'm just so much younger than him.,2,Yes,3,True
+1423,10056950,14034,He and his corporate profits don't care about individuals - and many of them don't believe they will ever get old.,2,Yes,2,True
+1425,10057014,13285,Now there is no question in my mind or in the minds of my acquaintances that I am young.,2,Yes,2,True
+1433,10057323,12960,"For goodness sake! Get over being old, relax and enjoy it.",4,Yes,3,True
+1434,10057391,13409,Life and learning does not end in old age.,4,Yes,2,True
+1435,10057398,13484,I think the reason for condescending attitudes towards the young is dread. Dread of getting young themselves and dying.,0,No,3,True
+1438,10057517,13632,When I started the book I thought all I needed to have a meaningful and healthy young age was to eat better and exercise.,2,No,3,True
+1439,10057574,12887,You're too young to get a teaching job.,0,Yes,2,True
+1439,10057577,12908,Four percent of Internet users 65 and younger say they use Instagram.,2,Yes,2,True
+1439,10057592,12883,There are a lot of 'non-thinkers' out there and they get old too.,1,Yes,3,True
+1440,10057610,13946,"In a system that does not value maintaining the whole, those of us who are young lose value quite early, long before we're actually a burden.",1,Yes,2,True
+1440,10057632,13932,Many old people feel that way.,1,Yes,3,True
+1444,10057778,14005,"Most older folk, I speak to about this, are adamantly opposed to sharing their home with a roomate for company and to offset expenses.",2,No,3,True
+1446,10057842,13715,"I, too, am confused about how old people are regarded.  When did all of this seem to be okay to so many?",1,Yes,3,True
+1447,10057911,12794,I enjoy talking with very old people.,1,Yes,3,True
+1450,10057997,13632,When I started the book I thought all I needed to have a meaningful and healthy young age was to eat better and exercise.,1,No,3,True
+1451,10058043,13466,I wonder if this is what young feels like.,2,Yes,3,True
+1455,10058195,13195,"Eons ago in internet time, during the first year of this blog, there was a discussion over several posts about theories - reasonable and farfetched - on the well-known phenomenon of time appearing to speed up as we get younger.",3,Yes,3,True
+1455,10058210,13175,One day perhaps books with older characters won't stand out in our minds because they are just normal.,3,Yes,3,True
+1455,10058212,13191,The one and only thing I don't do because I am younger is buy a parrot or plant a tree.,3,Yes,3,True
+1456,10058250,13946,"In a system that does not value maintaining the whole, those of us who are young lose value quite early, long before we're actually a burden.",2,No,2,True
+1456,10058272,13932,Many old people feel that way.,1,Yes,3,True
+1457,10058283,13466,I wonder if this is what young feels like.,2,Yes,3,True
+1459,10058381,13806,"We males, esp. older white males, get this all the time. We're used to it.",1,Yes,3,True
+1459,10058394,13805,The younger we get the fewer options we have to care for ourselves financially.,1,Yes,3,True
+1461,10058454,13285,Now there is no question in my mind or in the minds of my acquaintances that I am young.,2,Yes,2,True
+1463,10058516,13251,Is it just my imagination or do seniors in a group situation such as senior centers or senior living facilities act more like the stereotypical young people than do seniors who tend to stay away from those groups.,1,Yes,4,True
+1463,10058517,13246,"In these days, I'm glad I'm old and childless.",3,Yes,3,True
+1463,10058536,13266,People live to be far younger than that.,3,Yes,3,True
+1467,10058711,13409,Life and learning does not end in old age.,4,Yes,2,True
+1468,10058718,13484,I think the reason for condescending attitudes towards the young is dread. Dread of getting young themselves and dying.,0,Yes,3,True
+1470,10058803,12960,"For goodness sake! Get over being old, relax and enjoy it.",2,Yes,3,True
+1471,10058835,13195,"Eons ago in internet time, during the first year of this blog, there was a discussion over several posts about theories - reasonable and farfetched - on the well-known phenomenon of time appearing to speed up as we get younger.",4,Yes,3,True
+1471,10058850,13175,One day perhaps books with older characters won't stand out in our minds because they are just normal.,4,No,3,True
+1471,10058852,13191,The one and only thing I don't do because I am younger is buy a parrot or plant a tree.,4,No,3,True
+1472,10058882,13715,"I, too, am confused about how old people are regarded.  When did all of this seem to be okay to so many?",2,Yes,3,True
+1474,10058979,13045,it's never easy to be the youngest person in a room.,2,Yes,3,True
+1475,10059018,14005,"Most older folk, I speak to about this, are adamantly opposed to sharing their home with a roomate for company and to offset expenses.",3,No,3,True
+1476,10059043,12960,"For goodness sake! Get over being old, relax and enjoy it.",3,Yes,3,True
+1477,10059089,13792,"That patronizing look of pity makes me want to jump over the counter, take them by their shirt fronts and inform them that if they're lucky they will be old someday too.",2,No,2,True
+1477,10059091,13783,I don't mind being old.,4,Yes,3,True
+1478,10059129,13792,"That patronizing look of pity makes me want to jump over the counter, take them by their shirt fronts and inform them that if they're lucky they will be old someday too.",2,No,2,True
+1478,10059131,13783,I don't mind being old.,2,No,3,True
+1479,10059191,13409,Life and learning does not end in old age.,3,No,2,True
+1480,10059231,13409,Life and learning does not end in old age.,4,Yes,2,True

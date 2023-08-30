@@ -1,0 +1,1 @@
++ srun python3 -u lac.py

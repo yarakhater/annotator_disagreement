@@ -1,0 +1,5 @@
++ srun python3 -u lac.py
+/home/ids/ykhater/new_copy/new_annotator_disagreement/lac_toxicity_ratings/lac.py:178: UserWarning: Glyph 128 (\x80) missing from current font.
+  plt.savefig('plots/technology_impact.png')
+/home/ids/ykhater/new_copy/new_annotator_disagreement/lac_toxicity_ratings/lac.py:178: UserWarning: Glyph 147 (\x93) missing from current font.
+  plt.savefig('plots/technology_impact.png')

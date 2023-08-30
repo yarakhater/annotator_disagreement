@@ -302,7 +302,13 @@ def train(model, device, train_data_loader, mode, freeze):
     entropy = {}
     # Training loop
     num_epochs = 10
-    optimizer = torch.optim.AdamW(model.parameters(), lr=1e-5, weight_decay = 0.01) #lr=5e-5,
+    l_r = 1e-5
+    w_d = 0.01
+    
+    print("learning rate:",l_r)
+    print("weight decay:",w_d)
+
+    optimizer = torch.optim.AdamW(model.parameters(), lr=l_r, weight_decay = w_d) #lr=5e-5,
 #     optimizer = torch.optim.AdamW(model.parameters(), lr=5e-4, weight_decay = 0.01) #lr=5e-5,
     loss_fn = torch.nn.CrossEntropyLoss().to(device)
 #     warmup_steps = 1000
@@ -596,6 +602,7 @@ def get_accuracy(model, device, data_loader, assigned_groups, entropy, mode):
                         assigned_groups[annotator_id] = list(set(assigned_groups[annotator_id] + [bg]))
                     else:
                         assigned_groups[annotator_id] = [bg]
+                print("entropyyy:",entropy)
                 
                 
                 w = w[range(len(w)), best_group]

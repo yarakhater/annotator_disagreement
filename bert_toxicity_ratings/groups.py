@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
 import sys
 sys.path.append("..")
 
@@ -21,99 +19,44 @@ import torch
 
 
 
-# ## data prep
-
-# In[2]:
 
 
-annotations_df = pd.read_csv("../data/Toxicity_content/toxic_content_annotation", delimiter=',')
-text_df = pd.read_csv("../data/Toxicity_content/toxic_content_sentences", delimiter=',')
-annotators_df = pd.read_csv("../data/Toxicity_content/toxic_content_workers", delimiter=',')
-
-
-# In[3]:
-
-
-annotations_df["comment"] = annotations_df["sentence_id"].map(text_df.set_index("sentence_id")["comment"])
-annotations_df["gender"] = annotations_df["worker_id"].map(annotators_df.set_index("worker_id")["gender"])
-
-x = annotations_df.groupby('sentence_id').agg({'toxic_score': lambda x: list(x)})
-#keep only sentences that have more than 1 unique annotation in annotations_df
-# x = x[x['toxic_score'].apply(lambda x: len(set(x))) > 1]
-# annotations_df = annotations_df[annotations_df['sentence_id'].isin(x.index)]
-
-annotators_df = annotators_df[annotators_df['worker_id'].isin(annotations_df['worker_id'])]
-print(len(annotators_df))
-
-total_annotator_ids = annotators_df['worker_id'].unique().tolist()
-id2annotator = {index: row for (index, row) in enumerate(total_annotator_ids)}
-annotator2id = {row: index for (index, row) in enumerate(total_annotator_ids)}
-annotations_df["worker_id"] = annotations_df["worker_id"].map(annotator2id)
-annotators_df["worker_id"] = annotators_df["worker_id"].map(annotator2id)
-
-
-annotations_df.rename(columns = {'worker_id':'annotator_id', 'comment':'text', 'toxic_score':'annotation'}, inplace = True)
-
-
-grouped = annotations_df.groupby('sentence_id')['annotation'].nunique().reset_index()
-grouped.columns = ['sentence_id', 'unique_annotations']
-annotations_df = annotations_df.merge(grouped, on='sentence_id')
-annotations_df['disagreement'] = annotations_df['unique_annotations'] > 1
+train_df = pd.read_csv("train.csv", delimiter=',')
+test_df = pd.read_csv("test.csv", delimiter=',')
+annotators_df = pd.read_csv("annotators.csv", delimiter=',')
 
 
 
-splitter = GroupShuffleSplit(test_size=0.2, n_splits=2, random_state = 2)
-split = splitter.split(annotations_df, groups=annotations_df['sentence_id'])
-train_inds, test_inds = next(split)
-train_df = annotations_df.iloc[train_inds]
-test_df = annotations_df.iloc[test_inds]
-train_df = train_df.sample(frac=1)
-test_df = test_df.sample(frac=1)
 
-
-# In[4]:
+total_annotator_ids = annotators_df['annotator_id'].unique().tolist()
 
 
 labels = train_df['annotation'].unique()
 
 
-# In[5]:
 
-
-#sort labels
 labels.sort()
 
 
 
 
-# In[8]:
-
 
 device = torch.device('cuda')
 
 assigned_groups = {}
+entropy = {}
 
 
-# In[9]:
 
-
-# configuration = BertConfig()
-# configuration.num_labels = len(labels)
-# configuration.num_annotators = len(total_annotator_ids)
-# configuration.group_embedding_dim = 100
-# configuration.hidden_size = 768 
-# configuration.num_groups = 5
 
 configuration = BertConfig.from_pretrained("bert-base-uncased")
 configuration.num_labels = len(labels)
 configuration.num_annotators = len(total_annotator_ids)
-configuration.group_embedding_dim = 128
-configuration.num_groups = 8
+configuration.group_embedding_dim = 512
+configuration.num_groups = 15
 configuration.hidden_size = 768 
 model = bert.BertForSequenceClassificationWithGroups(configuration).to(device)
 
-
-# In[10]:
 
 
 # Define batch size and number of workers for data loaders
@@ -166,32 +109,7 @@ class CustomDataset(Dataset):
 train_dataset = CustomDataset(train_df, tokenizer)
 test_dataset = CustomDataset(test_df, tokenizer)
 
-# Create training and testing data loaders
-train_data_loader = DataLoader(train_dataset, batch_size=batch_size, num_workers=num_workers)
-test_data_loader = DataLoader(test_dataset, batch_size=batch_size, num_workers=num_workers)
 
-
-
-# In[24]:
-
-
-# Training 
-
-# bert.train_trainer(model, device, train_data_loader, test_data_loader, mode="groups", freeze = True)
-
-# # In[ ]:
-
-
-# torch.save(model.state_dict(), 'groups.pth')
-
-
-# In[12]:
-
-
-# bert.test(model, device, test_data_loader, mode="groups")
-
-
-# In[ ]:
     
 from transformers import TrainingArguments
 from sklearn.metrics import accuracy_score
@@ -202,18 +120,24 @@ def compute_metrics(pred):
     log_p = torch.tensor(pred.predictions[1])
     disagreement = pred.predictions[2]
     annotator_ids = pred.predictions[3]
-#     print("len annotaor_ids in compute_metrics is:", len(annotator_ids))
+    p = torch.exp(log_p)
+    entropy_ar = - torch.sum(p*log_p, axis=1)
     best_group = log_p.argmax(dim=1)
+    
+    for annotator_id, ent in zip(annotator_ids, entropy_ar):
+        ent = float(ent.item())
+        if annotator_id in entropy:
+            entropy[annotator_id] = list(set(entropy[annotator_id] + [ent]))
+        else:
+            entropy[annotator_id] = [ent]
     
     for annotator_id, bg in zip(annotator_ids, best_group):
         bg = int(bg.item())
         if annotator_id in assigned_groups:
-#             assigned_groups[annotator_id].append(bg)
             assigned_groups[annotator_id] = list(set(assigned_groups[annotator_id] + [bg]))
         else:
             assigned_groups[annotator_id] = [bg]
         
-#     print("final dict:",len(assigned_groups), assigned_groups)
     
     w = w[range(len(w)), best_group]
     _, preds = torch.max(w, 1)
@@ -234,23 +158,6 @@ def compute_metrics(pred):
     }
 
 
-# In[11]:
-# Define the training arguments
-training_args = TrainingArguments(
-#     output_dir='./results',           # Directory to save checkpoints and logs
-#     num_train_epochs=10,              # Number of training epochs
-#     per_device_train_batch_size=16,    # Batch size per device during training
-#     learning_rate=1e-3,               # Learning rate
-#     weight_decay=0.1,                 # Weight decay
-#     logging_dir='./logs',             # Directory for storing logs
-#     logging_steps=100,  
-#     save_strategy="no",
-#     evaluation_strategy = "epoch",
-#     logging_strategy="epoch",
-#     remove_unused_columns=False,
-#     warmup_steps=500,                 # Number of warmup steps for learning rate schedule
-#     optim = "adamw_torch",
-# )
 
 training_args = TrainingArguments(
     output_dir='./results',
@@ -264,8 +171,7 @@ training_args = TrainingArguments(
     optim="adamw_torch",
     evaluation_strategy = "epoch",
     logging_strategy="epoch",
-    remove_unused_columns=False
-)
+    remove_unused_columns=False)
 
 
 from transformers import Trainer
@@ -290,7 +196,6 @@ class CustomTrainer_groups_text(Trainer):
         
         if return_outputs:
             return loss, {'w': w, 'log_p': log_p, "disagreement":disagreement, "annotator_ids":annotator_ids}
-#             return loss, w
         return loss
 
 
@@ -309,8 +214,151 @@ trainer = CustomTrainer_groups_text(
 
 trainer.train()
 
-# clusters = [val[0] for val in assigned_groups.values()]
-# print("clusters:", len(clusters), clusters)
+
+
+
+model.load_state_dict(model.state_dict())
+model.eval()
+assigned_groups_trained = model.group_assignment.argmax(dim=1)
+clusters = assigned_groups_trained.cpu()
+
+print("assigned_groups_trained", len(assigned_groups_trained))
+
+
+data = pd.DataFrame({'Clusters': clusters, 'Gender': annotators_df['gender']})
+grouped_data = data.groupby(['Clusters', 'Gender']).size().reset_index(name='Count')
+pivot_table = grouped_data.pivot(index='Clusters', columns='Gender', values='Count')
+pivot_table.plot(kind='bar', stacked=True)
+
+
+plt.savefig('plots/gender.png')
+plt.close()
+
+
+data = pd.DataFrame({'Clusters': clusters, 'Identify As Transgender': annotators_df['identify_as_transgender']})
+grouped_data = data.groupby(['Clusters', 'Identify As Transgender']).size().reset_index(name='Count')
+pivot_table = grouped_data.pivot(index='Clusters', columns='Identify As Transgender', values='Count')
+pivot_table.plot(kind='bar', stacked=True)
+
+
+plt.savefig('plots/identify_as_transgender.png')
+plt.close()
+
+
+
+data = pd.DataFrame({'Clusters': clusters, 'Is Parent': annotators_df['is_parent']})
+grouped_data = data.groupby(['Clusters', 'Is Parent']).size().reset_index(name='Count')
+pivot_table = grouped_data.pivot(index='Clusters', columns='Is Parent', values='Count')
+pivot_table.plot(kind='bar', stacked=True)
+
+
+plt.savefig('plots/is_parent.png')
+plt.close()
+
+
+data = pd.DataFrame({'Clusters': clusters, 'LGBTQ Status': annotators_df['lgbtq_status']})
+grouped_data = data.groupby(['Clusters', 'LGBTQ Status']).size().reset_index(name='Count')
+pivot_table = grouped_data.pivot(index='Clusters', columns='LGBTQ Status', values='Count')
+pivot_table.plot(kind='bar', stacked=True)
+
+
+plt.savefig('plots/lgbtq_status.png')
+plt.close()
+
+
+data = pd.DataFrame({'Clusters': clusters, 'Personally Been Target': annotators_df['personally_been_target']})
+grouped_data = data.groupby(['Clusters', 'Personally Been Target']).size().reset_index(name='Count')
+pivot_table = grouped_data.pivot(index='Clusters', columns='Personally Been Target', values='Count')
+pivot_table.plot(kind='bar', stacked=True)
+
+plt.savefig('plots/personally_been_target.png')
+plt.close()
+
+
+data = pd.DataFrame({'Clusters': clusters, 'Personally Seen Toxic Content': annotators_df['personally_seen_toxic_content']})
+grouped_data = data.groupby(['Clusters', 'Personally Seen Toxic Content']).size().reset_index(name='Count')
+pivot_table = grouped_data.pivot(index='Clusters', columns='Personally Seen Toxic Content', values='Count')
+pivot_table.plot(kind='bar', stacked=True)
+
+plt.savefig('plots/personally_seen_toxic_content.png')
+plt.close()
+
+
+data = pd.DataFrame({'Clusters': clusters, 'Political Affilation': annotators_df['political_affilation']})
+grouped_data = data.groupby(['Clusters', 'Political Affilation']).size().reset_index(name='Count')
+pivot_table = grouped_data.pivot(index='Clusters', columns='Political Affilation', values='Count')
+pivot_table.plot(kind='bar', stacked=True)
+
+plt.savefig('plots/political_affilation.png')
+plt.close()
+
+
+data = pd.DataFrame({'Clusters': clusters, 'Race': annotators_df['race']})
+grouped_data = data.groupby(['Clusters', 'Race']).size().reset_index(name='Count')
+pivot_table = grouped_data.pivot(index='Clusters', columns='Race', values='Count')
+pivot_table.plot(kind='bar', stacked=True)
+
+plt.savefig('plots/race.png')
+plt.close()
+
+
+data = pd.DataFrame({'Clusters': clusters, 'Religion Important': annotators_df['religion_important']})
+grouped_data = data.groupby(['Clusters', 'Religion Important']).size().reset_index(name='Count')
+pivot_table = grouped_data.pivot(index='Clusters', columns='Religion Important', values='Count')
+pivot_table.plot(kind='bar', stacked=True)
+
+plt.savefig('plots/religion_important.png')
+plt.close()
+
+data = pd.DataFrame({'Clusters': clusters, 'Technology Impact': annotators_df['technology_impact']})
+grouped_data = data.groupby(['Clusters', 'Technology Impact']).size().reset_index(name='Count')
+pivot_table = grouped_data.pivot(index='Clusters', columns='Technology Impact', values='Count')
+pivot_table.plot(kind='bar', stacked=True)
+
+plt.savefig('plots/technology_impact.png')
+plt.close()
+
+
+data = pd.DataFrame({'Clusters': clusters, 'Toxic Comments Problem': annotators_df['toxic_comments_problem']})
+grouped_data = data.groupby(['Clusters', 'Toxic Comments Problem']).size().reset_index(name='Count')
+pivot_table = grouped_data.pivot(index='Clusters', columns='Toxic Comments Problem', values='Count')
+pivot_table.plot(kind='bar', stacked=True)
+
+plt.savefig('plots/toxic_comments_problem.png')
+plt.close()
+
+data = pd.DataFrame({'Clusters': clusters, 'Uses Media Forums': annotators_df['uses_media_forums']})
+grouped_data = data.groupby(['Clusters', 'Uses Media Forums']).size().reset_index(name='Count')
+pivot_table = grouped_data.pivot(index='Clusters', columns='Uses Media Forums', values='Count')
+pivot_table.plot(kind='bar', stacked=True)
+
+plt.savefig('plots/uses_media_forums.png')
+plt.close()
+
+data = pd.DataFrame({'Clusters': clusters, 'Uses Media News': annotators_df['uses_media_news']})
+grouped_data = data.groupby(['Clusters', 'Uses Media News']).size().reset_index(name='Count')
+pivot_table = grouped_data.pivot(index='Clusters', columns='Uses Media News', values='Count')
+pivot_table.plot(kind='bar', stacked=True)
+
+plt.savefig('plots/uses_media_news.png')
+plt.close()
+
+data = pd.DataFrame({'Clusters': clusters, 'Uses Media Social': annotators_df['uses_media_social']})
+grouped_data = data.groupby(['Clusters', 'Uses Media Social']).size().reset_index(name='Count')
+pivot_table = grouped_data.pivot(index='Clusters', columns='Uses Media Social', values='Count')
+pivot_table.plot(kind='bar', stacked=True)
+
+plt.savefig('plots/uses_media_social.png')
+plt.close()
+
+data = pd.DataFrame({'Clusters': clusters, 'Uses Media Video': annotators_df['uses_media_video']})
+grouped_data = data.groupby(['Clusters', 'Uses Media Video']).size().reset_index(name='Count')
+pivot_table = grouped_data.pivot(index='Clusters', columns='Uses Media Video', values='Count')
+pivot_table.plot(kind='bar', stacked=True)
+
+plt.savefig('plots/uses_media_video.png')
+plt.close()
+
 
 
 
